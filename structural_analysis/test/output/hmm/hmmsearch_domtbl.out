@@ -1,0 +1,23 @@
+#                                                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+nbnrc4c                                                                -            494 MADA                 -             21   1.6e-10   31.0   1.1   1   2   7.3e-11   1.6e-10   31.0   1.1     1    21     1    21     1    21 0.97 -
+nbnrc4c                                                                -            494 MADA                 -             21   1.6e-10   31.0   1.1   2   2       4.1       9.2   -2.6   0.1    14    21    58    65    58    65 0.86 -
+gca_000710875_1_capsicum_annuum_helixer_cm002822_1_001604_1            -            494 MADA                 -             21   1.2e-09   28.3   1.2   1   1   1.3e-09   2.9e-09   27.1   1.2     1    21     1    21     1    21 0.98 -
+gca_000715095_1_nicotiana_tabacum_helixer_awok01s169090_1_000001_1_cnl -            493 MADA                 -             21   1.8e-09   27.8   1.1   1   2   7.9e-10   1.8e-09   27.8   1.1     1    21     1    21     1    21 0.97 -
+gca_000715095_1_nicotiana_tabacum_helixer_awok01s169090_1_000001_1_cnl -            493 MADA                 -             21   1.8e-09   27.8   1.1   2   2       4.1       9.2   -2.6   0.1    14    21    58    65    58    65 0.86 -
+nrc3                                                                   -            494 MADA                 -             21   7.1e-09   25.9   0.6   1   1   8.3e-09   1.9e-08   24.6   0.6     1    21     1    21     1    21 0.98 -
+nbnrc2a                                                                -            497 MADA                 -             21   1.3e-08   25.0   0.8   1   1   1.5e-08   3.4e-08   23.7   0.8     1    21     1    21     1    21 0.98 -
+nbnrc3                                                                 -            496 MADA                 -             21   1.3e-08   25.0   0.8   1   1   2.2e-08     5e-08   23.2   0.8     2    21     6    25     5    25 0.96 -
+gos_00000000001_capsicum_annuum_helixer_chr00_010241_1                 -            494 MADA                 -             21   1.8e-08   24.6   0.8   1   1   2.1e-08   4.6e-08   23.3   0.8     1    21     1    21     1    21 0.98 -
+nrc2                                                                   -            495 MADA                 -             21   2.1e-08   24.4   0.9   1   1   2.6e-08   5.8e-08   23.0   0.9     1    21     1    21     1    21 0.97 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      MADA.hmm
+# Target file:     output/hmm/sequences.fasta
+# Option settings: hmmsearch --domtblout output/hmm/hmmsearch_domtbl.out --noali -E 0.01 MADA.hmm output/hmm/sequences.fasta 
+# Current dir:     /Users/toghani/Desktop/projects/Deepmind/Foldome/SolNRCH/analysis/structural_analysis_v3/test_set_v2
+# Date:            Wed Apr 22 00:22:14 2026
+# [ok]

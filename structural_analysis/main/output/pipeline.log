@@ -1,0 +1,220 @@
+2026-02-23 17:04:50 [INFO] numexpr.utils: NumExpr defaulting to 14 threads.
+2026-02-23 17:04:50 [INFO] __main__: ======================================================================
+2026-02-23 17:04:50 [INFO] __main__: Resistosome Structure Analysis Pipeline
+2026-02-23 17:04:50 [INFO] __main__: ======================================================================
+2026-02-23 17:04:50 [INFO] __main__: Input directory : /Volumes/LaCie/AlphaFold3/SolNRCH/output
+2026-02-23 17:04:50 [INFO] __main__: Output directory: output
+2026-02-23 17:04:50 [INFO] __main__: MHD annotations : NRCH_MHD_nlrexp_coords.csv
+2026-02-23 17:04:50 [INFO] __main__: P-loop annot.   : NRCH_ploop_nlrexp_coords.csv
+2026-02-23 17:04:50 [INFO] __main__: NB-ARC annot.   : NRCH_clade_filtered_len_NBARC_filtered_95_coords.csv
+2026-02-23 17:04:50 [INFO] __main__: Protein names   : None (regex mode)
+2026-02-23 17:04:50 [INFO] __main__: HMM model       : None
+2026-02-23 17:04:50 [INFO] __main__: HMM domtbl      : output/hmm/hmmsearch_domtbl.out
+2026-02-23 17:04:50 [INFO] __main__: Workers         : 10
+2026-02-23 17:04:50 [INFO] __main__: Contact cutoff  : 3.5 Å
+2026-02-23 17:04:50 [INFO] __main__: PAE cutoff      : 10.0 Å
+2026-02-23 17:04:50 [INFO] __main__: k (CI)          : 1.96
+2026-02-23 17:04:50 [INFO] __main__: ======================================================================
+2026-02-23 17:04:50 [INFO] resistosome.pipeline: Loaded annotations: 637 MHD, 623 P-loop, 637 NB-ARC entries
+2026-02-23 17:05:05 [INFO] resistosome.io_utils: Discovered 1911 structures in 637 groups from /Volumes/LaCie/AlphaFold3/SolNRCH/output
+2026-02-23 17:05:05 [INFO] resistosome.pipeline: Loading pre-computed HMM domain table: output/hmm/hmmsearch_domtbl.out
+2026-02-23 17:05:05 [INFO] resistosome.hmm: Parsed 521 α1-helix boundaries from output/hmm/hmmsearch_domtbl.out
+2026-02-23 17:05:05 [INFO] resistosome.hmm:   α1 start range: 1-69, end range: 14-89
+2026-02-23 17:05:05 [INFO] resistosome.pipeline: α1-helix boundaries available for 521 proteins (HMM-based)
+2026-02-23 17:05:05 [INFO] resistosome.pipeline: Processing 1911 structures across 637 groups with 10 worker(s)
+2026-02-23 17:05:24 [INFO] resistosome.pipeline:   Progress: 10/1911
+2026-02-23 17:05:38 [INFO] resistosome.pipeline:   Progress: 20/1911
+2026-02-23 17:05:51 [INFO] resistosome.pipeline:   Progress: 30/1911
+2026-02-23 17:06:02 [INFO] resistosome.pipeline:   Progress: 40/1911
+2026-02-23 17:06:16 [INFO] resistosome.pipeline:   Progress: 50/1911
+2026-02-23 17:06:28 [INFO] resistosome.pipeline:   Progress: 60/1911
+2026-02-23 17:06:40 [INFO] resistosome.pipeline:   Progress: 70/1911
+2026-02-23 17:06:51 [INFO] resistosome.pipeline:   Progress: 80/1911
+2026-02-23 17:07:02 [INFO] resistosome.pipeline:   Progress: 90/1911
+2026-02-23 17:07:12 [INFO] resistosome.pipeline:   Progress: 100/1911
+2026-02-23 17:07:22 [INFO] resistosome.pipeline:   Progress: 110/1911
+2026-02-23 17:07:32 [INFO] resistosome.pipeline:   Progress: 120/1911
+2026-02-23 17:07:42 [INFO] resistosome.pipeline:   Progress: 130/1911
+2026-02-23 17:07:54 [INFO] resistosome.pipeline:   Progress: 140/1911
+2026-02-23 17:08:07 [INFO] resistosome.pipeline:   Progress: 150/1911
+2026-02-23 17:08:20 [INFO] resistosome.pipeline:   Progress: 160/1911
+2026-02-23 17:08:31 [INFO] resistosome.pipeline:   Progress: 170/1911
+2026-02-23 17:08:42 [INFO] resistosome.pipeline:   Progress: 180/1911
+2026-02-23 17:08:51 [INFO] resistosome.pipeline:   Progress: 190/1911
+2026-02-23 17:09:04 [INFO] resistosome.pipeline:   Progress: 200/1911
+2026-02-23 17:09:14 [INFO] resistosome.pipeline:   Progress: 210/1911
+2026-02-23 17:09:24 [INFO] resistosome.pipeline:   Progress: 220/1911
+2026-02-23 17:09:34 [INFO] resistosome.pipeline:   Progress: 230/1911
+2026-02-23 17:09:46 [INFO] resistosome.pipeline:   Progress: 240/1911
+2026-02-23 17:09:57 [INFO] resistosome.pipeline:   Progress: 250/1911
+2026-02-23 17:10:07 [INFO] resistosome.pipeline:   Progress: 260/1911
+2026-02-23 17:10:17 [INFO] resistosome.pipeline:   Progress: 270/1911
+2026-02-23 17:10:28 [INFO] resistosome.pipeline:   Progress: 280/1911
+2026-02-23 17:10:40 [INFO] resistosome.pipeline:   Progress: 290/1911
+2026-02-23 17:10:48 [INFO] resistosome.pipeline:   Progress: 300/1911
+2026-02-23 17:11:01 [INFO] resistosome.pipeline:   Progress: 310/1911
+2026-02-23 17:11:10 [INFO] resistosome.pipeline:   Progress: 320/1911
+2026-02-23 17:11:21 [INFO] resistosome.pipeline:   Progress: 330/1911
+2026-02-23 17:11:31 [INFO] resistosome.pipeline:   Progress: 340/1911
+2026-02-23 17:11:39 [INFO] resistosome.pipeline:   Progress: 350/1911
+2026-02-23 17:11:48 [INFO] resistosome.pipeline:   Progress: 360/1911
+2026-02-23 17:11:59 [INFO] resistosome.pipeline:   Progress: 370/1911
+2026-02-23 17:12:12 [INFO] resistosome.pipeline:   Progress: 380/1911
+2026-02-23 17:12:23 [INFO] resistosome.pipeline:   Progress: 390/1911
+2026-02-23 17:12:34 [INFO] resistosome.pipeline:   Progress: 400/1911
+2026-02-23 17:12:43 [INFO] resistosome.pipeline:   Progress: 410/1911
+2026-02-23 17:12:51 [INFO] resistosome.pipeline:   Progress: 420/1911
+2026-02-23 17:13:02 [INFO] resistosome.pipeline:   Progress: 430/1911
+2026-02-23 17:13:14 [INFO] resistosome.pipeline:   Progress: 440/1911
+2026-02-23 17:13:27 [INFO] resistosome.pipeline:   Progress: 450/1911
+2026-02-23 17:13:38 [INFO] resistosome.pipeline:   Progress: 460/1911
+2026-02-23 17:13:47 [INFO] resistosome.pipeline:   Progress: 470/1911
+2026-02-23 17:13:59 [INFO] resistosome.pipeline:   Progress: 480/1911
+2026-02-23 17:14:11 [INFO] resistosome.pipeline:   Progress: 490/1911
+2026-02-23 17:14:22 [INFO] resistosome.pipeline:   Progress: 500/1911
+2026-02-23 17:14:33 [INFO] resistosome.pipeline:   Progress: 510/1911
+2026-02-23 17:14:43 [INFO] resistosome.pipeline:   Progress: 520/1911
+2026-02-23 17:14:53 [INFO] resistosome.pipeline:   Progress: 530/1911
+2026-02-23 17:15:03 [INFO] resistosome.pipeline:   Progress: 540/1911
+2026-02-23 17:15:13 [INFO] resistosome.pipeline:   Progress: 550/1911
+2026-02-23 17:15:25 [INFO] resistosome.pipeline:   Progress: 560/1911
+2026-02-23 17:15:37 [INFO] resistosome.pipeline:   Progress: 570/1911
+2026-02-23 17:15:47 [INFO] resistosome.pipeline:   Progress: 580/1911
+2026-02-23 17:15:59 [INFO] resistosome.pipeline:   Progress: 590/1911
+2026-02-23 17:16:12 [INFO] resistosome.pipeline:   Progress: 600/1911
+2026-02-23 17:16:24 [INFO] resistosome.pipeline:   Progress: 610/1911
+2026-02-23 17:16:34 [INFO] resistosome.pipeline:   Progress: 620/1911
+2026-02-23 17:16:47 [INFO] resistosome.pipeline:   Progress: 630/1911
+2026-02-23 17:16:57 [INFO] resistosome.pipeline:   Progress: 640/1911
+2026-02-23 17:17:06 [INFO] resistosome.pipeline:   Progress: 650/1911
+2026-02-23 17:17:18 [INFO] resistosome.pipeline:   Progress: 660/1911
+2026-02-23 17:17:28 [INFO] resistosome.pipeline:   Progress: 670/1911
+2026-02-23 17:17:39 [INFO] resistosome.pipeline:   Progress: 680/1911
+2026-02-23 17:17:50 [INFO] resistosome.pipeline:   Progress: 690/1911
+2026-02-23 17:18:01 [INFO] resistosome.pipeline:   Progress: 700/1911
+2026-02-23 17:18:13 [INFO] resistosome.pipeline:   Progress: 710/1911
+2026-02-23 17:18:21 [INFO] resistosome.pipeline:   Progress: 720/1911
+2026-02-23 17:18:31 [INFO] resistosome.pipeline:   Progress: 730/1911
+2026-02-23 17:18:43 [INFO] resistosome.pipeline:   Progress: 740/1911
+2026-02-23 17:18:53 [INFO] resistosome.pipeline:   Progress: 750/1911
+2026-02-23 17:19:04 [INFO] resistosome.pipeline:   Progress: 760/1911
+2026-02-23 17:19:16 [INFO] resistosome.pipeline:   Progress: 770/1911
+2026-02-23 17:19:29 [INFO] resistosome.pipeline:   Progress: 780/1911
+2026-02-23 17:19:41 [INFO] resistosome.pipeline:   Progress: 790/1911
+2026-02-23 17:19:51 [INFO] resistosome.pipeline:   Progress: 800/1911
+2026-02-23 17:19:59 [INFO] resistosome.pipeline:   Progress: 810/1911
+2026-02-23 17:20:09 [INFO] resistosome.pipeline:   Progress: 820/1911
+2026-02-23 17:20:21 [INFO] resistosome.pipeline:   Progress: 830/1911
+2026-02-23 17:20:32 [INFO] resistosome.pipeline:   Progress: 840/1911
+2026-02-23 17:20:43 [INFO] resistosome.pipeline:   Progress: 850/1911
+2026-02-23 17:20:53 [INFO] resistosome.pipeline:   Progress: 860/1911
+2026-02-23 17:21:03 [INFO] resistosome.pipeline:   Progress: 870/1911
+2026-02-23 17:21:14 [INFO] resistosome.pipeline:   Progress: 880/1911
+2026-02-23 17:21:25 [INFO] resistosome.pipeline:   Progress: 890/1911
+2026-02-23 17:21:33 [INFO] resistosome.pipeline:   Progress: 900/1911
+2026-02-23 17:21:43 [INFO] resistosome.pipeline:   Progress: 910/1911
+2026-02-23 17:21:53 [INFO] resistosome.pipeline:   Progress: 920/1911
+2026-02-23 17:22:02 [INFO] resistosome.pipeline:   Progress: 930/1911
+2026-02-23 17:22:13 [INFO] resistosome.pipeline:   Progress: 940/1911
+2026-02-23 17:22:24 [INFO] resistosome.pipeline:   Progress: 950/1911
+2026-02-23 17:22:34 [INFO] resistosome.pipeline:   Progress: 960/1911
+2026-02-23 17:22:43 [INFO] resistosome.pipeline:   Progress: 970/1911
+2026-02-23 17:22:53 [INFO] resistosome.pipeline:   Progress: 980/1911
+2026-02-23 17:23:03 [INFO] resistosome.pipeline:   Progress: 990/1911
+2026-02-23 17:23:13 [INFO] resistosome.pipeline:   Progress: 1000/1911
+2026-02-23 17:23:24 [INFO] resistosome.pipeline:   Progress: 1010/1911
+2026-02-23 17:23:35 [INFO] resistosome.pipeline:   Progress: 1020/1911
+2026-02-23 17:23:45 [INFO] resistosome.pipeline:   Progress: 1030/1911
+2026-02-23 17:23:54 [INFO] resistosome.pipeline:   Progress: 1040/1911
+2026-02-23 17:24:04 [INFO] resistosome.pipeline:   Progress: 1050/1911
+2026-02-23 17:24:14 [INFO] resistosome.pipeline:   Progress: 1060/1911
+2026-02-23 17:24:24 [INFO] resistosome.pipeline:   Progress: 1070/1911
+2026-02-23 17:24:34 [INFO] resistosome.pipeline:   Progress: 1080/1911
+2026-02-23 17:24:43 [INFO] resistosome.pipeline:   Progress: 1090/1911
+2026-02-23 17:24:54 [INFO] resistosome.pipeline:   Progress: 1100/1911
+2026-02-23 17:25:04 [INFO] resistosome.pipeline:   Progress: 1110/1911
+2026-02-23 17:25:15 [INFO] resistosome.pipeline:   Progress: 1120/1911
+2026-02-23 17:25:24 [INFO] resistosome.pipeline:   Progress: 1130/1911
+2026-02-23 17:25:34 [INFO] resistosome.pipeline:   Progress: 1140/1911
+2026-02-23 17:25:47 [INFO] resistosome.pipeline:   Progress: 1150/1911
+2026-02-23 17:26:00 [INFO] resistosome.pipeline:   Progress: 1160/1911
+2026-02-23 17:26:09 [INFO] resistosome.pipeline:   Progress: 1170/1911
+2026-02-23 17:26:21 [INFO] resistosome.pipeline:   Progress: 1180/1911
+2026-02-23 17:26:33 [INFO] resistosome.pipeline:   Progress: 1190/1911
+2026-02-23 17:26:43 [INFO] resistosome.pipeline:   Progress: 1200/1911
+2026-02-23 17:26:53 [INFO] resistosome.pipeline:   Progress: 1210/1911
+2026-02-23 17:27:03 [INFO] resistosome.pipeline:   Progress: 1220/1911
+2026-02-23 17:27:13 [INFO] resistosome.pipeline:   Progress: 1230/1911
+2026-02-23 17:27:25 [INFO] resistosome.pipeline:   Progress: 1240/1911
+2026-02-23 17:27:36 [INFO] resistosome.pipeline:   Progress: 1250/1911
+2026-02-23 17:27:47 [INFO] resistosome.pipeline:   Progress: 1260/1911
+2026-02-23 17:27:59 [INFO] resistosome.pipeline:   Progress: 1270/1911
+2026-02-23 17:28:10 [INFO] resistosome.pipeline:   Progress: 1280/1911
+2026-02-23 17:28:21 [INFO] resistosome.pipeline:   Progress: 1290/1911
+2026-02-23 17:28:32 [INFO] resistosome.pipeline:   Progress: 1300/1911
+2026-02-23 17:28:42 [INFO] resistosome.pipeline:   Progress: 1310/1911
+2026-02-23 17:28:52 [INFO] resistosome.pipeline:   Progress: 1320/1911
+2026-02-23 17:29:02 [INFO] resistosome.pipeline:   Progress: 1330/1911
+2026-02-23 17:29:12 [INFO] resistosome.pipeline:   Progress: 1340/1911
+2026-02-23 17:29:23 [INFO] resistosome.pipeline:   Progress: 1350/1911
+2026-02-23 17:29:34 [INFO] resistosome.pipeline:   Progress: 1360/1911
+2026-02-23 17:29:45 [INFO] resistosome.pipeline:   Progress: 1370/1911
+2026-02-23 17:29:56 [INFO] resistosome.pipeline:   Progress: 1380/1911
+2026-02-23 17:30:07 [INFO] resistosome.pipeline:   Progress: 1390/1911
+2026-02-23 17:30:18 [INFO] resistosome.pipeline:   Progress: 1400/1911
+2026-02-23 17:30:28 [INFO] resistosome.pipeline:   Progress: 1410/1911
+2026-02-23 17:30:39 [INFO] resistosome.pipeline:   Progress: 1420/1911
+2026-02-23 17:30:49 [INFO] resistosome.pipeline:   Progress: 1430/1911
+2026-02-23 17:31:00 [INFO] resistosome.pipeline:   Progress: 1440/1911
+2026-02-23 17:31:10 [INFO] resistosome.pipeline:   Progress: 1450/1911
+2026-02-23 17:31:20 [INFO] resistosome.pipeline:   Progress: 1460/1911
+2026-02-23 17:31:30 [INFO] resistosome.pipeline:   Progress: 1470/1911
+2026-02-23 17:31:40 [INFO] resistosome.pipeline:   Progress: 1480/1911
+2026-02-23 17:31:52 [INFO] resistosome.pipeline:   Progress: 1490/1911
+2026-02-23 17:32:03 [INFO] resistosome.pipeline:   Progress: 1500/1911
+2026-02-23 17:32:17 [INFO] resistosome.pipeline:   Progress: 1510/1911
+2026-02-23 17:32:29 [INFO] resistosome.pipeline:   Progress: 1520/1911
+2026-02-23 17:32:40 [INFO] resistosome.pipeline:   Progress: 1530/1911
+2026-02-23 17:32:51 [INFO] resistosome.pipeline:   Progress: 1540/1911
+2026-02-23 17:33:02 [INFO] resistosome.pipeline:   Progress: 1550/1911
+2026-02-23 17:33:13 [INFO] resistosome.pipeline:   Progress: 1560/1911
+2026-02-23 17:33:23 [INFO] resistosome.pipeline:   Progress: 1570/1911
+2026-02-23 17:33:34 [INFO] resistosome.pipeline:   Progress: 1580/1911
+2026-02-23 17:33:47 [INFO] resistosome.pipeline:   Progress: 1590/1911
+2026-02-23 17:33:59 [INFO] resistosome.pipeline:   Progress: 1600/1911
+2026-02-23 17:34:10 [INFO] resistosome.pipeline:   Progress: 1610/1911
+2026-02-23 17:34:22 [INFO] resistosome.pipeline:   Progress: 1620/1911
+2026-02-23 17:34:32 [INFO] resistosome.pipeline:   Progress: 1630/1911
+2026-02-23 17:34:43 [INFO] resistosome.pipeline:   Progress: 1640/1911
+2026-02-23 17:34:56 [INFO] resistosome.pipeline:   Progress: 1650/1911
+2026-02-23 17:35:08 [INFO] resistosome.pipeline:   Progress: 1660/1911
+2026-02-23 17:35:17 [INFO] resistosome.pipeline:   Progress: 1670/1911
+2026-02-23 17:35:28 [INFO] resistosome.pipeline:   Progress: 1680/1911
+2026-02-23 17:35:39 [INFO] resistosome.pipeline:   Progress: 1690/1911
+2026-02-23 17:35:52 [INFO] resistosome.pipeline:   Progress: 1700/1911
+2026-02-23 17:36:04 [INFO] resistosome.pipeline:   Progress: 1710/1911
+2026-02-23 17:36:14 [INFO] resistosome.pipeline:   Progress: 1720/1911
+2026-02-23 17:36:23 [INFO] resistosome.pipeline:   Progress: 1730/1911
+2026-02-23 17:36:34 [INFO] resistosome.pipeline:   Progress: 1740/1911
+2026-02-23 17:36:44 [INFO] resistosome.pipeline:   Progress: 1750/1911
+2026-02-23 17:36:55 [INFO] resistosome.pipeline:   Progress: 1760/1911
+2026-02-23 17:37:07 [INFO] resistosome.pipeline:   Progress: 1770/1911
+2026-02-23 17:37:19 [INFO] resistosome.pipeline:   Progress: 1780/1911
+2026-02-23 17:37:31 [INFO] resistosome.pipeline:   Progress: 1790/1911
+2026-02-23 17:37:42 [INFO] resistosome.pipeline:   Progress: 1800/1911
+2026-02-23 17:37:52 [INFO] resistosome.pipeline:   Progress: 1810/1911
+2026-02-23 17:38:03 [INFO] resistosome.pipeline:   Progress: 1820/1911
+2026-02-23 17:38:13 [INFO] resistosome.pipeline:   Progress: 1830/1911
+2026-02-23 17:38:25 [INFO] resistosome.pipeline:   Progress: 1840/1911
+2026-02-23 17:38:35 [INFO] resistosome.pipeline:   Progress: 1850/1911
+2026-02-23 17:38:45 [INFO] resistosome.pipeline:   Progress: 1860/1911
+2026-02-23 17:38:55 [INFO] resistosome.pipeline:   Progress: 1870/1911
+2026-02-23 17:39:06 [INFO] resistosome.pipeline:   Progress: 1880/1911
+2026-02-23 17:39:18 [INFO] resistosome.pipeline:   Progress: 1890/1911
+2026-02-23 17:39:28 [INFO] resistosome.pipeline:   Progress: 1900/1911
+2026-02-23 17:39:37 [INFO] resistosome.pipeline:   Progress: 1910/1911
+2026-02-23 17:39:38 [INFO] resistosome.pipeline:   Progress: 1911/1911
+2026-02-23 17:39:49 [INFO] resistosome.pipeline: 
+Summary table saved to: output/resistosome_analysis_summary.xlsx
+2026-02-23 17:39:49 [INFO] __main__: 
+✓ Pipeline complete. Summary: output/resistosome_analysis_summary.xlsx

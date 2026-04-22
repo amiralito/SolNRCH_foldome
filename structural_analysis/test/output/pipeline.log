@@ -1,0 +1,39 @@
+2026-04-22 00:21:26 [INFO] numexpr.utils: NumExpr defaulting to 14 threads.
+2026-04-22 00:21:26 [INFO] __main__: ======================================================================
+2026-04-22 00:21:26 [INFO] __main__: Resistosome Structure Analysis Pipeline
+2026-04-22 00:21:26 [INFO] __main__: ======================================================================
+2026-04-22 00:21:26 [INFO] __main__: Input directory : /Users/toghani/Desktop/projects/Deepmind/Foldome/SolNRCH/structures/output/test_set_v2
+2026-04-22 00:21:26 [INFO] __main__: Output directory: output
+2026-04-22 00:21:26 [INFO] __main__: MHD annotations : merged_MHD_cooreds.csv
+2026-04-22 00:21:26 [INFO] __main__: P-loop annot.   : merged_ploop_cooreds.csv
+2026-04-22 00:21:26 [INFO] __main__: NB-ARC annot.   : merged_nbarc_cooreds.csv
+2026-04-22 00:21:26 [INFO] __main__: Protein names   : ids.txt
+2026-04-22 00:21:26 [INFO] __main__: HMM model       : MADA.hmm
+2026-04-22 00:21:26 [INFO] __main__: HMM domtbl      : None
+2026-04-22 00:21:26 [INFO] __main__: Workers         : auto
+2026-04-22 00:21:26 [INFO] __main__: Contact cutoff  : 3.5 Å
+2026-04-22 00:21:26 [INFO] __main__: PAE cutoff      : 10.0 Å
+2026-04-22 00:21:26 [INFO] __main__: k (CI)          : 1.96
+2026-04-22 00:21:26 [INFO] __main__: ======================================================================
+2026-04-22 00:21:26 [INFO] resistosome.io_utils: Loaded 18 protein names from ids.txt
+2026-04-22 00:21:26 [INFO] resistosome.pipeline: Loaded annotations: 18 MHD, 18 P-loop, 18 NB-ARC entries
+2026-04-22 00:21:26 [INFO] resistosome.io_utils: Discovered 54 structures in 18 groups from /Users/toghani/Desktop/projects/Deepmind/Foldome/SolNRCH/structures/output/test_set_v2
+2026-04-22 00:21:26 [INFO] resistosome.pipeline: Running HMM-based α1 detection with: MADA.hmm
+2026-04-22 00:21:26 [INFO] resistosome.pipeline:   Extracting sequences from 18 structures...
+2026-04-22 00:22:14 [INFO] resistosome.pipeline:   Extracted 18 sequences
+2026-04-22 00:22:14 [INFO] resistosome.hmm: Running hmmsearch: hmmsearch --domtblout output/hmm/hmmsearch_domtbl.out -E 0.01 --noali MADA.hmm output/hmm/sequences.fasta
+2026-04-22 00:22:14 [INFO] resistosome.hmm: hmmsearch completed: 10 domain hits in output/hmm/hmmsearch_domtbl.out
+2026-04-22 00:22:14 [INFO] resistosome.hmm: Parsed 8 α1-helix boundaries from output/hmm/hmmsearch_domtbl.out
+2026-04-22 00:22:14 [INFO] resistosome.hmm:   α1 start range: 1-6, end range: 21-25
+2026-04-22 00:22:14 [INFO] resistosome.pipeline: α1-helix boundaries available for 8 proteins (HMM-based)
+2026-04-22 00:22:14 [INFO] resistosome.pipeline: Processing 54 structures across 18 groups with 8 worker(s)
+2026-04-22 00:22:34 [INFO] resistosome.pipeline:   Progress: 10/54
+2026-04-22 00:22:43 [INFO] resistosome.pipeline:   Progress: 20/54
+2026-04-22 00:22:54 [INFO] resistosome.pipeline:   Progress: 30/54
+2026-04-22 00:23:05 [INFO] resistosome.pipeline:   Progress: 40/54
+2026-04-22 00:23:20 [INFO] resistosome.pipeline:   Progress: 50/54
+2026-04-22 00:23:22 [INFO] resistosome.pipeline:   Progress: 54/54
+2026-04-22 00:23:22 [INFO] resistosome.pipeline: 
+Summary table saved to: output/resistosome_analysis_summary.xlsx
+2026-04-22 00:23:22 [INFO] __main__: 
+✓ Pipeline complete. Summary: output/resistosome_analysis_summary.xlsx
