@@ -6,7 +6,7 @@ AmirAli Toghani\*
 
 \*corresponding author
 
-This repository contains the scripts, intermediate data, and detailed methods used for the structural analysis of the Solanaceae NRCH (NRC-helper) clade and the calculation of the Structural Novelty Index (SNI) from AlphaFold 3 hexameric resistosome predictions.
+This repository contains the scripts, intermediate data, and detailed methods used for the structural analysis of the Solanaceae NRC helper clade and the calculation of the Structural Novelty Index (SNI) from AlphaFold 3 hexameric resistosome predictions.
 
 ## Repository layout
 
