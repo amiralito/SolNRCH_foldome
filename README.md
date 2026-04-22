@@ -2,11 +2,13 @@
 
 [![DOI](https://img.shields.io/badge/Zenodo-10.5281/zenodo.XXXXXXX-blue.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) [![DOI](https://img.shields.io/badge/bioRxiv-doi.org/10.1101/2026.XX.XX.XXXXXX-BE2634.svg)](https://doi.org/10.1101/2026.XX.XX.XXXXXX)
 
-AmirAli Toghani\*
+AmirAli Toghani<sup>†</sup>, Benjamin A. Seager<sup>†</sup>, Yu Sugihara, Lisa-Marie Roijen, Juan M. Azcue, Maián Garro, Maryam Sargolzaei, Ioanna Morianou, Adeline Harant, Sam Gallop, Jiorgos Kourelis, Dan MacLean, Mauricio P. Contreras, Sophien Kamoun\*, Daniel Lüdke\*
 
-\*corresponding author
+<sup>†</sup> These authors contributed equally to this work.
 
-This repository contains the scripts, intermediate data, and detailed methods used for the structural analysis of the Solanaceae NRC helper clade and the calculation of the Structural Novelty Index (SNI) from AlphaFold 3 hexameric resistosome predictions.
+\*Corresponding authors.
+
+This repository contains the scripts, intermediate data, and detailed methods used for the structural analysis of the Solanaceae NRCH (NRC-helper) clade and the calculation of the Structural Novelty Index (SNI) from AlphaFold 3 hexameric resistosome predictions.
 
 ## Repository layout
 
@@ -35,21 +37,37 @@ This repository contains the scripts, intermediate data, and detailed methods us
 │       ├── ids.txt
 │       ├── merged_*_cooreds.csv
 │       └── output/                 Per-structure JSON + summary tables
-└── R/                              Heatmap analysis (R)
-    ├── NRC_heatmap_analysis.R      Per-clade SNI heatmaps + parameter-subset heatmaps
-    ├── main/                       Main set: summary xlsx + heatmap outputs
-    │   ├── resistosome_analysis_summary.xlsx
-    │   ├── heatmaps/               main_clade_heatmap{,_zraw}.{pdf,png,svg}
-    │   └── comparison/             main_{scientist,coscientist}_params.{pdf,png,svg}
-    ├── test/                       Test set: summary xlsx + heatmap outputs
-    │   ├── resistosome_analysis_summary.xlsx
-    │   ├── helpers.txt             Reference helper NLR IDs
-    │   ├── sensors.txt             Reference sensor NLR IDs
-    │   ├── heatmaps/
-    │   └── comparison/
-    └── trees/                      Clade definitions (used to group main-set entries)
-        ├── NRCH_clade_filtered_len_seq_CCNBARC_filtered_95_NBARC_rooted_itol.txt
-        └── clades/                 18 per-clade Newick tree files
+├── phylo/                          Phylogenetic analysis of the NRC-H clade
+│   ├── NRCH_clade.tree                               Initial NRC-H clade tree
+│   ├── NRCH_clade_filtered_len_seq*.fasta            NRC-H sequence sets
+│   ├── NRCH_clade_filtered_len_seq_95.fasta.clstr    CD-HIT 95 % cluster table
+│   ├── NRCH_clade_filtered_len_seq_95_ids.txt        Final 637-entry ID list
+│   ├── NRCH_clade_filtered_len_seq_CCNBARC_filtered_*.{fasta,afa,newick,tree}
+│   │                                                 NB-ARC alignments and trees
+│   ├── *_rooted_itol.txt                             iTOL annotation file
+│   └── clades/                                       18 per-clade Newick subtrees
+├── R/                              Data preparation + heatmap analysis (R)
+│   ├── SolNRCH_foldome_v1.rmd      Sequence/metadata preparation pipeline (NLRtracker
+│   │                               -> NB-ARC filtering -> CC-NB-ARC extraction for AF3
+│   │                               -> 95 % similarity cut -> motif coordinate export)
+│   ├── NRC_heatmap_analysis.R      Per-clade SNI heatmaps + parameter-subset heatmaps
+│   ├── main/                       Main set: summary xlsx + heatmap outputs
+│   │   ├── resistosome_analysis_summary.xlsx
+│   │   ├── heatmaps/               main_clade_heatmap{,_zraw}.{pdf,png,svg}
+│   │   └── comparison/             main_{scientist,coscientist}_params.{pdf,png,svg}
+│   └── test/                       Test set: summary xlsx + heatmap outputs
+│       ├── resistosome_analysis_summary.xlsx
+│       ├── helpers.txt             Reference helper NLR IDs
+│       ├── sensors.txt             Reference sensor NLR IDs
+│       ├── heatmaps/
+│       └── comparison/
+└── supplementary/                  Manuscript supplementary data tables
+    ├── Data_S1.xlsx                NLRtracker-derived NLR metadata for the Solanaceae set
+    ├── Data_S2.xlsx                Domain-architecture summary
+    ├── Data_S3.csv                 Per-entry NB-ARC sequence table
+    ├── Data_S4.xlsx                NRCH clade assignments and per-entry annotations
+    ├── Data_S5.csv                 Reference NLR coordinates
+    └── Data_S6.zip                 Bundled per-clade alignments and trees
 ```
 
 The full set of unpacked AlphaFold 3 predictions and the per-structure JSON outputs that feed `resistosome_pipeline` are deposited separately (see [Supplementary Data](#supplementary-data)).
@@ -94,10 +112,20 @@ install.packages("tidyverse")
 install.packages("readxl")
 install.packages("ape")
 install.packages("pheatmap")
+install.packages("reshape2")
 install.packages("svglite")
+
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("Biostrings")
+BiocManager::install("ggtree")
 ```
 
+[_NLRtracker_](https://github.com/slt666666/NLRtracker) and [_NLRexpress_](https://github.com/eliodelmarre/NLRexpress) are used upstream of `SolNRCH_foldome_v1.rmd` to extract NLR domain annotations and motif coordinates; install per their own instructions.
+
 ## Reproducing the analysis
+
+0. **Sequence selection and motif coordinate extraction** &mdash; `R/SolNRCH_foldome_v1.rmd` documents how the NRC-H clade was assembled from NLRtracker output, filtered for length and architecture, deduplicated at 95 % similarity, sliced to CC-NB-ARC for AlphaFold 3 input, and how the MHD/P-loop coordinates used downstream were exported from NLRexpress. The intermediate alignments and trees are deposited under `phylo/`. Open the `.rmd` in RStudio and adjust the file paths in the first chunks to point to your local NLRtracker / NLRexpress outputs and to `phylo/`.
 
 1. **Per-structure SNI metrics** &mdash; from a folder of unpacked AlphaFold 3 hexamer predictions (downloaded from the Zenodo deposit), compute the per-structure metric table:
 
@@ -123,10 +151,15 @@ install.packages("svglite")
    Rscript NRC_heatmap_analysis.R
    ```
 
-   Two datasets are processed automatically: the *main* set (entries grouped by NRCH clade from `trees/clades/*.tree`) and the *test* set (each entry treated as its own group, with NRC0 and SlNRC0-Sa excluded). Outputs are written as PDF, PNG, and SVG into `R/{main,test}/heatmaps/` and `R/{main,test}/comparison/`.
+   Two datasets are processed automatically: the *main* set (entries grouped by NRCH clade from `phylo/clades/*.tree`) and the *test* set (each entry treated as its own group, with NRC0 and SlNRC0-Sa excluded). Outputs are written as PDF, PNG, and SVG into `R/{main,test}/heatmaps/` and `R/{main,test}/comparison/`.
 
 ## Supplementary Data
 
-- Unpacked AlphaFold 3 hexameric predictions for the main NRCH set are deposited on Zenodo: [DOI: 10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX).
-- Detailed SNI methods: [`SNI_methods_detailed.md`](SNI_methods_detailed.md).
+- Unpacked AlphaFold 3 hexameric predictions for the main NRCH set and the per-structure JSON outputs are deposited on Zenodo: [DOI: 10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX).
+- Detailed SNI methods (equations, software versions, contact-classification rules): [`SNI_methods_detailed.md`](SNI_methods_detailed.md).
 
+## Citation
+
+If you use this code or data, please cite:
+
+> Toghani A, Seager BA, Sugihara Y, Roijen LM, Azcue JM, Garro M, Sargolzaei M, Morianou I, Harant A, Gallop S, Kourelis J, MacLean D, Contreras MP, Kamoun S, Lüdke D (2026). Discovery of atypical NLR resistosomes. *bioRxiv* [doi:10.1101/2026.XX.XX.XXXXXX](https://doi.org/10.1101/2026.XX.XX.XXXXXX).
