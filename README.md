@@ -151,7 +151,7 @@ BiocManager::install("ggtree")
 ## Supplementary Data
 
 - AlphaFold 3 hexameric predictions for the main NRCH set and the per-structure JSON outputs are deposited on Zenodo: [DOI: 10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX).
-- Detailed SNI methods (equations, software versions, contact-classification rules): [`SNI_methods_detailed.md`](SNI_methods_detailed.md).
+- Detailed SNI methods: [`SNI_methods_detailed.md`](SNI_methods_detailed.md).
 
 ## Citation
 
