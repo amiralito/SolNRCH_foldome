@@ -127,9 +127,8 @@ BiocManager::install("ggtree")
 
 [_NLRtracker_](https://github.com/slt666666/NLRtracker) and [_NLRexpress_](https://github.com/eliodelmarre/NLRexpress) are used upstream of `SolNRCH_foldome_v1.rmd` to extract NLR domain annotations and motif coordinates; install per their own instructions.
 
-## Reproducing the analysis
-
-0. **Sequence selection and motif coordinate extraction** &mdash; `R/SolNRCH_foldome_v1.rmd` documents how the NRC-H clade was assembled from NLRtracker output, filtered for length and architecture, deduplicated at 95 % similarity, sliced to CC-NB-ARC for AlphaFold 3 input, and how the MHD/P-loop coordinates used downstream were exported from NLRexpress. The intermediate alignments and trees are deposited under `phylo/`. Open the `.rmd` in RStudio and adjust the file paths in the first chunks to point to your local NLRtracker / NLRexpress outputs and to `phylo/`.
+## Description
+**Sequence selection and motif coordinate extraction** &mdash; `R/SolNRCH_foldome_v1.rmd` documents how the NRC-H clade was extracted from NLRtracker output, filtered for length and architecture, deduplicated at 95 % similarity, sliced to CC-NB-ARC domains for AlphaFold 3 input, and how the MHD/P-loop coordinates used downstream were exported from NLRexpress. The intermediate alignments and trees are deposited under `phylo/`.
 
 **Per-structure SNI metrics** &mdash; from a folder of unpacked AlphaFold 3 hexamer predictions (downloaded from the Zenodo deposit), compute the per-structure metric table:
 
@@ -152,9 +151,3 @@ BiocManager::install("ggtree")
 
 - AlphaFold 3 hexameric predictions for the main NRCH set and the per-structure JSON outputs are deposited on Zenodo: [DOI: 10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX).
 - Detailed SNI methods: [`SNI_methods_detailed.md`](SNI_methods_detailed.md).
-
-## Citation
-
-If you use this code or data, please cite:
-
-> Toghani A, Seager BA, Sugihara Y, Roijen LM, Azcue JM, Garro M, Sargolzaei M, Morianou I, Harant A, Gallop S, Kourelis J, MacLean D, Contreras MP, Kamoun S, Lüdke D (2026). Discovery of atypical NLR resistosomes. *bioRxiv* [doi:10.1101/2026.XX.XX.XXXXXX](https://doi.org/10.1101/2026.XX.XX.XXXXXX).
