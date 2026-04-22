@@ -88,6 +88,10 @@ The full set of unpacked AlphaFold 3 predictions and the per-structure JSON outp
 | _HMMER v3.4_ ([http://hmmer.org/](http://hmmer.org/)) |
 | _DSSP v4.5.8_ ([https://github.com/PDB-REDO/dssp](https://github.com/PDB-REDO/dssp)) |
 | _AlphaFold 3 server_ ([https://alphafoldserver.com/](https://alphafoldserver.com/)) |
+| _NLRtracker_ ([https://github.com/slt666666/NLRtracker](https://github.com/slt666666/NLRtracker)) |
+| _FAMSA v2.2.2_ ([https://github.com/refresh-bio/FAMSA](https://github.com/refresh-bio/FAMSA)) |
+| _FastTree v2.1.10_ ([http://www.microbesonline.org/fasttree/](http://www.microbesonline.org/fasttree/)) |
+| _Dendroscope v3.8.8_ ([https://software-ab.cs.uni-tuebingen.de/download/dendroscope3/welcome.html](https://software-ab.cs.uni-tuebingen.de/download/dendroscope3/welcome.html)) |
 | _R v4.4.2_ ([https://cran.r-project.org/](https://cran.r-project.org/)) |
 
 ### Python packages
