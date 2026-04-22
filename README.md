@@ -127,11 +127,6 @@ install.packages("svglite")
 
 ## Supplementary Data
 
-- Unpacked AlphaFold 3 hexameric predictions for the main NRCH set and the per-structure JSON outputs are deposited on Zenodo: [DOI: 10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX).
-- Detailed SNI methods (equations, software versions, contact-classification rules): [`SNI_methods_detailed.md`](SNI_methods_detailed.md).
+- Unpacked AlphaFold 3 hexameric predictions for the main NRCH set are deposited on Zenodo: [DOI: 10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX).
+- Detailed SNI methods: [`SNI_methods_detailed.md`](SNI_methods_detailed.md).
 
-## Citation
-
-If you use this code or data, please cite:
-
-> Toghani A (2026). Discovery of atypical NLR resistosomes. *bioRxiv* [doi:10.1101/2026.XX.XX.XXXXXX](https://doi.org/10.1101/2026.XX.XX.XXXXXX).
