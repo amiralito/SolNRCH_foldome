@@ -1,5 +1,7 @@
 # Structural Novelty Index (SNI) — Detailed Methods
 
+This document accompanies the *Discovery of atypical NLR resistosomes* manuscript and the associated code repository. It provides the full per-metric definitions, equations, thresholds, and aggregation rules summarised in the main Methods section. The implementation is distributed under `resistosome_pipeline/` in the project repository (<https://github.com/amiralito/SolNRCH_foldome>). File paths referenced below (e.g. `resistosome_pipeline/README.md`) are relative to the repository root.
+
 All metrics and scores were computed for each structure (i.e. each seed replicate) and then aggregated across replicates as described in *Cross-replicate aggregation* below.
 
 ## 1. Interface confidence
@@ -44,7 +46,7 @@ where d<sub>i</sub> = ‖**c**<sub>i</sub> − **c̄**‖ is the Euclidean dista
 
 **D<sub>APEX</sub>.** The pore aperture was quantified as the mean of all pairwise Euclidean distances between N-terminal Cα atoms across protomers:
 
-$$D_{\mathrm{APEX}} = \frac{2}{n(n-1)}\sum_{i<j}\left\lVert\mathbf{r}_i^{\mathrm{Nterm}} - \mathbf{r}_j^{\mathrm{Nterm}}\right\rVert$$
+$$D_{\mathrm{APEX}} = \frac{2}{n(n-1)} \sum_{i \lt j} \lVert \mathbf{r}^{\mathrm{Nterm}}_i - \mathbf{r}^{\mathrm{Nterm}}_j \rVert$$
 
 where **r**<sub>i</sub><sup>Nterm</sup> is the Cα coordinate of the reference N-terminal residue of protomer *i*. The sum runs over the *n*(*n*−1)/2 unordered pairs of protomers, so the leading factor 2/[*n*(*n*−1)] is the reciprocal of the pair count and yields the arithmetic mean. As above, ‖·‖ denotes the Euclidean (L2) norm of the difference between two three-dimensional position vectors, computed with `scipy.spatial.distance.pdist`.
 
@@ -76,7 +78,7 @@ where H<sub>i</sub> is the Eisenberg hydrophobicity of residue *i*, δ = 100° i
 
 **D<sub>MHD–P</sub>.** Distance between the MHD motif and the P-loop motif within each protomer, computed as the Euclidean distance between the Cα centroids of each motif:
 
-$$D_{\mathrm{MHD\_P}} = \left\lVert\bar{\mathbf{r}}_{\mathrm{MHD}} - \bar{\mathbf{r}}_{\mathrm{Ploop}}\right\rVert$$
+$$D_{\mathrm{MHD\_P}} = \lVert \bar{\mathbf{r}}_{\mathrm{MHD}} - \bar{\mathbf{r}}_{\mathrm{Ploop}} \rVert$$
 
 where $\bar{\mathbf{r}}_{\mathrm{MHD}}$ and $\bar{\mathbf{r}}_{\mathrm{Ploop}}$ are the mean Cα coordinates over the residue ranges of the MHD and P-loop motifs, respectively. Motif positions were provided as pre-computed residue coordinate ranges per protein.
 
