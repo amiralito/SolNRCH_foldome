@@ -26,7 +26,7 @@ This repository contains the scripts, intermediate data, and detailed methods us
 │   ├── README.md                   Pipeline usage and command-line reference
 │   ├── requirements.txt            Pinned Python dependencies
 │   ├── run_pipeline.py             Command-line entry point
-│   ├── submit_slurm.sh             SLURM submission template
+│   ├── submit_slurm.sh             SLURM submission template (Kronos HPC)
 │   ├── test_pipeline.py            Smoke tests
 │   ├── get_ring_order.py           Helper: derive ring protomer order
 │   └── resistosome/                Pipeline modules (af3, contacts, geometry, helix, …)
@@ -137,7 +137,7 @@ BiocManager::install("ggtree")
 ## Description
 **Sequence selection and motif coordinate extraction** &mdash; `R/SolNRCH_foldome_v1.rmd` documents how the NRC-H clade was extracted from NLRtracker output, filtered for length and architecture, deduplicated at 95 % similarity, sliced to CC-NB-ARC domains for AlphaFold 3 input, and how the MHD/P-loop coordinates used downstream were exported from NLRexpress. The intermediate alignments and trees are deposited under `phylo/`.
 
-**AlphaFold 3 homomeric modelling** &mdash; the SLURM-based pipeline under `gcloud_homomer/` was used to predict hexameric resistosomes for every NRC-H entry on a Google Cloud A100 cluster. The pipeline generates AF3 input JSONs from a folder of single-protomer JSONs, expands seeds and (optional) ligand copies, submits one AF3 inference job per (protein, seed) pair, and extracts per-model and per-chain confidence scores from `summary_confidences.json`:
+**AlphaFold 3 homomeric modelling** &mdash; the SLURM-based pipeline under `gcloud_homomer/` was used to predict hexameric resistosomes for every NRC-H entry on a Google Cloud A100 cluster. Per-protein inference inputs (MSAs and templates) were pre-computed for each protomer using the AlphaFold 3 data pipeline ([docs](https://github.com/google-deepmind/alphafold3/blob/main/docs/performance.md#data-pipeline)). Starting from a folder of these single-protomer JSONs, the pipeline generates AF3 input JSONs for the homomeric assembly, expands seeds and (optional) ligand copies, submits one AF3 inference job per (protein, seed) pair, and extracts per-model and per-chain confidence scores from `summary_confidences.json`:
 
    ```bash
    cd gcloud_homomer
