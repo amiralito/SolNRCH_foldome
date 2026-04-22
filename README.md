@@ -131,7 +131,7 @@ BiocManager::install("ggtree")
 
 0. **Sequence selection and motif coordinate extraction** &mdash; `R/SolNRCH_foldome_v1.rmd` documents how the NRC-H clade was assembled from NLRtracker output, filtered for length and architecture, deduplicated at 95 % similarity, sliced to CC-NB-ARC for AlphaFold 3 input, and how the MHD/P-loop coordinates used downstream were exported from NLRexpress. The intermediate alignments and trees are deposited under `phylo/`. Open the `.rmd` in RStudio and adjust the file paths in the first chunks to point to your local NLRtracker / NLRexpress outputs and to `phylo/`.
 
-1. **Per-structure SNI metrics** &mdash; from a folder of unpacked AlphaFold 3 hexamer predictions (downloaded from the Zenodo deposit), compute the per-structure metric table:
+**Per-structure SNI metrics** &mdash; from a folder of unpacked AlphaFold 3 hexamer predictions (downloaded from the Zenodo deposit), compute the per-structure metric table:
 
    ```bash
    cd resistosome_pipeline
@@ -148,18 +148,9 @@ BiocManager::install("ggtree")
    This produces `output/per_structure_json/*.json`, `output/hmm/*`, `pipeline.log`, and the aggregated `resistosome_analysis_summary.{csv,xlsx}`.
    See `resistosome_pipeline/README.md` for the full command-line reference and `SNI_methods_detailed.md` for the equations, residue-level thresholds, and contact-classification rules.
 
-2. **Per-clade heatmaps** &mdash; from the aggregated summary tables, generate the figure-quality heatmaps:
-
-   ```bash
-   cd R
-   Rscript NRC_heatmap_analysis.R
-   ```
-
-   Two datasets are processed automatically: the *main* set (entries grouped by NRCH clade from `phylo/clades/*.tree`) and the *test* set (each entry treated as its own group, with NRC0 and SlNRC0-Sa excluded). Outputs are written as PDF, PNG, and SVG into `R/{main,test}/heatmaps/` and `R/{main,test}/comparison/`.
-
 ## Supplementary Data
 
-- Unpacked AlphaFold 3 hexameric predictions for the main NRCH set and the per-structure JSON outputs are deposited on Zenodo: [DOI: 10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX).
+- AlphaFold 3 hexameric predictions for the main NRCH set and the per-structure JSON outputs are deposited on Zenodo: [DOI: 10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX).
 - Detailed SNI methods (equations, software versions, contact-classification rules): [`SNI_methods_detailed.md`](SNI_methods_detailed.md).
 
 ## Citation
