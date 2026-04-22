@@ -1,7 +1,5 @@
 # Structural Novelty Index (SNI) — Detailed Methods
 
-This document accompanies the *Discovery of atypical NLR resistosomes* manuscript and the associated code repository. It provides the full per-metric definitions, equations, thresholds, and aggregation rules summarised in the main Methods section. The implementation is distributed under `resistosome_pipeline/` in the project repository (<https://github.com/amiralito/SolNRCH_foldome>). File paths referenced below (e.g. `resistosome_pipeline/README.md`) are relative to the repository root.
-
 All metrics and scores were computed for each structure (i.e. each seed replicate) and then aggregated across replicates as described in *Cross-replicate aggregation* below.
 
 ## 1. Interface confidence
