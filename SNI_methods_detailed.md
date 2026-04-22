@@ -46,7 +46,7 @@ where d<sub>i</sub> = ‖**c**<sub>i</sub> − **c̄**‖ is the Euclidean dista
 
 **D<sub>APEX</sub>.** The pore aperture was quantified as the mean of all pairwise Euclidean distances between N-terminal Cα atoms across protomers:
 
-$$D_{\mathrm{APEX}} = \frac{2}{n(n-1)}\sum_{i<j}\left\|\mathbf{r}_i^{\mathrm{Nterm}} - \mathbf{r}_j^{\mathrm{Nterm}}\right\|$$
+$$D_{\mathrm{APEX}} = \frac{2}{n(n-1)}\sum_{i<j}\left\lVert\mathbf{r}_i^{\mathrm{Nterm}} - \mathbf{r}_j^{\mathrm{Nterm}}\right\rVert$$
 
 where **r**<sub>i</sub><sup>Nterm</sup> is the Cα coordinate of the reference N-terminal residue of protomer *i*. The sum runs over the *n*(*n*−1)/2 unordered pairs of protomers, so the leading factor 2/[*n*(*n*−1)] is the reciprocal of the pair count and yields the arithmetic mean. As above, ‖·‖ denotes the Euclidean (L2) norm of the difference between two three-dimensional position vectors, computed with `scipy.spatial.distance.pdist`.
 
@@ -78,7 +78,7 @@ where H<sub>i</sub> is the Eisenberg hydrophobicity of residue *i*, δ = 100° i
 
 **D<sub>MHD–P</sub>.** Distance between the MHD motif and the P-loop motif within each protomer, computed as the Euclidean distance between the Cα centroids of each motif:
 
-$$D_{\mathrm{MHD\_P}} = \left\|\bar{\mathbf{r}}_{\mathrm{MHD}} - \bar{\mathbf{r}}_{\mathrm{Ploop}}\right\|$$
+$$D_{\mathrm{MHD\_P}} = \left\lVert\bar{\mathbf{r}}_{\mathrm{MHD}} - \bar{\mathbf{r}}_{\mathrm{Ploop}}\right\rVert$$
 
 where $\bar{\mathbf{r}}_{\mathrm{MHD}}$ and $\bar{\mathbf{r}}_{\mathrm{Ploop}}$ are the mean Cα coordinates over the residue ranges of the MHD and P-loop motifs, respectively. Motif positions were provided as pre-computed residue coordinate ranges per protein.
 
