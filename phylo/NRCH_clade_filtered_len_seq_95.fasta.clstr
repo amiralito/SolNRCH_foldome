@@ -1,0 +1,2713 @@
+>Cluster 0
+0	1166aa, >GOB_00000000013_Solanum_linnaeanum_Helixer_chr4_000475.1_CNL... *
+>Cluster 1
+0	1125aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_atg0064_000005.1_NL... *
+>Cluster 2
+0	907aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_ptg0029_000999.1_CNL... at 99.34%
+1	1035aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_ptg0029_000998.1_CNL... *
+>Cluster 3
+0	1004aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_ptg0029_000994.1_CONL... *
+>Cluster 4
+0	1003aa, >GCF_019175385.1_Lycium_barbarum_Helixer_NC_083346.1_001301.1_NL... *
+>Cluster 5
+0	1002aa, >GCA_026929995.1_Petunia_axillaris_Helixer_CM049419.1_004183.1_CNL... *
+1	983aa, >GCA_046563445.1_Petunia_x_hybrida_Helixer_CM102210.1_000813.1_CNL... at 99.49%
+>Cluster 6
+0	991aa, >GOC_00000000015_Solanum_candolleanum_Helixer_C413_H1_chr4_1_002786.1_CNL... *
+>Cluster 7
+0	876aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr04_hap13_v2_003283.1_CNL... at 95.89%
+1	874aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr04_hap13_v2_003278.1_CNL... at 97.71%
+2	857aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr04_hap13_v2_003268.1_CNL... at 98.25%
+3	876aa, >GOA_00000000006_Solanum_tuberosum_Helixer_chr04_hap14_v2_003450.1_CNL... at 95.66%
+4	876aa, >GOA_00000000008_Solanum_tuberosum_Helixer_chr04_hap16_v2_003053.1_CNL... at 95.89%
+5	876aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_chr04_003323.1_CNL... at 95.89%
+6	876aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_hptg0064_000185.1_CNL... at 95.66%
+7	876aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_hptg0064_000184.1_CNL... at 95.32%
+8	876aa, >GOA_00000000009_Solanum_tuberosum_Helixer_chr04_hap13_v2_003217.1_CNL... at 95.55%
+9	870aa, >GOA_00000000012_Solanum_tuberosum_Helixer_chr04_hap16_v2_003131.1_CNL... at 96.32%
+10	876aa, >GOA_00000000014_Solanum_tuberosum_Helixer_chr04_hap14_v2_003227.1_CNL... at 96.23%
+11	874aa, >GOA_00000000014_Solanum_tuberosum_Helixer_chr04_hap14_v2_003224.1_CNL... at 97.60%
+12	874aa, >GOA_00000000019_Solanum_tuberosum_Helixer_chr04_hap15_v2_003085.1_CNL... at 97.71%
+13	876aa, >GOA_00000000024_Solanum_tuberosum_Helixer_chr04_hap16_v2_002816.1_CNL... at 95.32%
+14	876aa, >GCA_010127505.1_Solanum_tuberosum_Helixer_CM020972.1_003546.1_CNL... at 95.21%
+15	876aa, >GCA_014182985.2_Solanum_tuberosum_Helixer_CM024426.2_003207.1_CNL... at 95.66%
+16	876aa, >GCA_015076265.1_Solanum_tuberosum_Helixer_CP055237.1_003291.1_CNL... at 95.66%
+17	876aa, >GCA_015076265.1_Solanum_tuberosum_Helixer_CP055237.1_003277.1_CNL... at 96.00%
+18	876aa, >GCA_018258275.1_Solanum_commersonii_Helixer_CM031109.1_003115.1_CNL... at 95.55%
+19	859aa, >GCA_020169555.1_Solanum_tuberosum_Helixer_CM035015.1_003731.1_CNL... at 95.58%
+20	876aa, >GCA_020169555.1_Solanum_tuberosum_Helixer_CM035015.1_003727.1_CNL... at 95.55%
+21	870aa, >GCA_031230405.1_Solanum_verrucosum_Helixer_CP133615.1_003175.1_CNL... at 96.32%
+22	876aa, >GCA_035048845.1_Solanum_bulbocastanum_Helixer_CM068598.1_001999.1_CNL... at 95.89%
+23	876aa, >GCA_036553645.1_Solanum_okadae_Helixer_CM071693.1_003236.1_CNL... at 95.78%
+24	876aa, >GCA_036553645.1_Solanum_okadae_Helixer_CM071693.1_003229.1_CNL... at 95.89%
+25	876aa, >GCA_037074985.1_Solanum_bulbocastanum_Helixer_CM073600.1_002792.1_CNL... at 95.78%
+26	876aa, >GCA_041222595.1_Solanum_tuberosum_Helixer_CM083533.1_003049.1_CNL... at 95.78%
+27	876aa, >GCA_045791845.1_Solanum_stoloniferum_Helixer_CM099228.1_002779.1_CNL... at 95.21%
+28	876aa, >GCA_046563305.1_Solanum_acaule_Helixer_CM102190.1_003092.1_CNL... at 95.89%
+29	967aa, >GCF_000226075.1_Solanum_tuberosum_Helixer_NW_006240007.1_000002.1_CNL... *
+30	846aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NC_064283.1_001485.1_CNL... at 95.86%
+31	876aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NC_064283.1_001486.1_CNL... at 95.78%
+32	858aa, >GOA_00000000025_Solanum_tuberosum_Helixer_chr04_hap13_v2_003351.1_CNL... at 95.92%
+33	876aa, >GOA_00000000027_Solanum_tuberosum_Helixer_chr04_hap15_v2_002955.1_CNL... at 95.89%
+34	876aa, >GOA_00000000027_Solanum_tuberosum_Helixer_chr04_hap15_v2_002938.1_CNL... at 96.12%
+35	876aa, >GOL_00000000006_Solanum_jamesii_Helixer_PG1008_ptg0014_000449.1_CNL... at 95.78%
+36	876aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_ptg0029_000463.1_CNL... at 95.43%
+37	876aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_atg0263_000021.1_CNL... at 95.32%
+38	870aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_ptg0014_001232.1_CNL... at 96.44%
+39	870aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_atg0024_000206.1_CNL... at 96.55%
+40	876aa, >GOL_00000000011_Solanum_paucissectum_Helixer_PG3022_ptg0011_001264.1_CNL... at 95.66%
+41	876aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_ptg0068_001149.1_CNL... at 95.78%
+42	861aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_atg0098_000064.1_CNL... at 95.47%
+43	876aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_atg0098_000065.1_CNL... at 96.46%
+44	876aa, >GOL_00000000013_Solanum_burkartii_Helixer_PG4005_ptg0077_000466.1_CNL... at 95.89%
+45	876aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_ptg0066_000568.1_CNL... at 95.66%
+46	876aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_ptg0017_000308.1_CNL... at 95.66%
+47	870aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_atg0171_000202.1_CNL... at 96.32%
+48	876aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0007_000571.1_CNL... at 96.23%
+49	876aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0040_000582.1_CNL... at 95.78%
+50	876aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_atg0046_000031.1_CNL... at 96.00%
+51	870aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_atg0046_000036.1_CNL... at 95.86%
+52	876aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_ptg0007_000585.1_CNL... at 96.00%
+53	870aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_atg0320_000216.1_CNL... at 96.44%
+54	876aa, >GOL_00000000021_Solanum_candolleanum_Helixer_PG5003_ptg0022_000339.1_CNL... at 95.89%
+55	876aa, >GOL_00000000021_Solanum_candolleanum_Helixer_PG5003_atg1221_000013.1_CNL... at 95.89%
+56	870aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_ptg0103_000218.1_CNL... at 96.44%
+57	876aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_atg0240_000127.1_CNL... at 96.00%
+58	876aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_ptg0073_000311.1_CNL... at 95.43%
+59	876aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_atg0923_000040.1_CNL... at 95.66%
+60	876aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_003308.1_CNL... at 95.09%
+61	876aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_003293.1_CNL... at 96.00%
+62	876aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_003400.1_CNL... at 95.21%
+63	876aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr4_1_003245.1_CNL... at 95.89%
+64	876aa, >GOC_00000000012_Solanum_candolleanum_Helixer_C497_H2_chr4_2_003248.1_CNL... at 95.66%
+65	876aa, >GOC_00000000013_Solanum_candolleanum_Helixer_C462_H1_chr4_1_003245.1_CNL... at 95.78%
+66	876aa, >GOC_00000000015_Solanum_candolleanum_Helixer_C413_H1_chr4_1_003196.1_CNL... at 96.00%
+67	870aa, >GOC_00000000016_Solanum_candolleanum_Helixer_C413_H2_chr4_2_003329.1_CNL... at 96.32%
+68	876aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_ptg0010_000537.1_CNL... at 95.66%
+69	876aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_ptg0010_000561.1_CNL... at 96.00%
+70	876aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_atg0164_000071.1_CNL... at 95.66%
+71	876aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_chr04_000157.1_CNL... at 95.78%
+72	876aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_atg0368_000010.1_CNL... at 95.09%
+73	876aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_atg0388_000058.1_CNL... at 96.12%
+74	876aa, >GOC_00000000020_Solanum_candolleanum_Helixer_C419_H2_chr4_2_003245.1_CNL... at 95.21%
+75	859aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_ptg0001_000656.1_CNL... at 95.23%
+76	876aa, >GOC_00000000021_Solanum_candolleanum_Helixer_C422_H1_chr4_1_003277.1_CNL... at 95.55%
+77	876aa, >GOC_00000000022_Solanum_candolleanum_Helixer_C422_H2_chr4_2_003227.1_CNL... at 95.89%
+78	876aa, >GOC_00000000023_Solanum_candolleanum_Helixer_C423_H1_chr4_1_003302.1_CNL... at 95.89%
+79	870aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0058_000526.1_CNL... at 95.98%
+80	870aa, >GOC_00000000031_Solanum_tuberosum_Helixer_C025_H1_chr4_1_003131.1_CNL... at 96.67%
+81	859aa, >GOC_00000000031_Solanum_tuberosum_Helixer_C025_H1_chr4_1_003126.1_CNL... at 95.81%
+82	876aa, >GOL_00000000031_Solanum_tuberosum_Helixer_PG6090_atg0297_000055.1_CNL... at 96.12%
+83	870aa, >GOC_00000000038_Solanum_tuberosum_Helixer_C027_H2_chr4_2_003277.1_CNL... at 96.44%
+84	874aa, >GOL_00000000037_Solanum_bulbocastanum_Helixer_PG6241_ptg0022_000998.1_CNL... at 95.77%
+85	870aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_ptg0002_001167.1_CNL... at 95.75%
+86	870aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0008_000184.1_CNL... at 96.09%
+87	876aa, >GOL_00000000040_Solanum_tuberosum_Helixer_PG6244_atg0219_000007.1_CNL... at 95.78%
+88	876aa, >GOA_00000000034_Solanum_tuberosum_Helixer_chr04_hap14_v2_003064.1_CNL... at 95.66%
+>Cluster 8
+0	959aa, >GCA_003996215.1_Jaltomata_sinuosa_Helixer_QJPP01004458.1_000001.1_CNL... *
+>Cluster 9
+0	958aa, >GCA_030864215.1_Capsicum_pubescens_Helixer_CM061548.1_002973.1_CNL... *
+>Cluster 10
+0	956aa, >GCF_019175385.1_Lycium_barbarum_Helixer_NC_083346.1_002029.1_CNL... *
+>Cluster 11
+0	954aa, >GCA_020169555.1_Solanum_tuberosum_Helixer_CM035015.1_000055.1_CNL... *
+1	947aa, >GOA_00000000025_Solanum_tuberosum_Helixer_chr04_hap13_v2_000063.1_CNL... at 100.00%
+>Cluster 12
+0	888aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066021.1_000642.1_CNL... at 96.40%
+1	886aa, >GCA_000393655.2_Nicotiana_sylvestris_Helixer_CM066009.1_000725.1_CNL... at 99.32%
+2	886aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065988.1_001956.1_CNL... at 99.55%
+3	886aa, >GCA_030864195.1_Nicotiana_attenuata_Helixer_CM061563.1_002285.1_CNL... at 97.97%
+4	886aa, >GCA_034376525.1_Nicotiana_benthamiana_Helixer_CM067335.1_001159.1_CNL... at 97.74%
+5	944aa, >GCA_034376525.1_Nicotiana_benthamiana_Helixer_CM067337.1_000383.1_CNL... *
+6	888aa, >GCF_000715135.1_Nicotiana_tabacum_Helixer_NW_015921452.1_000002.1_CNL... at 96.28%
+7	886aa, >GON_00000000002_Nicotiana_benthamiana_Helixer_NbQld183C13_002750.1_CNL... at 97.86%
+8	886aa, >GON_00000000002_Nicotiana_benthamiana_Helixer_NbQld183C15_000998.1_CNL... at 99.89%
+>Cluster 13
+0	881aa, >GCA_041430385.1_Lycium_ruthenicum_Helixer_CM084488.1_001000.1_CNL... at 98.18%
+1	943aa, >GCF_019175385.1_Lycium_barbarum_Helixer_NC_083347.1_001827.1_CNL... *
+2	881aa, >GCF_029784015.1_Lycium_ferocissimum_Helixer_NC_081352.1_002427.1_CNL... at 98.30%
+>Cluster 14
+0	942aa, >GCA_029783415.1_Anisodus_acutangulus_Helixer_CM056493.1_001632.1_CNL... *
+>Cluster 15
+0	916aa, >GCA_011745865.1_Capsicum_annuum_Helixer_VYZZ01001332.1_000010.1_CNL... at 99.56%
+1	915aa, >GCA_021292125.1_Capsicum_annuum_Helixer_CM037894.1_002509.1_CNL... at 99.89%
+2	916aa, >GCA_026120095.1_Capsicum_chinense_Helixer_JAPEIP010000004.1_000072.1_CNL... at 99.67%
+3	941aa, >GCA_027073675.1_Capsicum_annuum_Helixer_CM049670.1_006826.1_CNL... *
+4	915aa, >GCA_027073715.1_Capsicum_annuum_Helixer_CM049706.1_005100.1_CNL... at 100.00%
+5	921aa, >GCA_042919565.1_Capsicum_annuum_Helixer_CM091465.1_005271.1_CNL... at 99.46%
+>Cluster 16
+0	938aa, >GOS_00000000001_Capsicum_annuum_Helixer_Chr03_003443.1_CNL... *
+1	938aa, >GCA_002271885.2_Capsicum_baccatum_Helixer_CM008451.1_001856.1_CNL... at 98.08%
+2	938aa, >GCA_027073655.1_Capsicum_annuum_Helixer_CM049691.1_001940.1_CNL... at 99.68%
+3	938aa, >GCA_030864225.1_Capsicum_baccatum_Helixer_CM061558.1_001056.1_CNL... at 98.19%
+4	938aa, >GCF_002878395.1_Capsicum_annuum_Helixer_NC_061113.1_005495.1_CNL... at 99.57%
+>Cluster 17
+0	937aa, >GOA_00000000013_Solanum_tuberosum_Helixer_chr04_hap13_v2_000503.1_CNL... *
+>Cluster 18
+0	935aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124711.1_000015.1_CNL... *
+>Cluster 19
+0	934aa, >GCA_015076265.1_Solanum_tuberosum_Helixer_CP055237.1_003298.1_CNL... *
+>Cluster 20
+0	883aa, >GOS_00000000002_Solanum_melongena_Helixer_12_000164.1_CNL... at 98.53%
+1	883aa, >GOB_00000000003_Solanum_aethiopicum_Helixer_chr10_000631.1_CNL... at 99.55%
+2	882aa, >GOB_00000000008_Solanum_cleistogamum_Helixer_chr10_000506.1_CNL... at 95.12%
+3	883aa, >GOB_00000000010_Solanum_giganteum_Helixer_chr10_000552.1_CNL... at 97.28%
+4	883aa, >GOB_00000000013_Solanum_linnaeanum_Helixer_chr10_000595.1_CNL... at 98.41%
+5	883aa, >GOB_00000000015_Solanum_macrocarpon_Helixer_chr10_000568.1_CNL... at 98.64%
+6	883aa, >GOB_00000000022_Solanum_aethiopicum_Helixer_chr10_000626.1_CNL... at 99.43%
+7	883aa, >GOB_00000000028_Solanum_prinophyllum_Helixer_chr10_000623.1_CNL... at 97.73%
+8	883aa, >GOB_00000000033_Solanum_torvum_Helixer_chr10_000638.1_CNL... at 96.72%
+9	934aa, >GOB_00000000034_Solanum_violaceum_Helixer_chr10_000581.1_CNL... *
+>Cluster 21
+0	883aa, >GCA_029948455.1_Solanum_rostratum_Helixer_CM057055.1_000481.1_CNL... at 97.17%
+1	883aa, >GCF_947179165.1_Solanum_dulcamara_Helixer_NC_077248.1_000634.1_CNL... at 95.02%
+2	883aa, >GOB_00000000001_Solanum_abutiloides_Helixer_chr10_001717.1_CNL... at 97.40%
+3	883aa, >GOB_00000000006_Solanum_candidum_Helixer_chr10_000382.1_CNL... at 97.17%
+4	883aa, >GOB_00000000007_Solanum_citrullifolium_Helixer_scf00000001_000036.1_CNL... at 97.17%
+5	933aa, >GOB_00000000011_Solanum_havanense_Helixer_chr10_001491.1_CNL... *
+6	883aa, >GOB_00000000015_Solanum_macrocarpon_Helixer_chr11_001382.1_CNL... at 96.83%
+7	883aa, >GOB_00000000016_Solanum_mammosum_Helixer_chr6_006279.1_CNL... at 96.83%
+8	883aa, >GOB_00000000028_Solanum_prinophyllum_Helixer_chr11_000678.1_CNL... at 97.17%
+9	883aa, >GOB_00000000030_Solanum_quitoense_Helixer_chr10_001190.1_CNL... at 97.06%
+10	883aa, >GOB_00000000031_Solanum_robustum_Helixer_chr6_000920.1_CNL... at 95.02%
+11	883aa, >GOB_00000000032_Solanum_stramoniifolium_Helixer_chr10_002551.1_CNL... at 97.40%
+>Cluster 22
+0	928aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066018.1_002162.1_NL... *
+1	928aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065990.1_000932.1_NL... at 99.78%
+2	928aa, >GCA_000715095.1_Nicotiana_tabacum_Helixer_AWOK01S288423.1_000001.1_NL... at 99.89%
+>Cluster 23
+0	928aa, >GOC_00000000007_Solanum_candolleanum_Helixer_C399_H1_chr4_1_000530.1_CNL... *
+1	910aa, >GOC_00000000023_Solanum_candolleanum_Helixer_C423_H1_chr4_1_000564.1_CNL... at 95.05%
+>Cluster 24
+0	926aa, >GCA_026929995.1_Petunia_axillaris_Helixer_CM049421.1_004338.1_CNL... *
+1	926aa, >GCA_046563445.1_Petunia_x_hybrida_Helixer_CM102212.1_004389.1_CNL... at 99.78%
+>Cluster 25
+0	926aa, >GCA_046563445.1_Petunia_x_hybrida_Helixer_CM102212.1_004388.1_CNL... *
+>Cluster 26
+0	923aa, >GCA_034376525.1_Nicotiana_benthamiana_Helixer_CM067327.1_001176.1_CNL... *
+1	916aa, >GCA_034376525.1_Nicotiana_benthamiana_Helixer_CM067327.1_001177.1_CNL... at 96.40%
+2	922aa, >GON_00000000002_Nicotiana_benthamiana_Helixer_NbQld183C05_001123.1_CNL... at 97.61%
+>Cluster 27
+0	922aa, >GOL_00000000011_Solanum_paucissectum_Helixer_PG3022_ptg0011_000530.1_CNL... *
+1	922aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0058_000995.1_CNL... at 99.02%
+2	922aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0040_000698.1_CNL... at 98.48%
+3	908aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_atg0718_000003.1_CNL... at 98.24%
+>Cluster 28
+0	921aa, >GCA_031230405.1_Solanum_verrucosum_Helixer_CP133616.1_000176.1_CNL... *
+1	921aa, >GCA_045791845.1_Solanum_stoloniferum_Helixer_CM099217.1_000174.1_CNL... at 99.57%
+2	921aa, >GCF_900185275.1_Solanum_verrucosum_Helixer_NW_026020195.1_000329.1_CNL... at 99.89%
+3	921aa, >GOL_00000000011_Solanum_paucissectum_Helixer_PG3022_ptg0023_000730.1_CNL... at 99.35%
+4	921aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_ptg0016_000485.1_CNL... at 97.83%
+5	921aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_atg0227_000037.1_CNL... at 99.57%
+6	921aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_atg0054_000113.1_CNL... at 98.48%
+7	921aa, >GOC_00000000017_Solanum_candolleanum_Helixer_C574_H1_chr5_1_000170.1_CNL... at 98.48%
+>Cluster 29
+0	906aa, >GCA_014964335.1_Solanum_pimpinellifolium_Helixer_CM026538.1_002695.1_CNL... at 99.34%
+1	906aa, >GCA_025758845.1_Solanum_galapagense_Helixer_CM047060.1_002473.1_CNL... at 99.56%
+2	906aa, >GCA_025758855.1_Solanum_pimpinellifolium_Helixer_CM047048.1_002554.1_CNL... at 98.90%
+3	906aa, >GCA_025758865.1_Solanum_pimpinellifolium_Helixer_CM047072.1_002525.1_CNL... at 99.12%
+4	906aa, >GCA_025759355.1_Solanum_pimpinellifolium_Helixer_CM047096.1_002425.1_CNL... at 99.45%
+5	906aa, >GCA_025759605.1_Solanum_pimpinellifolium_Helixer_CM047108.1_002591.1_CNL... at 99.78%
+6	915aa, >GCA_027704765.1_Solanum_habrochaites_Helixer_JAKWJA010002492.1_002460.1_CNL... at 96.94%
+7	921aa, >GCF_000188115.5_Solanum_lycopersicum_Helixer_NC_015441.3_002606.1_CNL... *
+8	906aa, >GOZ_00000000013_Solanum_lycopersicum_Helixer_4_002512.1_CNL... at 99.01%
+9	906aa, >GOZ_00000000027_Solanum_pimpinellifolium_Helixer_4_002828.1_CNL... at 99.34%
+10	906aa, >GOZ_00000000036_Solanum_pimpinellifolium_Helixer_4_002881.1_CNL... at 99.23%
+11	906aa, >GOZ_00000000041_Solanum_lycopersicum_Helixer_4_003885.1_CNL... at 99.45%
+12	906aa, >GOZ_00000000025_Solanum_lycopersicum_Helixer_4_003617.1_CNL... at 99.89%
+>Cluster 30
+0	917aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_ptg0014_001095.1_CNL... at 95.42%
+1	921aa, >GOL_00000000013_Solanum_burkartii_Helixer_PG4005_ptg0077_000357.1_CNL... *
+2	827aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_ptg0002_001057.1_CNL... at 96.74%
+>Cluster 31
+0	893aa, >GOS_00000000002_Solanum_melongena_Helixer_11_001910.1_CNL... at 97.09%
+1	893aa, >GWHCAWW00000000_Solanum_melongena_Helixer_GWHCAWW00000001_002329.1_CNL... at 96.98%
+2	893aa, >GOB_00000000003_Solanum_aethiopicum_Helixer_chr7_002693.1_CNL... at 99.22%
+3	893aa, >GOB_00000000005_Solanum_anguivi_Helixer_chr7_002474.1_CNL... at 98.77%
+4	893aa, >GOB_00000000008_Solanum_cleistogamum_Helixer_chr4_001753.1_CNL... at 95.41%
+5	893aa, >GOB_00000000010_Solanum_giganteum_Helixer_chr4_001995.1_CNL... at 96.98%
+6	893aa, >GOB_00000000012_Solanum_insanum_Helixer_chr7_002660.1_CNL... at 97.09%
+7	893aa, >GOB_00000000015_Solanum_macrocarpon_Helixer_chr4_002184.1_CNL... at 95.97%
+8	921aa, >GOB_00000000019_Solanum_aethiopicum_Helixer_chr4_002314.1_CNL... *
+9	893aa, >GOB_00000000020_Solanum_aethiopicum_Helixer_chr4_002231.1_CNL... at 95.63%
+10	908aa, >GOB_00000000023_Solanum_aethiopicum_Helixer_chr4_002318.1_CNL... at 100.00%
+11	886aa, >GOB_00000000027_Solanum_aethiopicum_Helixer_chr4_002294.1_CNL... at 96.50%
+>Cluster 32
+0	854aa, >GCA_009827155.1_Solanum_tuberosum_Helixer_CP046685.1_003536.1_CNL... at 96.02%
+1	920aa, >GCA_009827175.1_Solanum_tuberosum_Helixer_CP046699.1_003588.1_CNL... *
+>Cluster 33
+0	909aa, >GCA_036553645.1_Solanum_okadae_Helixer_CM071693.1_002792.1_CNL... at 95.05%
+1	920aa, >GOL_00000000013_Solanum_burkartii_Helixer_PG4005_ptg0018_000168.1_CNL... *
+>Cluster 34
+0	919aa, >GCA_000715095.1_Nicotiana_tabacum_Helixer_AWOK01S169090.1_000001.1_CNL... *
+>Cluster 35
+0	883aa, >GOA_00000000008_Solanum_tuberosum_Helixer_chr01_hap4_v2_001239.1_CNL... at 95.24%
+1	888aa, >GCA_022817965.1_Solanum_lycopersicoides_Helixer_CM040618.1_001381.1_CNL... at 95.16%
+2	886aa, >GCA_045791845.1_Solanum_stoloniferum_Helixer_CM099225.1_001011.1_CNL... at 95.37%
+3	884aa, >GCA_046563305.1_Solanum_acaule_Helixer_CM102187.1_001128.1_CNL... at 95.36%
+4	884aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_atg0083_000012.1_CNL... at 95.81%
+5	883aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr1_1_001187.1_CNL... at 95.13%
+6	918aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr1_1_001188.1_CNL... *
+7	883aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr1_2_001265.1_CNL... at 95.24%
+8	918aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr1_2_001266.1_CNL... at 97.49%
+9	918aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr1_2_001267.1_CNL... at 96.84%
+10	885aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_ptg0012_002058.1_CNL... at 95.14%
+11	885aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_atg0027_000032.1_CNL... at 95.14%
+12	884aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_ptg0082_001081.1_CNL... at 95.48%
+13	884aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_atg0873_000005.1_CNL... at 95.25%
+14	883aa, >GOL_00000000028_Solanum_tuberosum_Helixer_PG6029_atg0331_000078.1_CNL... at 95.24%
+15	887aa, >GOL_00000000028_Solanum_tuberosum_Helixer_PG6029_atg0331_000079.1_CNL... at 96.62%
+16	884aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0007_000363.1_CNL... at 95.25%
+>Cluster 36
+0	901aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr5_1_000176.1_CNL... at 99.45%
+1	917aa, >GOC_00000000014_Solanum_candolleanum_Helixer_C462_H2_chr5_2_000165.1_CNL... *
+2	901aa, >GOC_00000000024_Solanum_candolleanum_Helixer_C423_H2_chr5_2_000176.1_CNL... at 98.00%
+>Cluster 37
+0	891aa, >GOB_00000000005_Solanum_anguivi_Helixer_chr5_001112.1_CNL... at 95.06%
+1	917aa, >GOB_00000000022_Solanum_aethiopicum_Helixer_chr5_001128.1_CNL... *
+>Cluster 38
+0	916aa, >GCA_029948455.1_Solanum_rostratum_Helixer_CM057046.1_001839.1_CNL... *
+>Cluster 39
+0	883aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr01_hap1_v2_001335.1_CNL... at 97.73%
+1	886aa, >GCA_035048845.1_Solanum_bulbocastanum_Helixer_JAVBHT010000003.1_000336.1_CNL... at 95.94%
+2	886aa, >GCA_035578085.1_Solanum_pinnatisectum_Helixer_CM069076.1_000978.1_CNL... at 95.60%
+3	886aa, >GCA_037074985.1_Solanum_bulbocastanum_Helixer_CM073597.1_000936.1_CNL... at 95.94%
+4	885aa, >GCA_041222595.1_Solanum_tuberosum_Helixer_CM083521.1_003185.1_CNL... at 95.82%
+5	916aa, >GCA_046563305.1_Solanum_acaule_Helixer_CM102187.1_001127.1_CNL... *
+6	883aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NC_064282.1_003690.1_CNL... at 97.73%
+7	886aa, >GOL_00000000006_Solanum_jamesii_Helixer_PG1008_ptg0001_002055.1_CNL... at 95.71%
+8	886aa, >GOL_00000000007_Solanum_morelliforme_Helixer_PG1011_ptg0018_001108.1_CNL... at 95.82%
+9	886aa, >GOL_00000000007_Solanum_morelliforme_Helixer_PG1011_atg0154_000020.1_CNL... at 95.94%
+10	886aa, >GOL_00000000008_Solanum_pinnatisectum_Helixer_PG1013_ptg0001_001831.1_CNL... at 95.49%
+11	884aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_ptg0026_002148.1_CNL... at 97.40%
+12	885aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0017_002108.1_CNL... at 96.84%
+13	888aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_ptg0009_002144.1_CNL... at 95.38%
+14	883aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_ptg0009_002143.1_CNL... at 97.62%
+15	883aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_atg0028_000022.1_CNL... at 97.85%
+16	883aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_atg0028_000024.1_CNL... at 97.06%
+17	886aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_ptg0046_000244.1_CNL... at 97.74%
+18	883aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_atg0998_000001.1_CNL... at 96.15%
+19	883aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_ptg0082_001080.1_CNL... at 97.17%
+20	886aa, >GOL_00000000037_Solanum_bulbocastanum_Helixer_PG6241_ptg0023_001413.1_CNL... at 96.05%
+>Cluster 40
+0	897aa, >GCA_041222595.1_Solanum_tuberosum_Helixer_CM083533.1_002181.1_CNL... at 98.66%
+1	897aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_ptg0010_000699.1_CNL... at 99.11%
+2	916aa, >GOC_00000000018_Solanum_candolleanum_Helixer_C574_H2_chr4_2_000062.1_CNL... *
+>Cluster 41
+0	898aa, >GOA_00000000024_Solanum_tuberosum_Helixer_chr04_hap16_v2_002835.1_CNL... at 100.00%
+1	915aa, >GCA_020169585.1_Solanum_tuberosum_Helixer_CM034979.1_003533.1_CNL... *
+2	902aa, >GCA_041222595.1_Solanum_tuberosum_Helixer_JAJHQB010000059.1_000498.1_CNL... at 99.78%
+3	891aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_ptg0001_000664.1_CNL... at 97.53%
+>Cluster 42
+0	915aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0007_000069.1_CNL... *
+>Cluster 43
+0	913aa, >GCA_000512255.2_Capsicum_annuum_Helixer_CM008465.1_000380.1_CNL... at 97.04%
+1	913aa, >GCA_000710875.1_Capsicum_annuum_Helixer_CM002822.1_001424.1_CNL... at 97.04%
+2	902aa, >GCA_000950795.1_Capsicum_annuum_Helixer_KN970095.1_000007.1_CNL... at 96.12%
+3	913aa, >GCA_002271885.2_Capsicum_baccatum_Helixer_CM008453.1_003536.1_CNL... at 96.50%
+4	913aa, >GCA_011745865.1_Capsicum_annuum_Helixer_VYZZ01005219.1_000001.1_CNL... at 96.82%
+5	913aa, >GCA_026120095.1_Capsicum_chinense_Helixer_JAPEIP010000012.1_004040.1_CNL... at 97.15%
+6	913aa, >GCA_027073655.1_Capsicum_annuum_Helixer_CM049690.1_000373.1_CNL... at 97.26%
+7	914aa, >GCA_030864215.1_Capsicum_pubescens_Helixer_CM061548.1_003430.1_CNL... *
+>Cluster 44
+0	914aa, >GCA_035772735.1_Datura_wrightii_Helixer_JASDFA010000004.1_000625.1_CNL... *
+>Cluster 45
+0	913aa, >GCA_041430385.1_Lycium_ruthenicum_Helixer_CM084487.1_001882.1_CNL... *
+>Cluster 46
+0	903aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_chr04_003337.1_CNL... at 99.89%
+1	913aa, >GOC_00000000020_Solanum_candolleanum_Helixer_C419_H2_chr4_2_000071.1_CNL... *
+>Cluster 47
+0	913aa, >GOB_00000000011_Solanum_havanense_Helixer_chr4_001694.1_CNL... *
+>Cluster 48
+0	913aa, >GOB_00000000031_Solanum_robustum_Helixer_chr4_002178.1_CNL... *
+>Cluster 49
+0	899aa, >GCA_014182985.2_Solanum_tuberosum_Helixer_CM024426.2_003208.1_CNL... at 96.44%
+1	912aa, >GCA_036553675.1_Solanum_okadae_Helixer_CM071681.1_003379.1_CNL... *
+2	898aa, >GOC_00000000029_Solanum_tuberosum_Helixer_C005_H1_chr4_1_003288.1_CNL... at 96.55%
+3	898aa, >GOC_00000000031_Solanum_tuberosum_Helixer_C025_H1_chr4_1_003132.1_CNL... at 96.55%
+>Cluster 50
+0	912aa, >GOB_00000000003_Solanum_aethiopicum_Helixer_chr7_000605.1_CNL... *
+1	912aa, >GOB_00000000022_Solanum_aethiopicum_Helixer_chr4_000599.1_CNL... at 99.89%
+2	895aa, >GOB_00000000027_Solanum_aethiopicum_Helixer_chr4_000595.1_CNL... at 99.78%
+>Cluster 51
+0	911aa, >GCA_022817965.1_Solanum_lycopersicoides_Helixer_CM040621.1_003001.1_CNL... *
+>Cluster 52
+0	910aa, >GCA_025758845.1_Solanum_galapagense_Helixer_CM047060.1_002230.1_CNL... at 95.05%
+1	911aa, >GCA_027789145.1_Solanum_arcanum_Helixer_CM050936.1_002424.1_CNL... *
+2	907aa, >GOZ_00000000013_Solanum_lycopersicum_Helixer_4_002252.1_CNL... at 95.04%
+>Cluster 53
+0	908aa, >GOA_00000000006_Solanum_tuberosum_Helixer_chr04_hap14_v2_000477.1_CNL... at 96.81%
+1	909aa, >GOA_00000000007_Solanum_tuberosum_Helixer_chr04_hap15_v2_000472.1_NL... at 96.81%
+2	907aa, >GCA_014182985.2_Solanum_tuberosum_Helixer_CM024426.2_000489.1_CNL... at 95.26%
+3	911aa, >GCA_046563305.1_Solanum_acaule_Helixer_CM102190.1_000453.1_CNL... *
+4	908aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NC_064283.1_002179.1_CNL... at 97.14%
+5	907aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_atg0036_000048.1_CNL... at 95.15%
+6	909aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_atg0067_000009.1_CNL... at 96.48%
+7	905aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_atg0067_000012.1_CNL... at 95.03%
+8	907aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_ptg0007_001173.1_CNL... at 95.04%
+9	909aa, >GOL_00000000021_Solanum_candolleanum_Helixer_PG5003_ptg0096_000298.1_CNL... at 95.05%
+10	907aa, >GOL_00000000021_Solanum_candolleanum_Helixer_PG5003_atg0488_000006.1_CNL... at 95.04%
+11	909aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_ptg0066_000302.1_CNL... at 96.37%
+12	909aa, >GOC_00000000013_Solanum_candolleanum_Helixer_C462_H1_chr4_1_000538.1_CNL... at 95.49%
+13	907aa, >GOC_00000000015_Solanum_candolleanum_Helixer_C413_H1_chr4_1_000492.1_CNL... at 95.04%
+14	908aa, >GOC_00000000016_Solanum_candolleanum_Helixer_C413_H2_chr4_2_000539.1_CNL... at 96.59%
+15	908aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_ptg0010_001144.1_CNL... at 96.48%
+16	904aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_atg2022_000001.1_CNL... at 96.79%
+17	909aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_chr04_000627.1_CNL... at 95.27%
+18	908aa, >GOC_00000000021_Solanum_candolleanum_Helixer_C422_H1_chr4_1_000548.1_CNL... at 96.59%
+19	908aa, >GOC_00000000024_Solanum_candolleanum_Helixer_C423_H2_chr4_2_000556.1_CNL... at 96.70%
+20	908aa, >GOL_00000000028_Solanum_tuberosum_Helixer_PG6029_ptg0009_000374.1_CNL... at 96.70%
+21	904aa, >GOC_00000000025_Solanum_tuberosum_Helixer_C056_H1_chr4_1_000505.1_CNL... at 96.68%
+22	909aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0040_000700.1_CNL... at 97.36%
+>Cluster 54
+0	911aa, >GOL_00000000004_Solanum_palustre_Helixer_PG0009_tig00065009_000279.1_CNL... *
+1	911aa, >GOB_00000000009_Solanum_etuberosum_Helixer_chr4_002344.1_CNL... at 99.34%
+>Cluster 55
+0	911aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_ptg0066_000505.1_CNL... *
+>Cluster 56
+0	897aa, >GCA_014182985.2_Solanum_tuberosum_Helixer_CM024426.2_000065.1_CNL... at 98.33%
+1	901aa, >GOC_00000000029_Solanum_tuberosum_Helixer_C005_H1_chr4_1_000063.1_CNL... at 100.00%
+2	911aa, >GOL_00000000044_Solanum_tuberosum_Helixer_PG6359_chr04_000093.1_CNL... *
+>Cluster 57
+0	910aa, >GCA_003996215.1_Jaltomata_sinuosa_Helixer_QJPP01001763.1_000005.1_CNL... *
+>Cluster 58
+0	910aa, >GCA_018107945.1_Datura_stramonium_Helixer_JACEIK010001543.1_000008.1_CNL... *
+>Cluster 59
+0	908aa, >GOA_00000000004_Solanum_tuberosum_Helixer_chr04_hap15_v2_000513.1_CNL... at 96.81%
+1	910aa, >GCA_018258275.1_Solanum_commersonii_Helixer_CM031109.1_000476.1_CNL... *
+2	910aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_atg0017_000170.1_CNL... at 98.46%
+>Cluster 60
+0	843aa, >GOZ_00000000001_Solanum_pimpinellifolium_Helixer_4_002285.1_CNL... at 97.15%
+1	907aa, >GOZ_00000000003_Solanum_lycopersicum_Helixer_4_002283.1_CNL... at 99.34%
+2	907aa, >GCA_014964335.1_Solanum_pimpinellifolium_Helixer_CM026538.1_002416.1_CNL... at 99.34%
+3	907aa, >GCA_025758835.1_Solanum_pimpinellifolium_Helixer_CM047084.1_002255.1_CNL... at 99.23%
+4	907aa, >GCA_025758855.1_Solanum_pimpinellifolium_Helixer_CM047048.1_002288.1_CNL... at 99.45%
+5	910aa, >GCA_027704765.1_Solanum_habrochaites_Helixer_JAKWJA010002492.1_002206.1_CNL... *
+6	910aa, >GCA_027705065.1_Solanum_peruvianum_Helixer_JAKWJD010001758.1_002561.1_CNL... at 95.82%
+7	910aa, >GCA_027705065.1_Solanum_peruvianum_Helixer_JAKWJD010001758.1_002202.1_CNL... at 95.93%
+8	872aa, >GOZ_00000000029_Solanum_pimpinellifolium_Helixer_4_002789.1_CNL... at 98.85%
+9	872aa, >GOZ_00000000022_Solanum_lycopersicum_Helixer_4_003931.1_CNL... at 98.74%
+>Cluster 61
+0	910aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_atg0036_000066.1_CNL... *
+>Cluster 62
+0	910aa, >GOL_00000000015_Solanum_sogarandinum_Helixer_PG4032_ptg0015_000957.1_CNL... *
+>Cluster 63
+0	892aa, >GOA_00000000005_Solanum_tuberosum_Helixer_chr04_hap13_v2_000441.1_CNL... at 95.29%
+1	909aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_chr04_000542.1_CNL... at 97.91%
+2	907aa, >GOA_00000000028_Solanum_tuberosum_Helixer_chr04_hap16_v2_000543.1_CNL... at 95.59%
+3	909aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_ptg0014_000513.1_CNL... at 95.71%
+4	907aa, >GOL_00000000015_Solanum_sogarandinum_Helixer_PG4032_ptg0015_000390.1_CNL... at 95.37%
+5	909aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0040_001216.1_CNL... at 97.91%
+6	909aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_atg0067_000015.1_CNL... at 95.71%
+7	910aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_ptg0002_000481.1_CNL... *
+8	907aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_atg0423_000014.1_CNL... at 95.59%
+9	909aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_000605.1_CNL... at 95.71%
+10	909aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_000588.1_CNL... at 95.71%
+11	907aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr4_1_000522.1_CNL... at 95.37%
+12	907aa, >GOL_00000000028_Solanum_tuberosum_Helixer_PG6029_atg1844_000004.1_CNL... at 95.15%
+13	903aa, >GOC_00000000058_Solanum_tuberosum_Helixer_C151_H2_chr4_2_000521.1_CNL... at 95.13%
+>Cluster 64
+0	910aa, >GOC_00000000013_Solanum_candolleanum_Helixer_C462_H1_chr4_1_002800.1_CNL... *
+1	910aa, >GOC_00000000049_Solanum_tuberosum_Helixer_PG6225_ptg0049_000397.1_CNL... at 99.45%
+>Cluster 65
+0	910aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_ptg0002_000756.1_CNL... *
+>Cluster 66
+0	910aa, >GOB_00000000002_Physalis_grisea_Helixer_chr2_002651.1_CNL... *
+>Cluster 67
+0	908aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr04_hap13_v2_002870.1_CNL... *
+1	908aa, >GOA_00000000001_Solanum_tuberosum_Helixer_chr04_hap16_v2_002787.1_CNL... at 99.78%
+2	908aa, >GCA_046563305.1_Solanum_acaule_Helixer_CM102190.1_002727.1_CNL... at 99.67%
+3	908aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_ptg0029_000097.1_CNL... at 97.58%
+4	908aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_ptg0072_000008.1_CNL... at 97.58%
+5	908aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_atg0423_000041.1_CNL... at 99.67%
+6	908aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_002821.1_CNL... at 98.13%
+7	908aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_hptg0042_000033.1_CNL... at 99.67%
+8	908aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0040_000152.1_CNL... at 99.34%
+>Cluster 68
+0	908aa, >GCA_009827155.1_Solanum_tuberosum_Helixer_CP046685.1_000493.1_CNL... *
+>Cluster 69
+0	908aa, >GCA_009827175.1_Solanum_tuberosum_Helixer_CP046699.1_000501.1_CNL... *
+>Cluster 70
+0	908aa, >GCA_036553645.1_Solanum_okadae_Helixer_CM071693.1_000550.1_CNL... *
+1	908aa, >GCA_036553675.1_Solanum_okadae_Helixer_CM071681.1_000560.1_CNL... at 99.78%
+>Cluster 71
+0	874aa, >GCA_030407365.1_Solanum_americanum_Helixer_CM059532.1_000952.1_CNL... at 96.00%
+1	874aa, >GCA_030407365.1_Solanum_americanum_Helixer_CM059532.1_001618.1_CNL... at 96.57%
+2	874aa, >GCA_030407385.1_Solanum_americanum_Helixer_CM059544.1_000814.1_CNL... at 96.11%
+3	874aa, >GCA_035772555.1_Solanum_americanum_Helixer_CM069619.1_001859.1_CNL... at 97.14%
+4	874aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176017.1_002206.1_CNL... at 95.88%
+5	874aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176031.1_001991.1_CNL... at 96.68%
+6	908aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176032.1_000350.1_CNL... *
+7	874aa, >GOL_00000000004_Solanum_americanum_Helixer_utg643_000053.1_CNL... at 95.88%
+>Cluster 72
+0	908aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_ptg0068_000512.1_CNL... *
+1	908aa, >GOL_00000000013_Solanum_burkartii_Helixer_PG4005_ptg0018_000515.1_CNL... at 99.67%
+2	908aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_atg0490_000015.1_CNL... at 99.56%
+3	814aa, >GOL_00000000042_Solanum_tuberosum_Helixer_PG6246_ptg0051_000511.1_CNL... at 99.88%
+>Cluster 73
+0	907aa, >GCA_027705065.1_Solanum_peruvianum_Helixer_JAKWJD010001758.1_002204.1_CNL... *
+1	907aa, >GCA_032847665.1_Solanum_chilense_Helixer_CM064966.1_002469.1_CNL... at 96.36%
+>Cluster 74
+0	907aa, >GCA_027789145.1_Solanum_arcanum_Helixer_CM050936.1_000254.1_CNL... *
+>Cluster 75
+0	907aa, >GOL_00000000008_Solanum_pinnatisectum_Helixer_PG1013_atg0170_000007.1_CNL... *
+>Cluster 76
+0	893aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_chr04_003185.1_CNL... at 95.41%
+1	896aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_003154.1_CNL... at 95.76%
+2	907aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_003224.1_CNL... *
+>Cluster 77
+0	906aa, >GCA_041430385.1_Lycium_ruthenicum_Helixer_CM084482.1_001642.1_CNL... *
+1	901aa, >GCF_019175385.1_Lycium_barbarum_Helixer_NC_083341.1_001746.1_CNL... at 96.23%
+2	906aa, >GCF_019175385.1_Lycium_barbarum_Helixer_NC_083341.1_001744.1_CNL... at 96.80%
+3	906aa, >GCF_029784015.1_Lycium_ferocissimum_Helixer_NC_081349.1_002194.1_CNL... at 95.81%
+>Cluster 78
+0	888aa, >GOZ_00000000001_Solanum_pimpinellifolium_Helixer_1_000844.1_CNL... at 97.86%
+1	888aa, >GOZ_00000000002_Solanum_lycopersicum_Helixer_1_000856.1_CNL... at 97.86%
+2	888aa, >GOZ_00000000003_Solanum_lycopersicum_Helixer_1_000855.1_CNL... at 97.97%
+3	888aa, >GOZ_00000000004_Solanum_lycopersicum_Helixer_1_000847.1_CNL... at 98.09%
+4	888aa, >GCA_014964335.1_Solanum_pimpinellifolium_Helixer_CM026535.1_000878.1_CNL... at 97.97%
+5	888aa, >GCA_025758855.1_Solanum_pimpinellifolium_Helixer_CM047045.1_000821.1_CNL... at 97.97%
+6	888aa, >GCA_027705065.1_Solanum_peruvianum_Helixer_JAKWJD010001755.1_000863.1_CNL... at 97.97%
+7	888aa, >GCA_027789145.1_Solanum_arcanum_Helixer_CM050933.1_000967.1_CNL... at 98.20%
+8	888aa, >GCA_032847665.1_Solanum_chilense_Helixer_CM064963.1_001078.1_CNL... at 97.86%
+9	906aa, >GCF_001406875.1_Solanum_pennellii_Helixer_NC_028637.1_001147.1_CNL... *
+10	888aa, >GOL_00000000004_Solanum_palustre_Helixer_PG0009_tig00000498_000001.1_CNL... at 95.50%
+11	888aa, >GOL_00000000004_Solanum_palustre_Helixer_PG0009_tig00064984_000455.1_CNL... at 95.38%
+12	888aa, >GOL_00000000005_Solanum_etuberosum_Helixer_chr01_000944.1_CNL... at 95.16%
+13	888aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_ptg0011_002139.1_CNL... at 95.27%
+14	888aa, >GOL_00000000013_Solanum_burkartii_Helixer_PG4005_ptg0082_000242.1_CNL... at 95.38%
+15	888aa, >GOL_00000000013_Solanum_burkartii_Helixer_PG4005_atg0140_000062.1_CNL... at 95.27%
+16	888aa, >GOB_00000000009_Solanum_etuberosum_Helixer_chr1_000926.1_CNL... at 95.38%
+>Cluster 79
+0	906aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_ptg0002_000472.1_CNL... *
+1	906aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_atg0202_000032.1_CNL... at 99.78%
+>Cluster 80
+0	905aa, >GCA_000393655.2_Nicotiana_sylvestris_Helixer_CM066006.1_000073.1_CNL... *
+1	905aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065994.1_001289.1_CNL... at 99.34%
+>Cluster 81
+0	905aa, >GCA_027705065.1_Solanum_peruvianum_Helixer_JAKWJD010001757.1_000033.1_CNL... *
+>Cluster 82
+0	891aa, >GOS_00000000001_Capsicum_annuum_Helixer_Chr11_001721.1_CNL... at 99.89%
+1	891aa, >GCA_000512255.2_Capsicum_annuum_Helixer_CM008465.1_000146.1_CNL... at 100.00%
+2	904aa, >GCA_000710875.1_Capsicum_annuum_Helixer_CM002822.1_001604.1_CNL... *
+3	891aa, >GCA_002271885.2_Capsicum_baccatum_Helixer_MLFT02000082.1_000047.1_CNL... at 98.99%
+4	891aa, >GCA_011745845.1_Capsicum_annuum_Helixer_VYZY01003407.1_000012.1_CNL... at 99.89%
+5	891aa, >GCA_026120095.1_Capsicum_chinense_Helixer_JAPEIP010000012.1_004168.1_CNL... at 99.78%
+>Cluster 83
+0	857aa, >GOA_00000000009_Solanum_tuberosum_Helixer_chr04_hap13_v2_003211.1_CNL... at 95.92%
+1	876aa, >GCA_014182985.2_Solanum_tuberosum_Helixer_CM024426.2_003199.1_CNL... at 96.58%
+2	904aa, >GCA_031230405.1_Solanum_verrucosum_Helixer_CP133615.1_003178.1_CNL... *
+3	895aa, >GOA_00000000028_Solanum_tuberosum_Helixer_chr04_hap16_v2_003454.1_CNL... at 96.42%
+4	876aa, >GOL_00000000004_Solanum_palustre_Helixer_PG0009_tig00065009_000020.1_CNL... at 96.23%
+5	876aa, >GOL_00000000005_Solanum_etuberosum_Helixer_chr04_000270.1_CNL... at 96.35%
+6	859aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_000942.1_CNL... at 95.81%
+7	876aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_000937.1_CNL... at 95.32%
+8	876aa, >GOB_00000000009_Solanum_etuberosum_Helixer_chr4_000263.1_CNL... at 96.23%
+>Cluster 84
+0	904aa, >GCA_034376525.1_Nicotiana_benthamiana_Helixer_CM067334.1_002349.1_NL... *
+>Cluster 85
+0	904aa, >GOB_00000000002_Physalis_grisea_Helixer_chr4_000025.1_CNL... *
+>Cluster 86
+0	904aa, >GOB_00000000009_Solanum_etuberosum_Helixer_chr3_000041.1_CNL... *
+>Cluster 87
+0	903aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066018.1_000266.1_CNL... *
+>Cluster 88
+0	902aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066025.1_001513.1_CNL... *
+>Cluster 89
+0	902aa, >GCA_000393655.2_Nicotiana_sylvestris_Helixer_CM066003.1_003442.1_CNL... *
+1	902aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065985.1_003256.1_CNL... at 99.89%
+2	902aa, >GCA_000715095.1_Nicotiana_tabacum_Helixer_AWOK01S302391.1_000001.1_CNL... at 99.78%
+>Cluster 90
+0	902aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0058_000535.1_CNL... *
+>Cluster 91
+0	900aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_chr04_003324.1_CNL... at 95.22%
+1	901aa, >GOL_00000000040_Solanum_tuberosum_Helixer_PG6244_atg0219_000012.1_CNL... at 100.00%
+2	902aa, >GOC_00000000051_Solanum_tuberosum_Helixer_C058_H1_chr4_1_003289.1_CNL... *
+>Cluster 92
+0	902aa, >GOB_00000000002_Physalis_grisea_Helixer_chr4_000024.1_CNL... *
+>Cluster 93
+0	899aa, >GCA_030407365.1_Solanum_americanum_Helixer_CM059532.1_001505.1_CNL... at 99.56%
+1	900aa, >GCA_030407385.1_Solanum_americanum_Helixer_CM059544.1_001757.1_CNL... at 99.89%
+2	901aa, >GCA_030463325.1_Solanum_americanum_Helixer_CM059889.1_001796.1_CNL... *
+3	899aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176017.1_000232.1_CNL... at 99.44%
+4	899aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176031.1_000270.1_CNL... at 96.33%
+>Cluster 94
+0	901aa, >GCA_041222595.1_Solanum_tuberosum_Helixer_CM083533.1_003050.1_CNL... *
+1	901aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr4_1_003249.1_CNL... at 99.78%
+2	901aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_ptg0010_000564.1_CNL... at 99.67%
+>Cluster 95
+0	901aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_ptg0066_000569.1_CNL... *
+1	901aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_atg0240_000130.1_CNL... at 99.00%
+>Cluster 96
+0	901aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_atg0046_000037.1_CNL... *
+>Cluster 97
+0	901aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_ptg0001_000668.1_CNL... *
+>Cluster 98
+0	897aa, >GOS_00000000001_Capsicum_annuum_Helixer_Chr11_001726.1_NL... at 99.55%
+1	897aa, >GCA_000512255.2_Capsicum_annuum_Helixer_CM008465.1_000152.1_CNL... at 99.67%
+2	896aa, >GCA_002271885.2_Capsicum_baccatum_Helixer_CM008453.1_000028.1_CNL... at 98.55%
+3	897aa, >GCA_011745845.1_Capsicum_annuum_Helixer_VYZY01022636.1_000003.1_NL... at 100.00%
+4	896aa, >GCA_011745865.1_Capsicum_annuum_Helixer_VYZZ01005324.1_000002.1_CNL... at 98.10%
+5	897aa, >GCA_026120095.1_Capsicum_chinense_Helixer_JAPEIP010000012.1_004175.1_NL... at 98.89%
+6	900aa, >GCA_027073615.1_Capsicum_annuum_Helixer_CM049642.1_002932.1_NL... *
+7	897aa, >GCA_027073715.1_Capsicum_annuum_Helixer_CM049714.1_002963.1_CNL... at 97.99%
+8	899aa, >GCA_030864215.1_Capsicum_pubescens_Helixer_CM061548.1_002977.1_CNL... at 97.55%
+9	899aa, >GCA_030864225.1_Capsicum_baccatum_Helixer_CM061560.1_001619.1_CNL... at 98.55%
+10	900aa, >GCA_030867735.1_Capsicum_annuum_Helixer_CM061609.1_001816.1_CNL... at 99.67%
+11	897aa, >GCA_042919565.1_Capsicum_annuum_Helixer_CM091473.1_002913.1_CNL... at 99.78%
+>Cluster 99
+0	891aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr05_hap17_v2_000187.1_CNL... at 98.43%
+1	891aa, >GOA_00000000003_Solanum_tuberosum_Helixer_chr05_hap18_v2_000178.1_CNL... at 98.32%
+2	891aa, >GOA_00000000001_Solanum_tuberosum_Helixer_chr05_hap20_v2_000169.1_CNL... at 98.20%
+3	891aa, >GOA_00000000005_Solanum_tuberosum_Helixer_chr05_hap17_v2_000184.1_CNL... at 98.32%
+4	891aa, >GOZ_00000000001_Solanum_pimpinellifolium_Helixer_5_001744.1_CNL... at 96.63%
+5	891aa, >GOZ_00000000002_Solanum_lycopersicum_Helixer_5_001716.1_CNL... at 96.63%
+6	891aa, >GOZ_00000000003_Solanum_lycopersicum_Helixer_5_001717.1_CNL... at 96.75%
+7	891aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_chr05_000046.1_CNL... at 97.98%
+8	891aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_hptg0066_000517.1_CNL... at 98.99%
+9	891aa, >GOA_00000000010_Solanum_tuberosum_Helixer_chr05_hap18_v2_000199.1_CNL... at 98.09%
+10	891aa, >GOA_00000000011_Solanum_tuberosum_Helixer_chr05_hap19_v2_000182.1_CNL... at 98.77%
+11	891aa, >GCA_009827155.1_Solanum_tuberosum_Helixer_CP046690.1_000170.1_CNL... at 96.97%
+12	891aa, >GCA_009827175.1_Solanum_tuberosum_Helixer_CP046698.1_000166.1_CNL... at 97.19%
+13	891aa, >GCA_009887355.1_Solanum_pinnatisectum_Helixer_CP047565.1_000156.1_CNL... at 98.54%
+14	891aa, >GCA_014182985.2_Solanum_tuberosum_Helixer_CM024427.2_000159.1_CNL... at 98.54%
+15	895aa, >GCA_022817965.1_Solanum_lycopersicoides_Helixer_CM040622.1_002426.1_CNL... at 97.21%
+16	891aa, >GCA_025758845.1_Solanum_galapagense_Helixer_CM047061.1_001754.1_CNL... at 96.63%
+17	891aa, >GCA_025758855.1_Solanum_pimpinellifolium_Helixer_CM047049.1_001772.1_CNL... at 96.86%
+18	891aa, >GCA_025758865.1_Solanum_pimpinellifolium_Helixer_CM047073.1_001748.1_CNL... at 96.75%
+19	891aa, >GCA_025759355.1_Solanum_pimpinellifolium_Helixer_CM047097.1_001757.1_CNL... at 96.75%
+20	891aa, >GCA_027704765.1_Solanum_habrochaites_Helixer_JAKWJA010002493.1_001749.1_CNL... at 97.31%
+21	891aa, >GCA_027705065.1_Solanum_peruvianum_Helixer_JAKWJD010001759.1_001752.1_CNL... at 97.08%
+22	891aa, >GCA_027789145.1_Solanum_arcanum_Helixer_CM050937.1_001892.1_CNL... at 97.08%
+23	891aa, >GCA_032847665.1_Solanum_chilense_Helixer_JAPDHL010001001.1_000012.1_CNL... at 96.97%
+24	891aa, >GCA_035048845.1_Solanum_bulbocastanum_Helixer_CM068599.1_002365.1_CNL... at 97.76%
+25	891aa, >GCA_035578085.1_Solanum_pinnatisectum_Helixer_CM069080.1_000148.1_CNL... at 98.65%
+26	891aa, >GCA_036553645.1_Solanum_okadae_Helixer_CM071694.1_000182.1_CNL... at 98.77%
+27	900aa, >GCA_036553675.1_Solanum_okadae_Helixer_CM071682.1_000185.1_CNL... *
+28	891aa, >GCA_037074985.1_Solanum_bulbocastanum_Helixer_CM073601.1_000163.1_CNL... at 97.98%
+29	891aa, >GCA_041222595.1_Solanum_tuberosum_Helixer_CM083540.1_001179.1_CNL... at 98.54%
+30	893aa, >GCA_045791845.1_Solanum_stoloniferum_Helixer_CM099229.1_000146.1_CNL... at 97.87%
+31	891aa, >GCA_046563305.1_Solanum_acaule_Helixer_CM102191.1_000198.1_CNL... at 98.20%
+32	891aa, >GCF_000226075.1_Solanum_tuberosum_Helixer_NW_006239326.1_000025.1_CNL... at 98.20%
+33	891aa, >GCF_001406875.1_Solanum_pennellii_Helixer_NC_028641.1_002045.1_CNL... at 98.09%
+34	891aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NC_064287.1_002108.1_CNL... at 98.32%
+35	891aa, >GOZ_00000000013_Solanum_lycopersicum_Helixer_5_001759.1_CNL... at 96.52%
+36	895aa, >GOL_00000000004_Solanum_palustre_Helixer_PG0009_tig00004515_000105.1_CNL... at 97.88%
+37	891aa, >GOL_00000000006_Solanum_jamesii_Helixer_PG1008_ptg0007_000153.1_CNL... at 98.20%
+38	891aa, >GOL_00000000006_Solanum_jamesii_Helixer_PG1008_atg0088_000045.1_CNL... at 98.43%
+39	891aa, >GOL_00000000007_Solanum_morelliforme_Helixer_PG1011_ptg0027_000712.1_CNL... at 97.76%
+40	891aa, >GOL_00000000008_Solanum_pinnatisectum_Helixer_PG1013_ptg0024_000643.1_CNL... at 98.54%
+41	891aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_ptg0009_000762.1_CNL... at 98.43%
+42	888aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_ptg0031_000157.1_CNL... at 98.76%
+43	888aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_atg0177_000033.1_CNL... at 98.65%
+44	891aa, >GOL_00000000011_Solanum_paucissectum_Helixer_PG3022_atg0056_000375.1_CNL... at 98.65%
+45	895aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_ptg0050_000652.1_CNL... at 98.21%
+46	900aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_atg0734_000020.1_CNL... at 97.67%
+47	888aa, >GOL_00000000013_Solanum_burkartii_Helixer_PG4005_ptg0004_000695.1_CNL... at 98.31%
+48	891aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_ptg0028_000791.1_CNL... at 98.32%
+49	891aa, >GOL_00000000015_Solanum_sogarandinum_Helixer_PG4032_ptg0017_000175.1_CNL... at 98.77%
+50	891aa, >GOL_00000000015_Solanum_sogarandinum_Helixer_PG4032_atg0223_000053.1_CNL... at 98.43%
+51	891aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0010_000193.1_CNL... at 97.76%
+52	896aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_atg0020_000311.1_CNL... at 97.43%
+53	891aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0036_000046.1_CNL... at 98.88%
+54	891aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_atg0179_000046.1_CNL... at 98.65%
+55	891aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_ptg0010_001342.1_CNL... at 98.77%
+56	891aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_ptg0002_001402.1_CNL... at 98.88%
+57	891aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_atg0410_000271.1_CNL... at 98.54%
+58	891aa, >GOL_00000000021_Solanum_candolleanum_Helixer_PG5003_ptg0040_000327.1_CNL... at 98.32%
+59	891aa, >GOL_00000000021_Solanum_candolleanum_Helixer_PG5003_atg0326_000007.1_CNL... at 98.43%
+60	891aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_ptg0014_000843.1_CNL... at 98.09%
+61	891aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_ptg0114_000569.1_CNL... at 98.54%
+62	891aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr5_1_000193.1_CNL... at 97.76%
+63	891aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr5_1_000177.1_CNL... at 98.65%
+64	891aa, >GOC_00000000012_Solanum_candolleanum_Helixer_C497_H2_chr5_2_000164.1_CNL... at 98.77%
+65	891aa, >GOC_00000000013_Solanum_candolleanum_Helixer_C462_H1_chr5_1_000160.1_CNL... at 98.43%
+66	891aa, >GOC_00000000015_Solanum_candolleanum_Helixer_C413_H1_chr5_1_000180.1_CNL... at 98.32%
+67	891aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_ptg0030_000805.1_CNL... at 97.98%
+68	891aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_ptg0090_000455.1_CNL... at 98.20%
+69	891aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_atg0021_000018.1_CNL... at 98.20%
+70	891aa, >GOC_00000000021_Solanum_candolleanum_Helixer_C422_H1_chr5_1_000171.1_CNL... at 96.41%
+71	891aa, >GOC_00000000021_Solanum_candolleanum_Helixer_C422_H1_chr5_1_000172.1_CNL... at 98.65%
+72	891aa, >GOC_00000000022_Solanum_candolleanum_Helixer_C422_H2_chr5_2_000158.1_CNL... at 98.43%
+73	891aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0089_000191.1_CNL... at 97.42%
+74	891aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0089_000192.1_CNL... at 97.87%
+75	891aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_hptg0058_000189.1_CNL... at 98.43%
+76	891aa, >GOL_00000000029_Solanum_tuberosum_Helixer_PG6055_ptg0016_000843.1_CNL... at 98.32%
+77	891aa, >GOC_00000000032_Solanum_tuberosum_Helixer_C025_H2_chr5_2_000182.1_CNL... at 98.20%
+78	891aa, >GOL_00000000031_Solanum_tuberosum_Helixer_PG6090_ptg0015_000149.1_CNL... at 98.20%
+79	891aa, >GOL_00000000037_Solanum_bulbocastanum_Helixer_PG6241_ptg0027_000693.1_CNL... at 97.87%
+80	888aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_ptg0038_000960.1_CNL... at 98.76%
+81	892aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0101_000766.1_CNL... at 97.31%
+82	891aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0101_000765.1_CNL... at 98.65%
+83	891aa, >GOL_00000000040_Solanum_tuberosum_Helixer_PG6244_ptg0051_000183.1_CNL... at 97.76%
+84	895aa, >GOB_00000000009_Solanum_etuberosum_Helixer_chr5_000139.1_CNL... at 97.99%
+85	892aa, >GOB_00000000017_Solanum_muricatum_Helixer_chr5_000125.1_CNL... at 96.08%
+>Cluster 100
+0	900aa, >GOL_00000000015_Solanum_sogarandinum_Helixer_PG4032_ptg0015_000958.1_CNL... *
+>Cluster 101
+0	900aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_chr04_000162.1_CNL... *
+>Cluster 102
+0	899aa, >GCA_000393655.2_Nicotiana_sylvestris_Helixer_CM066003.1_000036.1_CNL... *
+1	899aa, >GCA_000393655.2_Nicotiana_sylvestris_Helixer_CM066003.1_003448.1_CNL... at 97.89%
+2	899aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065985.1_000036.1_CNL... at 99.89%
+3	899aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065985.1_003262.1_CNL... at 98.11%
+4	899aa, >GCA_000715095.1_Nicotiana_tabacum_Helixer_AWOK01S153552.1_000001.1_CNL... at 97.66%
+>Cluster 103
+0	885aa, >GCA_041430385.1_Lycium_ruthenicum_Helixer_CM084487.1_001912.1_CNL... at 98.31%
+1	885aa, >GCF_019175385.1_Lycium_barbarum_Helixer_NC_083346.1_002028.1_CNL... at 96.27%
+2	899aa, >GCF_029784015.1_Lycium_ferocissimum_Helixer_NC_081347.1_001839.1_CNL... *
+>Cluster 104
+0	899aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0007_000590.1_CNL... *
+>Cluster 105
+0	885aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr04_hap13_v2_003151.1_CNL... at 96.38%
+1	888aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr04_hap13_v2_000182.1_CNL... at 95.95%
+2	889aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr04_hap13_v2_003130.1_CNL... at 97.19%
+3	885aa, >GOA_00000000006_Solanum_tuberosum_Helixer_chr04_hap14_v2_003336.1_CNL... at 95.82%
+4	888aa, >GOA_00000000008_Solanum_tuberosum_Helixer_chr04_hap16_v2_002920.1_CNL... at 99.44%
+5	888aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_chr04_003172.1_CNL... at 96.40%
+6	888aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_chr04_003159.1_CNL... at 96.62%
+7	888aa, >GOC_00000000004_Solanum_tuberosum_Helixer_E8669_H2_chr4_2_003125.1_CNL... at 99.89%
+8	885aa, >GOA_00000000009_Solanum_tuberosum_Helixer_chr04_hap13_v2_003114.1_CNL... at 97.29%
+9	886aa, >GOA_00000000021_Solanum_tuberosum_Helixer_chr04_hap13_v2_003128.1_CNL... at 96.61%
+10	888aa, >GCA_015076265.1_Solanum_tuberosum_Helixer_CP055237.1_003131.1_CNL... at 99.77%
+11	885aa, >GCA_020169555.1_Solanum_tuberosum_Helixer_CM035015.1_003590.1_CNL... at 96.72%
+12	886aa, >GCA_031230405.1_Solanum_verrucosum_Helixer_CP133615.1_000171.1_CNL... at 95.15%
+13	886aa, >GCA_031230405.1_Solanum_verrucosum_Helixer_CP133615.1_000180.1_CNL... at 95.03%
+14	885aa, >GCA_036553645.1_Solanum_okadae_Helixer_CM071693.1_003116.1_CNL... at 96.72%
+15	887aa, >GCA_036553675.1_Solanum_okadae_Helixer_CM071681.1_000207.1_CNL... at 95.04%
+16	890aa, >GCA_041222595.1_Solanum_tuberosum_Helixer_CM083535.1_001162.1_CNL... at 96.18%
+17	885aa, >GCA_046563305.1_Solanum_acaule_Helixer_CM102190.1_003002.1_CNL... at 96.16%
+18	888aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NC_064283.1_001771.1_CNL... at 96.85%
+19	889aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_ptg0029_000711.1_CNL... at 95.61%
+20	888aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_ptg0029_000354.1_CNL... at 95.72%
+21	884aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_ptg0068_001034.1_CNL... at 96.27%
+22	889aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_ptg0068_001013.1_CNL... at 96.51%
+23	889aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_ptg0068_000992.1_CNL... at 96.06%
+24	848aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_ptg0068_000191.1_CNL... at 95.40%
+25	889aa, >GOL_00000000013_Solanum_burkartii_Helixer_PG4005_ptg0077_000347.1_CNL... at 95.61%
+26	889aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_ptg0066_000464.1_CNL... at 96.96%
+27	827aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_atg0091_000199.1_CNL... at 96.86%
+28	887aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_atg0091_000188.1_CNL... at 96.84%
+29	849aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_ptg0017_000604.1_CNL... at 95.17%
+30	887aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_ptg0017_000602.1_CNL... at 95.26%
+31	885aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0007_000459.1_CNL... at 97.06%
+32	888aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0040_000876.1_CNL... at 96.17%
+33	888aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0040_000873.1_CNL... at 96.06%
+34	899aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_hptg0108_000061.1_CNL... *
+35	888aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_atg0075_000043.1_CNL... at 99.44%
+36	888aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_atg0209_000005.1_CNL... at 98.42%
+37	887aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_ptg0002_000175.1_CNL... at 95.04%
+38	887aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_ptg0002_000181.1_CNL... at 95.15%
+39	888aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_ptg0002_002872.1_CNL... at 96.06%
+40	889aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_ptg0007_000402.1_CNL... at 97.30%
+41	886aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_ptg0007_000867.1_CNL... at 95.15%
+42	884aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_ptg0007_000419.1_CNL... at 95.59%
+43	884aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_ptg0007_000430.1_CNL... at 96.72%
+44	890aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_ptg0007_000446.1_CNL... at 95.73%
+45	890aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_atg0248_000066.1_CNL... at 95.62%
+46	884aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_atg0248_000039.1_CNL... at 95.70%
+47	886aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_atg0248_000015.1_CNL... at 95.03%
+48	889aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_atg0248_000030.1_CNL... at 95.95%
+49	889aa, >GOL_00000000021_Solanum_candolleanum_Helixer_PG5003_ptg0022_000203.1_CNL... at 97.19%
+50	885aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_ptg0001_000355.1_CNL... at 95.93%
+51	885aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_ptg0021_000172.1_CNL... at 96.95%
+52	885aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_hptg0020_000047.1_CNL... at 96.38%
+53	886aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_003148.1_CNL... at 96.73%
+54	886aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_003180.1_CNL... at 96.50%
+55	886aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr4_1_003115.1_CNL... at 96.73%
+56	886aa, >GOC_00000000013_Solanum_candolleanum_Helixer_C462_H1_chr4_1_003116.1_CNL... at 96.39%
+57	886aa, >GOC_00000000015_Solanum_candolleanum_Helixer_C413_H1_chr4_1_003093.1_CNL... at 96.50%
+58	888aa, >GOC_00000000016_Solanum_candolleanum_Helixer_C413_H2_chr4_2_000188.1_CNL... at 96.62%
+59	886aa, >GOC_00000000016_Solanum_candolleanum_Helixer_C413_H2_chr4_2_003205.1_CNL... at 96.39%
+60	887aa, >GOC_00000000016_Solanum_candolleanum_Helixer_C413_H2_chr4_2_003200.1_CNL... at 95.15%
+61	886aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_ptg0010_000431.1_CNL... at 96.61%
+62	888aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_ptg0010_000815.1_CNL... at 96.51%
+63	897aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_atg0053_000100.1_CNL... at 95.21%
+64	889aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_chr04_000027.1_CNL... at 97.08%
+65	888aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_ptg0001_000520.1_CNL... at 97.18%
+66	885aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_ptg0001_000541.1_CNL... at 96.16%
+67	885aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_atg0076_000067.1_CNL... at 97.40%
+68	889aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_atg0076_000083.1_CNL... at 96.18%
+69	889aa, >GOC_00000000021_Solanum_candolleanum_Helixer_C422_H1_chr4_1_003161.1_CNL... at 96.29%
+70	886aa, >GOC_00000000024_Solanum_candolleanum_Helixer_C423_H2_chr4_2_003242.1_CNL... at 96.50%
+71	888aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0058_000406.1_CNL... at 96.96%
+72	885aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0058_000426.1_CNL... at 96.38%
+73	886aa, >GOL_00000000029_Solanum_tuberosum_Helixer_PG6055_ptg0028_001158.1_CNL... at 96.61%
+74	885aa, >GOL_00000000031_Solanum_tuberosum_Helixer_PG6090_atg0411_000029.1_CNL... at 96.50%
+75	889aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_ptg0002_001059.1_CNL... at 96.29%
+76	889aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_atg0064_000254.1_CNL... at 96.18%
+77	886aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0008_000446.1_CNL... at 95.15%
+78	888aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_atg0113_000173.1_CNL... at 96.73%
+79	888aa, >GOA_00000000034_Solanum_tuberosum_Helixer_chr04_hap14_v2_002934.1_CNL... at 95.16%
+80	889aa, >GOA_00000000034_Solanum_tuberosum_Helixer_chr04_hap14_v2_002931.1_CNL... at 95.73%
+81	888aa, >GOA_00000000034_Solanum_tuberosum_Helixer_chr04_hap14_v2_002930.1_CNL... at 95.38%
+>Cluster 106
+0	896aa, >GOB_00000000006_Solanum_candidum_Helixer_chr4_000364.1_CNL... at 99.67%
+1	896aa, >GOB_00000000029_Solanum_pseudolulo_Helixer_chr4_000388.1_CNL... at 97.99%
+2	899aa, >GOB_00000000030_Solanum_quitoense_Helixer_chr4_000334.1_CNL... *
+3	892aa, >GOB_00000000032_Solanum_stramoniifolium_Helixer_chr4_000370.1_CNL... at 96.19%
+>Cluster 107
+0	898aa, >GCA_000393655.2_Nicotiana_sylvestris_Helixer_CM066012.1_001294.1_NL... *
+1	898aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065998.1_000085.1_NL... at 99.67%
+>Cluster 108
+0	898aa, >GCA_046563445.1_Petunia_x_hybrida_Helixer_CM102210.1_000309.1_CNL... *
+>Cluster 109
+0	898aa, >GOA_00000000027_Solanum_tuberosum_Helixer_chr04_hap15_v2_002959.1_CNL... *
+>Cluster 110
+0	898aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0040_000599.1_CNL... *
+>Cluster 111
+0	898aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0040_000601.1_CNL... *
+1	898aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_003407.1_CNL... at 96.33%
+2	898aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_atg0388_000062.1_CNL... at 95.66%
+>Cluster 112
+0	878aa, >GCA_018258275.1_Solanum_commersonii_Helixer_CM031109.1_003118.1_CNL... at 96.13%
+1	898aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_ptg0002_003000.1_CNL... *
+>Cluster 113
+0	898aa, >GOC_00000000013_Solanum_candolleanum_Helixer_C462_H1_chr4_1_003249.1_CNL... *
+1	898aa, >GOC_00000000022_Solanum_candolleanum_Helixer_C422_H2_chr4_2_003231.1_CNL... at 99.89%
+2	898aa, >GOC_00000000023_Solanum_candolleanum_Helixer_C423_H1_chr4_1_003304.1_CNL... at 99.67%
+>Cluster 114
+0	897aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065994.1_001477.1_CNL... *
+>Cluster 115
+0	897aa, >GCF_001406875.1_Solanum_pennellii_Helixer_NC_028639.1_000033.1_CNL... *
+>Cluster 116
+0	897aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_ptg0029_000466.1_CNL... *
+>Cluster 117
+0	897aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_atg0024_000088.1_CNL... *
+>Cluster 118
+0	893aa, >GOA_00000000021_Solanum_tuberosum_Helixer_chr04_hap13_v2_003137.1_CNL... at 96.30%
+1	893aa, >GOL_00000000015_Solanum_sogarandinum_Helixer_PG4032_ptg0015_000956.1_CNL... at 95.30%
+2	897aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_hptg0214_000078.1_CNL... *
+3	893aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_hptg0214_000072.1_CNL... at 99.55%
+>Cluster 119
+0	897aa, >GOB_00000000006_Solanum_candidum_Helixer_chr4_002052.1_CNL... *
+1	893aa, >GOB_00000000016_Solanum_mammosum_Helixer_chr4_003260.1_CNL... at 95.74%
+2	897aa, >GOB_00000000029_Solanum_pseudolulo_Helixer_chr4_001974.1_CNL... at 98.77%
+3	897aa, >GOB_00000000030_Solanum_quitoense_Helixer_chr4_001984.1_CNL... at 99.55%
+4	896aa, >GOB_00000000032_Solanum_stramoniifolium_Helixer_chr4_000372.1_CNL... at 98.33%
+5	897aa, >GOB_00000000032_Solanum_stramoniifolium_Helixer_chr4_002039.1_CNL... at 98.55%
+6	897aa, >GOB_00000000032_Solanum_stramoniifolium_Helixer_chr4_002038.1_CNL... at 98.66%
+>Cluster 120
+0	896aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066018.1_000265.1_CNL... *
+1	896aa, >GCA_002210045.1_Nicotiana_tabacum_Helixer_NCAA01002605.1_000001.1_CNL... at 99.44%
+>Cluster 121
+0	887aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr10_hap37_v2_000175.1_CNL... at 96.28%
+1	887aa, >GOA_00000000001_Solanum_tuberosum_Helixer_chr10_hap40_v2_000184.1_CNL... at 95.72%
+2	887aa, >GOA_00000000005_Solanum_tuberosum_Helixer_chr10_hap37_v2_000189.1_CNL... at 96.28%
+3	887aa, >GOA_00000000005_Solanum_tuberosum_Helixer_chr10_hap37_v2_000196.1_CNL... at 96.39%
+4	887aa, >GOA_00000000007_Solanum_tuberosum_Helixer_chr10_hap39_v2_000160.1_CNL... at 95.94%
+5	887aa, >GOZ_00000000001_Solanum_pimpinellifolium_Helixer_10_000134.1_CNL... at 95.94%
+6	887aa, >GOZ_00000000003_Solanum_lycopersicum_Helixer_10_000134.1_CNL... at 95.49%
+7	887aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_atg0049_000066.1_CNL... at 96.51%
+8	884aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_atg0049_000069.1_CNL... at 95.81%
+9	887aa, >GOA_00000000021_Solanum_tuberosum_Helixer_chr10_hap37_v2_000171.1_CNL... at 96.51%
+10	887aa, >GOA_00000000022_Solanum_tuberosum_Helixer_chr10_hap38_v2_000167.1_CNL... at 96.28%
+11	888aa, >GCA_003996215.1_Jaltomata_sinuosa_Helixer_QJPP01000189.1_000148.1_CNL... at 95.38%
+12	887aa, >GCA_009887355.1_Solanum_pinnatisectum_Helixer_CP047557.1_000189.1_CNL... at 96.62%
+13	887aa, >GCA_014189475.1_Solanum_tuberosum_Helixer_CM024750.1_000280.1_CNL... at 95.83%
+14	887aa, >GCA_018258275.1_Solanum_commersonii_Helixer_CM031115.1_000191.1_CNL... at 95.83%
+15	887aa, >GCA_022817965.1_Solanum_lycopersicoides_Helixer_CM040627.1_000161.1_CNL... at 95.04%
+16	887aa, >GCA_025758835.1_Solanum_pimpinellifolium_Helixer_CM047090.1_000133.1_CNL... at 95.49%
+17	887aa, >GCA_025758845.1_Solanum_galapagense_Helixer_CM047066.1_000140.1_CNL... at 95.72%
+18	887aa, >GCA_025758855.1_Solanum_pimpinellifolium_Helixer_CM047054.1_000137.1_CNL... at 95.83%
+19	887aa, >GCA_025759605.1_Solanum_pimpinellifolium_Helixer_CM047114.1_000134.1_CNL... at 95.83%
+20	887aa, >GCA_027704765.1_Solanum_habrochaites_Helixer_JAKWJA010002498.1_000151.1_CNL... at 95.83%
+21	887aa, >GCA_027789145.1_Solanum_arcanum_Helixer_CM050942.1_000143.1_CNL... at 95.83%
+22	888aa, >GCA_030407365.1_Solanum_americanum_Helixer_CM059531.1_000077.1_CNL... at 96.62%
+23	888aa, >GCA_030407385.1_Solanum_americanum_Helixer_CM059543.1_000087.1_CNL... at 96.62%
+24	887aa, >GCA_031230405.1_Solanum_verrucosum_Helixer_CP133621.1_000188.1_CNL... at 96.28%
+25	888aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124710.1_000158.1_CNL... at 95.16%
+26	887aa, >GCA_035048845.1_Solanum_bulbocastanum_Helixer_JAVBHT010000012.1_000165.1_CNL... at 96.17%
+27	887aa, >GCA_036553645.1_Solanum_okadae_Helixer_CM071699.1_000174.1_CNL... at 96.51%
+28	887aa, >GCA_045791845.1_Solanum_stoloniferum_Helixer_CM099234.1_000164.1_CNL... at 96.51%
+29	887aa, >GCA_046563305.1_Solanum_acaule_Helixer_CM102196.1_000164.1_CNL... at 96.28%
+30	888aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176040.1_001166.1_CNL... at 96.85%
+31	887aa, >GCF_001406875.1_Solanum_pennellii_Helixer_NC_028646.1_000155.1_CNL... at 95.83%
+32	887aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NC_064286.1_000270.1_CNL... at 96.39%
+33	896aa, >GCF_947179165.1_Solanum_dulcamara_Helixer_NC_077248.1_001122.1_CNL... *
+34	887aa, >GOL_00000000005_Solanum_etuberosum_Helixer_chr10_000155.1_CNL... at 96.17%
+35	887aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_ptg0019_000530.1_CNL... at 97.18%
+36	887aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_ptg0037_000166.1_CNL... at 96.84%
+37	887aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_hptg0091_000006.1_CNL... at 96.28%
+38	887aa, >GOL_00000000011_Solanum_paucissectum_Helixer_PG3022_ptg0002_001506.1_CNL... at 96.51%
+39	887aa, >GOL_00000000011_Solanum_paucissectum_Helixer_PG3022_ptg0002_001505.1_CNL... at 95.94%
+40	887aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_ptg0036_000526.1_CNL... at 96.62%
+41	887aa, >GOL_00000000013_Solanum_burkartii_Helixer_PG4005_atg0441_000027.1_CNL... at 96.62%
+42	887aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_ptg0025_000164.1_CNL... at 96.39%
+43	887aa, >GOL_00000000015_Solanum_sogarandinum_Helixer_PG4032_ptg0016_000178.1_CNL... at 96.51%
+44	887aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_ptg0005_000188.1_CNL... at 96.73%
+45	887aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_ptg0005_000191.1_CNL... at 96.17%
+46	887aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_atg0206_000061.1_CNL... at 96.84%
+47	887aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_atg0206_000064.1_CNL... at 96.28%
+48	887aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0016_000182.1_CNL... at 96.51%
+49	887aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0059_000457.1_CNL... at 96.96%
+50	887aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_atg0180_000153.1_CNL... at 96.73%
+51	887aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_ptg0003_000162.1_CNL... at 96.51%
+52	887aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_ptg0036_000538.1_CNL... at 96.84%
+53	887aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_atg0115_000101.1_CNL... at 96.39%
+54	887aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_ptg0021_000604.1_CNL... at 95.83%
+55	887aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_ptg0020_000179.1_CNL... at 96.39%
+56	887aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_atg0385_000022.1_CNL... at 96.62%
+57	887aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr10_1_000159.1_CNL... at 95.38%
+58	887aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr10_2_000167.1_CNL... at 95.49%
+59	887aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_ptg0022_000198.1_CNL... at 96.51%
+60	887aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_chr10_000196.1_CNL... at 95.60%
+61	887aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_atg0147_000253.1_CNL... at 95.72%
+62	887aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_ptg0037_000182.1_CNL... at 96.05%
+63	887aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_atg0275_000106.1_CNL... at 96.17%
+64	887aa, >GOL_00000000028_Solanum_tuberosum_Helixer_PG6029_ptg0050_000221.1_CNL... at 96.62%
+65	887aa, >GOL_00000000037_Solanum_bulbocastanum_Helixer_PG6241_ptg0013_000154.1_CNL... at 96.28%
+66	887aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_ptg0046_000529.1_CNL... at 96.51%
+67	887aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0004_000175.1_CNL... at 96.28%
+68	887aa, >GOL_00000000043_Solanum_tuberosum_Helixer_PG6247_ptg0036_000199.1_CNL... at 95.72%
+69	887aa, >GOZ_00000000016_Solanum_lycopersicum_Helixer_10_000230.1_CNL... at 95.94%
+70	888aa, >GOB_00000000001_Solanum_abutiloides_Helixer_chr10_002089.1_CNL... at 96.06%
+71	887aa, >GOB_00000000009_Solanum_etuberosum_Helixer_chr10_000161.1_CNL... at 96.39%
+72	888aa, >GOB_00000000011_Solanum_havanense_Helixer_chr10_000054.1_CNL... at 95.16%
+73	888aa, >GOB_00000000017_Solanum_muricatum_Helixer_chr10_000143.1_CNL... at 97.07%
+74	888aa, >GOB_00000000029_Solanum_pseudolulo_Helixer_chr10_000192.1_CNL... at 95.05%
+75	888aa, >GOB_00000000030_Solanum_quitoense_Helixer_chr10_000169.1_CNL... at 95.16%
+76	888aa, >GOB_00000000031_Solanum_robustum_Helixer_chr10_001889.1_CNL... at 95.05%
+77	888aa, >GOB_00000000033_Solanum_torvum_Helixer_chr11_001260.1_CNL... at 95.38%
+>Cluster 122
+0	881aa, >GOB_00000000003_Solanum_aethiopicum_Helixer_chr1_000901.1_CNL... at 98.86%
+1	881aa, >GOB_00000000005_Solanum_anguivi_Helixer_chr1_000873.1_CNL... at 98.64%
+2	881aa, >GOB_00000000008_Solanum_cleistogamum_Helixer_chr1_000730.1_CNL... at 98.64%
+3	880aa, >GOB_00000000013_Solanum_linnaeanum_Helixer_chr1_000819.1_CNL... at 98.75%
+4	896aa, >GOB_00000000015_Solanum_macrocarpon_Helixer_chr1_000853.1_CNL... *
+5	881aa, >GOB_00000000019_Solanum_aethiopicum_Helixer_chr1_000895.1_CNL... at 98.75%
+6	881aa, >GOB_00000000020_Solanum_aethiopicum_Helixer_chr1_000901.1_CNL... at 98.64%
+7	881aa, >GOB_00000000028_Solanum_prinophyllum_Helixer_chr1_000872.1_CNL... at 98.64%
+>Cluster 123
+0	895aa, >GCA_000393655.2_Nicotiana_sylvestris_Helixer_CM066006.1_000251.1_CNL... *
+1	895aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065994.1_001476.1_CNL... at 99.78%
+>Cluster 124
+0	895aa, >GCA_022817965.1_Solanum_lycopersicoides_Helixer_CM040621.1_002991.1_CNL... *
+>Cluster 125
+0	895aa, >GCA_041222595.1_Solanum_tuberosum_Helixer_CM083536.1_001497.1_CNL... *
+1	894aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr4_1_000062.1_CNL... at 99.89%
+2	895aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_atg0164_000006.1_CNL... at 99.44%
+3	892aa, >GOC_00000000017_Solanum_candolleanum_Helixer_C574_H1_chr4_1_000064.1_CNL... at 99.55%
+>Cluster 126
+0	895aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_003320.1_CNL... *
+>Cluster 127
+0	891aa, >GOB_00000000028_Solanum_prinophyllum_Helixer_chr4_002011.1_CNL... at 97.08%
+1	895aa, >GOB_00000000028_Solanum_prinophyllum_Helixer_chr4_002010.1_CNL... *
+>Cluster 128
+0	894aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_ptg0068_001150.1_CNL... *
+1	874aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_ptg0007_000597.1_CNL... at 95.42%
+>Cluster 129
+0	894aa, >GOB_00000000033_Solanum_torvum_Helixer_chr4_002510.1_CNL... *
+>Cluster 130
+0	882aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066018.1_002040.1_CNL... at 95.69%
+1	893aa, >GCA_000393655.2_Nicotiana_sylvestris_Helixer_CM066006.1_002199.1_CNL... *
+2	881aa, >GCA_002210045.1_Nicotiana_tabacum_Helixer_NCAA01006226.1_000001.1_CNL... at 100.00%
+3	881aa, >GCA_030864195.1_Nicotiana_attenuata_Helixer_CM061562.1_003792.1_CNL... at 96.14%
+4	881aa, >GCA_034376525.1_Nicotiana_benthamiana_Helixer_CM067338.1_001117.1_CNL... at 97.28%
+>Cluster 131
+0	893aa, >GCA_022817965.1_Solanum_lycopersicoides_Helixer_CM040620.1_000049.1_CNL... *
+>Cluster 132
+0	893aa, >GCA_029948455.1_Solanum_rostratum_Helixer_CM057053.1_001371.1_CNL... *
+1	892aa, >GCA_029948455.1_Solanum_rostratum_Helixer_CM057053.1_000798.1_CNL... at 96.30%
+2	892aa, >GCA_029948455.1_Solanum_rostratum_Helixer_CM057053.1_000800.1_CNL... at 96.41%
+3	891aa, >GOB_00000000007_Solanum_citrullifolium_Helixer_chr4_001800.1_CNL... at 95.74%
+4	892aa, >GOB_00000000007_Solanum_citrullifolium_Helixer_chr4_001799.1_CNL... at 95.96%
+>Cluster 133
+0	893aa, >GCF_947179165.1_Solanum_dulcamara_Helixer_NC_077246.1_001252.1_CNL... *
+>Cluster 134
+0	874aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_ptg0014_001083.1_CNL... at 98.63%
+1	893aa, >GOL_00000000013_Solanum_burkartii_Helixer_PG4005_ptg0077_000358.1_CNL... *
+2	893aa, >GOL_00000000013_Solanum_burkartii_Helixer_PG4005_ptg0077_000348.1_CNL... at 96.64%
+3	893aa, >GOA_00000000034_Solanum_tuberosum_Helixer_chr04_hap14_v2_002940.1_CNL... at 97.76%
+4	893aa, >GOA_00000000034_Solanum_tuberosum_Helixer_chr04_hap14_v2_002935.1_CNL... at 97.54%
+>Cluster 135
+0	893aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_atg0320_000218.1_CNL... *
+1	887aa, >GOC_00000000012_Solanum_candolleanum_Helixer_C497_H2_chr4_2_003252.1_CNL... at 97.29%
+>Cluster 136
+0	893aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_hptg0100_000016.1_CNL... *
+>Cluster 137
+0	893aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_ptg0001_001246.1_CNL... *
+>Cluster 138
+0	893aa, >GOB_00000000001_Solanum_abutiloides_Helixer_chr12_002094.1_CNL... *
+>Cluster 139
+0	891aa, >GOS_00000000002_Solanum_melongena_Helixer_10_000083.1_CNL... at 98.20%
+1	891aa, >GWHCAWW00000000_Solanum_melongena_Helixer_GWHCAWW00000008_002462.1_CNL... at 98.09%
+2	891aa, >GOB_00000000003_Solanum_aethiopicum_Helixer_chr5_001167.1_CNL... at 97.64%
+3	891aa, >GOB_00000000007_Solanum_citrullifolium_Helixer_chr5_000897.1_CNL... at 95.85%
+4	891aa, >GOB_00000000008_Solanum_cleistogamum_Helixer_chr5_001514.1_CNL... at 97.53%
+5	893aa, >GOB_00000000010_Solanum_giganteum_Helixer_chr5_003787.1_CNL... *
+6	891aa, >GOB_00000000012_Solanum_insanum_Helixer_chr5_001121.1_CNL... at 98.09%
+7	891aa, >GOB_00000000013_Solanum_linnaeanum_Helixer_chr5_001147.1_CNL... at 98.32%
+8	891aa, >GOB_00000000015_Solanum_macrocarpon_Helixer_chr5_001089.1_CNL... at 97.53%
+9	891aa, >GOB_00000000028_Solanum_prinophyllum_Helixer_chr5_001648.1_CNL... at 97.31%
+10	891aa, >GOB_00000000033_Solanum_torvum_Helixer_chr5_001822.1_CNL... at 95.40%
+11	891aa, >GOB_00000000034_Solanum_violaceum_Helixer_chr5_001076.1_CNL... at 98.09%
+>Cluster 140
+0	893aa, >GOB_00000000013_Solanum_linnaeanum_Helixer_chr4_002223.1_CNL... *
+1	893aa, >GOB_00000000013_Solanum_linnaeanum_Helixer_chr4_002221.1_CNL... at 98.32%
+2	893aa, >GOB_00000000015_Solanum_macrocarpon_Helixer_chr4_002183.1_CNL... at 95.41%
+3	893aa, >GOB_00000000034_Solanum_violaceum_Helixer_chr4_002049.1_CNL... at 95.41%
+>Cluster 141
+0	893aa, >GOB_00000000017_Solanum_muricatum_Helixer_chr4_002240.1_CNL... *
+>Cluster 142
+0	882aa, >GCA_030407365.1_Solanum_americanum_Helixer_CM059532.1_001127.1_CNL... at 96.03%
+1	883aa, >GCA_030407365.1_Solanum_americanum_Helixer_CM059532.1_001625.1_CNL... at 97.85%
+2	882aa, >GCA_030407365.1_Solanum_americanum_Helixer_CM059532.1_001617.1_CNL... at 95.58%
+3	882aa, >GCA_030407385.1_Solanum_americanum_Helixer_CM059544.1_000965.1_CNL... at 95.35%
+4	892aa, >GCA_030407385.1_Solanum_americanum_Helixer_CM059544.1_001883.1_CNL... *
+5	882aa, >GCA_030407385.1_Solanum_americanum_Helixer_CM059544.1_001871.1_CNL... at 95.46%
+6	882aa, >GCA_030463325.1_Solanum_americanum_Helixer_CM059889.1_000946.1_CNL... at 95.92%
+7	883aa, >GCA_030463325.1_Solanum_americanum_Helixer_CM059889.1_001916.1_CNL... at 97.85%
+8	882aa, >GCA_035772555.1_Solanum_americanum_Helixer_CM069619.1_000960.1_CNL... at 95.92%
+9	883aa, >GCA_035772555.1_Solanum_americanum_Helixer_CM069619.1_001867.1_CNL... at 98.07%
+10	882aa, >GCA_035772555.1_Solanum_americanum_Helixer_CM069619.1_001858.1_CNL... at 95.35%
+11	882aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176032.1_000356.1_CNL... at 95.69%
+12	882aa, >GOL_00000000004_Solanum_americanum_Helixer_utg1245_000002.1_CNL... at 95.92%
+>Cluster 143
+0	889aa, >GOA_00000000003_Solanum_tuberosum_Helixer_chr04_hap14_v2_000188.1_CNL... at 95.84%
+1	887aa, >GOA_00000000004_Solanum_tuberosum_Helixer_chr04_hap15_v2_000164.1_CNL... at 96.05%
+2	887aa, >GOA_00000000004_Solanum_tuberosum_Helixer_chr04_hap15_v2_000168.1_CNL... at 96.28%
+3	884aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_hptg0054_000329.1_CNL... at 96.04%
+4	884aa, >GOA_00000000009_Solanum_tuberosum_Helixer_chr04_hap13_v2_000163.1_CNL... at 96.15%
+5	887aa, >GOA_00000000015_Solanum_tuberosum_Helixer_chr04_hap15_v2_000163.1_CNL... at 96.05%
+6	887aa, >GCA_009827155.1_Solanum_tuberosum_Helixer_CP046685.1_000131.1_CNL... at 95.49%
+7	887aa, >GCA_009887355.1_Solanum_pinnatisectum_Helixer_CP047561.1_000131.1_CNL... at 98.08%
+8	887aa, >GCA_018258275.1_Solanum_commersonii_Helixer_CM031109.1_000147.1_CNL... at 95.72%
+9	886aa, >GCA_020169555.1_Solanum_tuberosum_Helixer_CM035015.1_000170.1_CNL... at 96.50%
+10	886aa, >GCA_020169555.1_Solanum_tuberosum_Helixer_CM035015.1_000183.1_CNL... at 96.50%
+11	892aa, >GCA_035048845.1_Solanum_bulbocastanum_Helixer_CM068598.1_001503.1_CNL... *
+12	889aa, >GCA_045791845.1_Solanum_stoloniferum_Helixer_CM099216.1_000155.1_CNL... at 95.84%
+13	892aa, >GOL_00000000006_Solanum_jamesii_Helixer_PG1008_ptg0014_000678.1_CNL... at 98.09%
+14	892aa, >GOL_00000000007_Solanum_morelliforme_Helixer_PG1011_ptg0021_000123.1_CNL... at 95.52%
+15	887aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_atg0312_000098.1_CNL... at 96.05%
+16	890aa, >GOL_00000000011_Solanum_paucissectum_Helixer_PG3022_ptg0011_000191.1_CNL... at 96.07%
+17	887aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_atg0091_000146.1_CNL... at 95.83%
+18	887aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0007_000856.1_CNL... at 96.17%
+19	887aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0007_000837.1_CNL... at 96.05%
+20	887aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_hptg0180_000003.1_CNL... at 96.28%
+21	890aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_ptg0021_000012.1_CNL... at 96.18%
+22	890aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_ptg0021_000018.1_CNL... at 96.29%
+23	889aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_hptg0176_000018.1_CNL... at 96.63%
+24	855aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_hptg0176_000026.1_CNL... at 95.67%
+25	887aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_000186.1_CNL... at 96.28%
+26	852aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_000198.1_CNL... at 95.42%
+27	887aa, >GOC_00000000016_Solanum_candolleanum_Helixer_C413_H2_chr4_2_000196.1_CNL... at 96.05%
+28	887aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_chr04_003449.1_CNL... at 96.28%
+29	884aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_chr04_000255.1_CNL... at 95.81%
+30	887aa, >GOC_00000000021_Solanum_candolleanum_Helixer_C422_H1_chr4_1_000193.1_CNL... at 95.72%
+31	884aa, >GOC_00000000022_Solanum_candolleanum_Helixer_C422_H2_chr4_2_000210.1_CNL... at 95.81%
+32	887aa, >GOC_00000000032_Solanum_tuberosum_Helixer_C025_H2_chr4_2_000179.1_CNL... at 96.17%
+33	892aa, >GOL_00000000037_Solanum_bulbocastanum_Helixer_PG6241_ptg0022_000137.1_CNL... at 99.66%
+34	890aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_atg0113_000065.1_CNL... at 96.40%
+>Cluster 144
+0	892aa, >GOL_00000000007_Solanum_morelliforme_Helixer_PG1011_ptg0021_000692.1_CNL... *
+>Cluster 145
+0	892aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_atg0076_000077.1_CNL... *
+>Cluster 146
+0	892aa, >GOB_00000000020_Solanum_aethiopicum_Helixer_chr4_000592.1_CNL... *
+>Cluster 147
+0	891aa, >GCA_003996215.1_Jaltomata_sinuosa_Helixer_QJPP01000008.1_000133.1_CNL... *
+>Cluster 148
+0	891aa, >GCA_022817965.1_Solanum_lycopersicoides_Helixer_CM040621.1_003358.1_CNL... *
+>Cluster 149
+0	891aa, >GCA_022817965.1_Solanum_lycopersicoides_Helixer_CM040621.1_000133.1_CNL... *
+>Cluster 150
+0	891aa, >GCA_026929995.1_Petunia_axillaris_Helixer_CM049419.1_003719.1_CNL... *
+>Cluster 151
+0	891aa, >GCA_026929995.1_Petunia_axillaris_Helixer_CM049419.1_003716.1_CNL... *
+1	890aa, >GCA_046563445.1_Petunia_x_hybrida_Helixer_CM102210.1_000308.1_CNL... at 95.62%
+2	888aa, >GCA_046563445.1_Petunia_x_hybrida_Helixer_CM102210.1_000320.1_CNL... at 95.72%
+>Cluster 152
+0	890aa, >GOZ_00000000001_Solanum_pimpinellifolium_Helixer_4_002504.1_CNL... at 98.09%
+1	890aa, >GOZ_00000000001_Solanum_pimpinellifolium_Helixer_4_002502.1_CNL... at 98.09%
+2	890aa, >GOZ_00000000002_Solanum_lycopersicum_Helixer_4_002543.1_CNL... at 98.20%
+3	889aa, >GOZ_00000000003_Solanum_lycopersicum_Helixer_4_002457.1_CNL... at 98.20%
+4	890aa, >GOZ_00000000005_Solanum_lycopersicum_Helixer_4_002619.1_CNL... at 98.20%
+5	890aa, >GCA_014964335.1_Solanum_pimpinellifolium_Helixer_CM026538.1_002629.1_CNL... at 98.09%
+6	889aa, >GCA_014964335.1_Solanum_pimpinellifolium_Helixer_CM026538.1_002627.1_CNL... at 98.31%
+7	890aa, >GCA_025758835.1_Solanum_pimpinellifolium_Helixer_CM047084.1_002439.1_CNL... at 98.31%
+8	889aa, >GCA_025758845.1_Solanum_galapagense_Helixer_CM047060.1_002415.1_CNL... at 98.43%
+9	890aa, >GCA_025758855.1_Solanum_pimpinellifolium_Helixer_CM047048.1_002492.1_CNL... at 98.20%
+10	890aa, >GCA_025758865.1_Solanum_pimpinellifolium_Helixer_CM047072.1_002461.1_CNL... at 98.20%
+11	889aa, >GCA_025759845.1_Solanum_lycopersicum_Helixer_CM047168.1_002513.1_CNL... at 98.31%
+12	890aa, >GCA_025759845.1_Solanum_lycopersicum_Helixer_CM047168.1_002511.1_CNL... at 98.31%
+13	891aa, >GCA_027704765.1_Solanum_habrochaites_Helixer_JAKWJA010002492.1_002397.1_CNL... *
+14	889aa, >GCA_027705065.1_Solanum_peruvianum_Helixer_JAKWJD010001758.1_002398.1_CNL... at 97.86%
+15	889aa, >GCA_027789145.1_Solanum_arcanum_Helixer_CM050936.1_000154.1_CNL... at 98.65%
+16	889aa, >GCA_032847665.1_Solanum_chilense_Helixer_CM064966.1_002684.1_CNL... at 97.75%
+17	890aa, >GCA_034621305.1_Solanum_pimpinellifolium_Helixer_CM067867.1_002616.1_CNL... at 98.09%
+18	889aa, >GCF_001406875.1_Solanum_pennellii_Helixer_NC_028640.1_002686.1_CNL... at 97.30%
+19	889aa, >GOZ_00000000013_Solanum_lycopersicum_Helixer_4_002449.1_CNL... at 98.09%
+20	889aa, >GOZ_00000000016_Solanum_lycopersicum_Helixer_4_003637.1_CNL... at 98.09%
+21	889aa, >GOZ_00000000016_Solanum_lycopersicum_Helixer_4_003635.1_CNL... at 98.20%
+22	889aa, >GOZ_00000000027_Solanum_pimpinellifolium_Helixer_4_002764.1_CNL... at 98.43%
+23	889aa, >GOZ_00000000034_Solanum_lycopersicum_Helixer_4_003995.1_CNL... at 98.54%
+24	888aa, >GOZ_00000000040_Solanum_lycopersicum_Helixer_4_004332.1_CNL... at 98.20%
+>Cluster 153
+0	891aa, >GCA_030407365.1_Solanum_americanum_Helixer_CM059526.1_002497.1_CNL... *
+1	891aa, >GCA_030407385.1_Solanum_americanum_Helixer_CM059538.1_002514.1_CNL... at 99.55%
+2	891aa, >GCA_030463325.1_Solanum_americanum_Helixer_CM059883.1_002461.1_CNL... at 99.89%
+3	891aa, >GCA_035772555.1_Solanum_americanum_Helixer_CM069615.1_001292.1_CNL... at 99.78%
+4	891aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176015.1_002158.1_CNL... at 97.08%
+5	887aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176023.1_002378.1_CNL... at 98.53%
+6	891aa, >GCF_947179165.1_Solanum_dulcamara_Helixer_NC_077238.1_001880.1_CNL... at 96.52%
+>Cluster 154
+0	891aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124709.1_002494.1_CNL... *
+>Cluster 155
+0	885aa, >GCA_031230405.1_Solanum_verrucosum_Helixer_CP133612.1_001178.1_CNL... at 95.03%
+1	885aa, >GCA_045791845.1_Solanum_stoloniferum_Helixer_CM099213.1_001149.1_CNL... at 95.14%
+2	884aa, >GCA_046563305.1_Solanum_acaule_Helixer_CM102187.1_001129.1_CNL... at 97.40%
+3	885aa, >GCF_900185275.1_Solanum_verrucosum_Helixer_NW_026019903.1_000133.1_CNL... at 97.97%
+4	888aa, >GOL_00000000011_Solanum_paucissectum_Helixer_PG3022_ptg0022_001753.1_CNL... at 95.27%
+5	891aa, >GOL_00000000011_Solanum_paucissectum_Helixer_PG3022_ptg0022_001751.1_CNL... *
+6	884aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_atg0024_000367.1_CNL... at 97.62%
+7	883aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_atg0024_000366.1_CNL... at 95.24%
+8	884aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0007_000362.1_CNL... at 96.61%
+>Cluster 156
+0	888aa, >GCA_014182985.2_Solanum_tuberosum_Helixer_CM024423.2_001469.1_CNL... at 95.27%
+1	888aa, >GOC_00000000013_Solanum_candolleanum_Helixer_C462_H1_chr1_1_001230.1_CNL... at 95.38%
+2	891aa, >GOC_00000000015_Solanum_candolleanum_Helixer_C413_H1_chr1_1_001161.1_CNL... *
+3	886aa, >GOL_00000000030_Solanum_tuberosum_Helixer_PG6059_ptg0011_000607.1_CNL... at 95.49%
+>Cluster 157
+0	891aa, >GOB_00000000001_Solanum_abutiloides_Helixer_chr5_002274.1_CNL... *
+>Cluster 158
+0	891aa, >GOB_00000000006_Solanum_candidum_Helixer_chr5_002093.1_CNL... *
+1	891aa, >GOB_00000000029_Solanum_pseudolulo_Helixer_chr5_002297.1_CNL... at 98.88%
+2	891aa, >GOB_00000000030_Solanum_quitoense_Helixer_chr5_002187.1_CNL... at 99.55%
+3	891aa, >GOB_00000000031_Solanum_robustum_Helixer_chr5_002282.1_CNL... at 95.17%
+4	891aa, >GOB_00000000032_Solanum_stramoniifolium_Helixer_chr5_002265.1_CNL... at 98.43%
+>Cluster 159
+0	891aa, >GOB_00000000011_Solanum_havanense_Helixer_chr5_001893.1_CNL... *
+>Cluster 160
+0	891aa, >GOB_00000000016_Solanum_mammosum_Helixer_chr5_002891.1_CNL... *
+>Cluster 161
+0	890aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066016.1_002217.1_CNL... *
+1	889aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065995.1_000170.1_CNL... at 96.18%
+2	890aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065995.1_003211.1_CNL... at 96.74%
+3	890aa, >GCA_000715095.1_Nicotiana_tabacum_Helixer_AWOK01S124092.1_000001.1_CNL... at 99.21%
+4	890aa, >GCA_002210045.1_Nicotiana_tabacum_Helixer_NCAA01000070.1_000001.1_CNL... at 96.97%
+5	889aa, >GCA_002210045.1_Nicotiana_tabacum_Helixer_NCAA01000070.1_000028.1_CNL... at 96.29%
+>Cluster 162
+0	890aa, >GCA_026929995.1_Petunia_axillaris_Helixer_CM049419.1_004007.1_CNL... *
+>Cluster 163
+0	890aa, >GCA_026929995.1_Petunia_axillaris_Helixer_CM049419.1_002979.1_CNL... *
+1	890aa, >GCA_046563445.1_Petunia_x_hybrida_Helixer_CM102210.1_006255.1_CNL... at 99.78%
+>Cluster 164
+0	890aa, >GCF_029784015.1_Lycium_ferocissimum_Helixer_NC_081347.1_001840.1_CNL... *
+>Cluster 165
+0	890aa, >GON_00000000001_Nicotiana_benthamiana_Helixer_Nbe.v1.1.chr05_001178.1_CNL... *
+>Cluster 166
+0	890aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_atg0312_000025.1_CNL... *
+>Cluster 167
+0	873aa, >GCA_014182985.2_Solanum_tuberosum_Helixer_CM024426.2_000071.1_CNL... at 98.85%
+1	875aa, >GOL_00000000021_Solanum_candolleanum_Helixer_PG5003_ptg0022_000491.1_CNL... at 95.89%
+2	873aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_000087.1_CNL... at 97.59%
+3	873aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr4_1_000079.1_CNL... at 97.48%
+4	875aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr4_1_000086.1_CNL... at 97.37%
+5	873aa, >GOC_00000000013_Solanum_candolleanum_Helixer_C462_H1_chr4_1_000054.1_CNL... at 97.48%
+6	886aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_atg0368_000014.1_CNL... at 100.00%
+7	890aa, >GOC_00000000019_Solanum_candolleanum_Helixer_C419_H1_chr4_1_000073.1_CNL... *
+8	872aa, >GOC_00000000022_Solanum_candolleanum_Helixer_C422_H2_chr4_2_000072.1_CNL... at 96.10%
+9	849aa, >GOC_00000000023_Solanum_candolleanum_Helixer_C423_H1_chr4_1_000079.1_CNL... at 98.70%
+10	875aa, >GOC_00000000031_Solanum_tuberosum_Helixer_C025_H1_chr4_1_000070.1_CNL... at 98.63%
+11	875aa, >GOL_00000000031_Solanum_tuberosum_Helixer_PG6090_atg0297_000077.1_CNL... at 95.54%
+>Cluster 168
+0	890aa, >GOB_00000000002_Physalis_grisea_Helixer_chr12_000966.1_CNL... *
+>Cluster 169
+0	889aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066018.1_002039.1_CNL... *
+>Cluster 170
+0	889aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065992.1_001686.1_CNL... *
+1	889aa, >GCA_000715095.1_Nicotiana_tabacum_Helixer_AWOK01S171258.1_000001.1_CNL... at 98.43%
+>Cluster 171
+0	888aa, >GOS_00000000001_Capsicum_annuum_Helixer_Chr11_001723.1_CNL... at 97.41%
+1	889aa, >GCA_002271885.2_Capsicum_baccatum_Helixer_MLFT02000082.1_000049.1_CNL... *
+2	888aa, >GCA_011745845.1_Capsicum_annuum_Helixer_VYZY01003407.1_000014.1_CNL... at 97.30%
+3	889aa, >GCA_026120095.1_Capsicum_chinense_Helixer_JAPEIP010000012.1_004170.1_CNL... at 97.98%
+4	889aa, >GCA_030864215.1_Capsicum_pubescens_Helixer_CM061548.1_002975.1_CNL... at 97.19%
+5	889aa, >GCA_030864225.1_Capsicum_baccatum_Helixer_CM061560.1_001616.1_CNL... at 99.78%
+>Cluster 172
+0	889aa, >GCA_026929995.1_Petunia_axillaris_Helixer_CM049419.1_003999.1_CNL... *
+1	889aa, >GCA_046563445.1_Petunia_x_hybrida_Helixer_CM102210.1_000625.1_CNL... at 99.33%
+>Cluster 173
+0	889aa, >GCA_034376525.1_Nicotiana_benthamiana_Helixer_CM067327.1_001175.1_CNL... *
+1	889aa, >GON_00000000001_Nicotiana_benthamiana_Helixer_Nbe.v1.1.chr05_001176.1_CNL... at 99.89%
+>Cluster 174
+0	880aa, >GCA_020169555.1_Solanum_tuberosum_Helixer_CM035015.1_000064.1_CNL... at 98.30%
+1	889aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0007_000743.1_CNL... *
+>Cluster 175
+0	889aa, >GOB_00000000002_Physalis_grisea_Helixer_chr10_000126.1_CNL... *
+>Cluster 176
+0	888aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr04_hap13_v2_003135.1_CNL... *
+>Cluster 177
+0	888aa, >GOA_00000000003_Solanum_tuberosum_Helixer_chr01_hap2_v2_001395.1_CNL... *
+1	880aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_atg0083_000013.1_CNL... at 95.23%
+2	888aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr1_1_001237.1_CNL... at 99.44%
+>Cluster 178
+0	888aa, >GOS_00000000001_Capsicum_annuum_Helixer_Chr11_001728.1_CNL... *
+1	888aa, >GCA_000512255.2_Capsicum_annuum_Helixer_CM008465.1_000154.1_CNL... at 97.86%
+2	888aa, >GCA_011745865.1_Capsicum_annuum_Helixer_VYZZ01005324.1_000005.1_CNL... at 99.32%
+3	888aa, >GCA_026120095.1_Capsicum_chinense_Helixer_JAPEIP010000012.1_004179.1_CNL... at 97.86%
+4	888aa, >GCA_027073555.1_Capsicum_annuum_Helixer_CM049654.1_003112.1_CNL... at 98.42%
+5	888aa, >GCA_027073565.1_Capsicum_annuum_Helixer_CM049618.1_002825.1_CNL... at 97.75%
+6	888aa, >GCA_042919565.1_Capsicum_annuum_Helixer_CM091473.1_002915.1_CNL... at 97.86%
+>Cluster 179
+0	888aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_chr01_001162.1_CNL... *
+1	888aa, >GCF_000226075.1_Solanum_tuberosum_Helixer_NW_006239021.1_000108.1_CNL... at 99.66%
+2	888aa, >GOC_00000000016_Solanum_candolleanum_Helixer_C413_H2_chr1_2_001238.1_CNL... at 99.89%
+>Cluster 180
+0	888aa, >GOS_00000000002_Solanum_melongena_Helixer_4_000222.1_CNL... *
+1	888aa, >GCA_029948455.1_Solanum_rostratum_Helixer_CM057055.1_000192.1_CNL... at 95.38%
+2	888aa, >GOB_00000000003_Solanum_aethiopicum_Helixer_chr11_001256.1_CNL... at 97.52%
+3	888aa, >GOB_00000000006_Solanum_candidum_Helixer_chr10_000187.1_CNL... at 95.95%
+4	888aa, >GOB_00000000008_Solanum_cleistogamum_Helixer_chr11_001151.1_CNL... at 97.86%
+5	888aa, >GOB_00000000010_Solanum_giganteum_Helixer_chr11_001204.1_CNL... at 98.54%
+6	888aa, >GOB_00000000012_Solanum_insanum_Helixer_chr11_001235.1_CNL... at 99.77%
+7	888aa, >GOB_00000000013_Solanum_linnaeanum_Helixer_chr11_001267.1_CNL... at 99.21%
+8	888aa, >GOB_00000000015_Solanum_macrocarpon_Helixer_chr11_001221.1_CNL... at 99.21%
+9	888aa, >GOB_00000000025_Solanum_aethiopicum_Helixer_chr11_001227.1_CNL... at 97.41%
+10	888aa, >GOB_00000000028_Solanum_prinophyllum_Helixer_chr11_001245.1_CNL... at 98.76%
+11	888aa, >GOB_00000000032_Solanum_stramoniifolium_Helixer_chr10_000175.1_CNL... at 95.83%
+>Cluster 181
+0	888aa, >GCA_009827155.1_Solanum_tuberosum_Helixer_CP046688.1_001379.1_CNL... *
+1	888aa, >GCA_009827175.1_Solanum_tuberosum_Helixer_CP046702.1_001379.1_CNL... at 96.85%
+2	888aa, >GCA_009887355.1_Solanum_pinnatisectum_Helixer_CP047567.1_001248.1_CNL... at 95.61%
+>Cluster 182
+0	888aa, >GCA_018107945.1_Datura_stramonium_Helixer_JACEIK010002641.1_000017.1_CNL... *
+1	888aa, >GCA_035772735.1_Datura_wrightii_Helixer_JASDFA010000007.1_001444.1_CNL... at 99.66%
+>Cluster 183
+0	888aa, >GCA_026929995.1_Petunia_axillaris_Helixer_CM049419.1_004000.1_CNL... *
+1	887aa, >GCA_046563445.1_Petunia_x_hybrida_Helixer_CM102210.1_000626.1_CNL... at 97.86%
+>Cluster 184
+0	888aa, >GCA_030864215.1_Capsicum_pubescens_Helixer_CM061548.1_002980.1_CNL... *
+>Cluster 185
+0	884aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066024.1_000572.1_CNL... at 96.27%
+1	884aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066024.1_000577.1_CNL... at 95.14%
+2	884aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM066002.1_002070.1_CNL... at 96.04%
+3	884aa, >GCA_030864195.1_Nicotiana_attenuata_Helixer_CM061568.1_002492.1_CNL... at 96.83%
+4	888aa, >GCA_034376525.1_Nicotiana_benthamiana_Helixer_CM067338.1_002124.1_CNL... *
+5	884aa, >GCF_000715135.1_Nicotiana_tabacum_Helixer_NW_015936229.1_000003.1_CNL... at 96.15%
+6	888aa, >GON_00000000002_Nicotiana_benthamiana_Helixer_NbQld183C16_000570.1_CNL... at 99.89%
+>Cluster 186
+0	888aa, >GCA_041430385.1_Lycium_ruthenicum_Helixer_CM084478.1_003191.1_CNL... *
+1	888aa, >GCF_019175385.1_Lycium_barbarum_Helixer_NC_083337.1_003359.1_CNL... at 98.99%
+>Cluster 187
+0	888aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_ptg0002_002067.1_CNL... *
+1	888aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_atg0099_000009.1_CNL... at 99.77%
+2	888aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_ptg0012_001519.1_CNL... at 95.38%
+3	888aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_atg0160_000080.1_CNL... at 95.27%
+4	888aa, >GOL_00000000015_Solanum_sogarandinum_Helixer_PG4032_ptg0001_002141.1_CNL... at 95.95%
+5	888aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_ptg0028_000594.1_CNL... at 95.95%
+>Cluster 188
+0	888aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_ptg0008_000576.1_CNL... *
+1	888aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_atg0210_000007.1_CNL... at 99.10%
+>Cluster 189
+0	882aa, >GCF_900185275.1_Solanum_verrucosum_Helixer_NW_026019903.1_000137.1_CNL... at 95.69%
+1	888aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0035_000361.1_CNL... *
+2	888aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_atg0083_000011.1_CNL... at 95.61%
+3	888aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_ptg0154_000623.1_CNL... at 95.72%
+4	880aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0007_000364.1_CNL... at 95.11%
+>Cluster 190
+0	888aa, >GOL_00000000029_Solanum_tuberosum_Helixer_PG6055_ptg0028_001151.1_CNL... *
+1	875aa, >GOL_00000000032_Solanum_tuberosum_Helixer_PG6148_ptg0012_000460.1_CNL... at 99.77%
+>Cluster 191
+0	869aa, >GCA_018258275.1_Solanum_commersonii_Helixer_CM031107.1_003602.1_CNL... at 95.74%
+1	885aa, >GCA_036553645.1_Solanum_okadae_Helixer_CM071690.1_001154.1_CNL... at 96.84%
+2	887aa, >GCA_036553645.1_Solanum_okadae_Helixer_CM071690.1_001156.1_CNL... at 95.60%
+3	885aa, >GCA_036553675.1_Solanum_okadae_Helixer_CM071678.1_001256.1_CNL... at 96.84%
+4	884aa, >GCA_036553675.1_Solanum_okadae_Helixer_CM071678.1_001258.1_CNL... at 96.15%
+5	882aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_ptg0026_002149.1_CNL... at 95.80%
+6	882aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_atg0024_000368.1_CNL... at 95.69%
+7	885aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0035_000358.1_CNL... at 96.61%
+8	884aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0035_000360.1_CNL... at 95.36%
+9	884aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_ptg0154_000624.1_CNL... at 95.36%
+10	888aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_ptg0015_000438.1_CNL... *
+>Cluster 192
+0	888aa, >GOB_00000000005_Solanum_anguivi_Helixer_chr7_002476.1_CNL... *
+>Cluster 193
+0	888aa, >GOB_00000000016_Solanum_mammosum_Helixer_chr6_006068.1_CNL... *
+>Cluster 194
+0	887aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066024.1_000570.1_CNL... *
+1	887aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM066002.1_002068.1_CNL... at 99.77%
+>Cluster 195
+0	887aa, >GCA_000393655.2_Nicotiana_sylvestris_Helixer_CM066012.1_001097.1_CNL... *
+1	887aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065998.1_002209.1_CNL... at 99.55%
+2	887aa, >GCA_000715095.1_Nicotiana_tabacum_Helixer_AWOK01S041918.1_000002.1_CNL... at 99.21%
+>Cluster 196
+0	887aa, >GCA_000512255.2_Capsicum_annuum_Helixer_CM008455.1_007321.1_CNL... *
+1	887aa, >GCA_000512255.2_Capsicum_annuum_Helixer_CM008463.1_003914.1_CNL... at 98.99%
+2	887aa, >GCA_002271885.2_Capsicum_baccatum_Helixer_MLFT02000758.1_000003.1_CNL... at 98.87%
+3	887aa, >GCA_002271885.2_Capsicum_baccatum_Helixer_MLFT02000792.1_000003.1_CNL... at 98.31%
+4	869aa, >GCA_021292125.1_Capsicum_annuum_Helixer_CM037892.1_005398.1_CNL... at 98.62%
+5	870aa, >GCA_027035075.1_Capsicum_annuum_Helixer_CM049731.1_002323.1_CNL... at 98.51%
+6	887aa, >GCA_027035075.1_Capsicum_annuum_Helixer_CM049736.1_000062.1_CNL... at 98.65%
+7	887aa, >GCA_027073555.1_Capsicum_annuum_Helixer_CM049652.1_000087.1_CNL... at 98.53%
+8	887aa, >GCA_027073565.1_Capsicum_annuum_Helixer_CM049616.1_000062.1_CNL... at 98.53%
+9	869aa, >GCA_027073635.1_Capsicum_annuum_Helixer_CM049656.1_007171.1_CNL... at 98.50%
+10	887aa, >GCA_027073655.1_Capsicum_annuum_Helixer_CM049688.1_000099.1_CNL... at 98.31%
+11	887aa, >GCA_027073695.1_Capsicum_annuum_Helixer_CM049700.1_000128.1_CNL... at 98.31%
+12	887aa, >GCA_030864215.1_Capsicum_pubescens_Helixer_CM061547.1_000246.1_CNL... at 97.75%
+13	887aa, >GCA_030864225.1_Capsicum_baccatum_Helixer_CM061550.1_002328.1_CNL... at 98.53%
+14	887aa, >GCA_030864225.1_Capsicum_baccatum_Helixer_CM061559.1_000245.1_CNL... at 97.97%
+15	887aa, >GCA_031234615.1_Capsicum_annuum_Helixer_CP124723.1_001684.1_CNL... at 98.76%
+>Cluster 197
+0	887aa, >GCA_002271885.2_Capsicum_baccatum_Helixer_CM008453.1_000030.1_CNL... *
+>Cluster 198
+0	887aa, >GCA_009827155.1_Solanum_tuberosum_Helixer_CP046683.1_000196.1_CNL... *
+1	887aa, >GCA_009827175.1_Solanum_tuberosum_Helixer_CP046694.1_000198.1_CNL... at 98.87%
+2	887aa, >GCA_010127505.1_Solanum_tuberosum_Helixer_CM020968.1_000193.1_CNL... at 97.41%
+>Cluster 199
+0	887aa, >GCA_009827175.1_Solanum_tuberosum_Helixer_CP046699.1_000134.1_CNL... *
+>Cluster 200
+0	887aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124709.1_000141.1_CNL... *
+>Cluster 201
+0	887aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124709.1_002495.1_CNL... *
+>Cluster 202
+0	887aa, >GOB_00000000017_Solanum_muricatum_Helixer_chr1_001125.1_CNL... *
+>Cluster 203
+0	886aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr10_hap37_v2_002022.1_CNL... *
+1	886aa, >GOA_00000000004_Solanum_tuberosum_Helixer_chr10_hap39_v2_001953.1_CNL... at 99.55%
+2	885aa, >GOZ_00000000001_Solanum_pimpinellifolium_Helixer_10_001624.1_CNL... at 97.74%
+3	886aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_chr10_000479.1_CNL... at 99.32%
+4	886aa, >GCA_009827155.1_Solanum_tuberosum_Helixer_CP046683.1_002332.1_CNL... at 99.10%
+5	886aa, >GCA_009827175.1_Solanum_tuberosum_Helixer_CP046694.1_002325.1_CNL... at 99.32%
+6	886aa, >GCA_009887355.1_Solanum_pinnatisectum_Helixer_CP047557.1_002228.1_CNL... at 98.98%
+7	886aa, >GCA_010127505.1_Solanum_tuberosum_Helixer_CM020968.1_002247.1_CNL... at 99.55%
+8	886aa, >GCA_014182985.2_Solanum_tuberosum_Helixer_CM024432.2_002043.1_CNL... at 99.44%
+9	886aa, >GCA_018258275.1_Solanum_commersonii_Helixer_CM031115.1_000442.1_CNL... at 99.32%
+10	882aa, >GCA_022817965.1_Solanum_lycopersicoides_Helixer_CM040627.1_002376.1_CNL... at 98.30%
+11	885aa, >GCA_025759835.1_Solanum_lycopersicum_Helixer_CM047186.1_001653.1_CNL... at 97.63%
+12	885aa, >GCA_027704765.1_Solanum_habrochaites_Helixer_JAKWJA010002498.1_000322.1_CNL... at 97.74%
+13	885aa, >GCA_027705065.1_Solanum_peruvianum_Helixer_JAKWJD010001764.1_001637.1_CNL... at 97.74%
+14	885aa, >GCA_027789145.1_Solanum_arcanum_Helixer_CM050942.1_001822.1_CNL... at 97.85%
+15	886aa, >GCA_031230405.1_Solanum_verrucosum_Helixer_CP133621.1_000436.1_CNL... at 99.32%
+16	885aa, >GCA_032847665.1_Solanum_chilense_Helixer_CM064972.1_001760.1_CNL... at 97.85%
+17	885aa, >GCA_034621305.1_Solanum_pimpinellifolium_Helixer_CM067873.1_001751.1_CNL... at 97.85%
+18	886aa, >GCA_035048845.1_Solanum_bulbocastanum_Helixer_JAVBHT010000013.1_000033.1_CNL... at 98.98%
+19	885aa, >GCA_035578085.1_Solanum_pinnatisectum_Helixer_CM069085.1_001883.1_CNL... at 98.98%
+20	886aa, >GCA_036553645.1_Solanum_okadae_Helixer_CM071699.1_000439.1_CNL... at 99.55%
+21	886aa, >GCA_036553675.1_Solanum_okadae_Helixer_CM071687.1_000424.1_CNL... at 99.32%
+22	886aa, >GCA_045791845.1_Solanum_stoloniferum_Helixer_CM099222.1_000448.1_CNL... at 99.21%
+23	885aa, >GCA_045791845.1_Solanum_stoloniferum_Helixer_CM099234.1_001779.1_CNL... at 99.10%
+24	885aa, >GCF_001406875.1_Solanum_pennellii_Helixer_NC_028646.1_001926.1_CNL... at 98.08%
+25	886aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NC_064286.1_002100.1_CNL... at 99.66%
+26	886aa, >GCF_900185275.1_Solanum_verrucosum_Helixer_NW_026020343.1_000015.1_CNL... at 99.21%
+27	886aa, >GOL_00000000004_Solanum_palustre_Helixer_PG0009_tig00000546_000064.1_CNL... at 98.98%
+28	869aa, >GOL_00000000006_Solanum_jamesii_Helixer_PG1008_ptg0072_000092.1_CNL... at 98.96%
+29	886aa, >GOL_00000000007_Solanum_morelliforme_Helixer_PG1011_ptg0018_000582.1_CNL... at 98.87%
+30	868aa, >GOL_00000000008_Solanum_pinnatisectum_Helixer_PG1013_ptg0009_000186.1_CNL... at 98.96%
+31	886aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_ptg0010_000388.1_CNL... at 99.21%
+32	886aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_ptg0044_000110.1_CNL... at 98.98%
+33	886aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_atg0535_000028.1_CNL... at 98.76%
+34	886aa, >GOL_00000000011_Solanum_paucissectum_Helixer_PG3022_ptg0002_001750.1_CNL... at 99.44%
+35	886aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_ptg0057_000083.1_CNL... at 99.21%
+36	886aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_atg0271_000024.1_CNL... at 99.10%
+37	886aa, >GOL_00000000013_Solanum_burkartii_Helixer_PG4005_ptg0084_000037.1_CNL... at 98.65%
+38	886aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_ptg0036_000023.1_CNL... at 98.65%
+39	886aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_atg0247_000020.1_CNL... at 98.76%
+40	886aa, >GOL_00000000015_Solanum_sogarandinum_Helixer_PG4032_ptg0020_001693.1_CNL... at 99.21%
+41	886aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_ptg0005_000429.1_CNL... at 99.32%
+42	886aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0048_000038.1_CNL... at 99.55%
+43	886aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_atg0005_000008.1_CNL... at 99.55%
+44	886aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_ptg0003_000405.1_CNL... at 99.32%
+45	886aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_atg0092_000039.1_CNL... at 99.44%
+46	886aa, >GOL_00000000021_Solanum_candolleanum_Helixer_PG5003_ptg0005_000042.1_CNL... at 99.55%
+47	869aa, >GOL_00000000021_Solanum_candolleanum_Helixer_PG5003_hptg0104_000002.1_CNL... at 99.54%
+48	886aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_ptg0008_000815.1_CNL... at 99.66%
+49	886aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_ptg0055_000135.1_CNL... at 99.21%
+50	886aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr10_1_002120.1_CNL... at 99.77%
+51	886aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_ptg0032_000345.1_CNL... at 99.66%
+52	886aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_chr10_002146.1_CNL... at 99.66%
+53	886aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_ptg0054_000076.1_CNL... at 99.55%
+54	886aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0029_000047.1_CNL... at 99.32%
+55	886aa, >GOL_00000000030_Solanum_tuberosum_Helixer_PG6059_atg0015_000012.1_CNL... at 99.55%
+56	886aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_ptg0049_000019.1_CNL... at 98.98%
+57	885aa, >GOZ_00000000015_Solanum_lycopersicum_Helixer_10_001647.1_CNL... at 97.63%
+58	886aa, >GOL_00000000045_Solanum_tuberosum_Helixer_RH_atg0138_000004.1_CNL... at 96.73%
+59	885aa, >GOB_00000000017_Solanum_muricatum_Helixer_chr10_001829.1_CNL... at 96.38%
+>Cluster 204
+0	886aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_chr01_001163.1_CNL... *
+1	886aa, >GCA_009827155.1_Solanum_tuberosum_Helixer_CP046688.1_001380.1_CNL... at 95.60%
+2	886aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr1_1_001241.1_CNL... at 99.10%
+>Cluster 205
+0	886aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066025.1_000248.1_CNL... *
+1	886aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065987.1_000266.1_CNL... at 99.77%
+2	886aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065996.1_001934.1_CNL... at 97.18%
+3	886aa, >GCF_000715135.1_Nicotiana_tabacum_Helixer_NW_015811371.1_000001.1_CNL... at 99.66%
+>Cluster 206
+0	886aa, >GCA_003996215.1_Jaltomata_sinuosa_Helixer_QJPP01001467.1_000026.1_CNL... *
+>Cluster 207
+0	886aa, >GCA_009827175.1_Solanum_tuberosum_Helixer_CP046702.1_001380.1_CNL... *
+1	886aa, >GCA_010127505.1_Solanum_tuberosum_Helixer_CM020966.1_001415.1_CNL... at 95.15%
+>Cluster 208
+0	886aa, >GCA_009887355.1_Solanum_pinnatisectum_Helixer_CP047567.1_001249.1_CNL... *
+>Cluster 209
+0	886aa, >GCA_009887355.1_Solanum_pinnatisectum_Helixer_CP047561.1_003298.1_CNL... *
+>Cluster 210
+0	886aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124715.1_000986.1_CNL... *
+>Cluster 211
+0	886aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124714.1_002035.1_CNL... *
+>Cluster 212
+0	885aa, >GCA_041430385.1_Lycium_ruthenicum_Helixer_CM084485.1_000527.1_CNL... at 99.10%
+1	886aa, >GCF_019175385.1_Lycium_barbarum_Helixer_NC_083344.1_000514.1_CNL... *
+2	885aa, >GCF_029784015.1_Lycium_ferocissimum_Helixer_NC_081344.1_001626.1_CNL... at 98.98%
+>Cluster 213
+0	885aa, >GOA_00000000019_Solanum_tuberosum_Helixer_chr04_hap15_v2_003072.1_CNL... *
+1	880aa, >GOL_00000000043_Solanum_tuberosum_Helixer_PG6247_hptg0040_000499.1_CNL... at 99.43%
+>Cluster 214
+0	883aa, >GOS_00000000001_Capsicum_annuum_Helixer_Chr00_010241.1_CNL... at 95.70%
+1	883aa, >GCA_002271885.2_Capsicum_baccatum_Helixer_MLFT02000038.1_000022.1_CNL... at 95.36%
+2	885aa, >GCA_003996215.1_Jaltomata_sinuosa_Helixer_QJPP01000491.1_000001.1_CNL... *
+3	883aa, >GCA_026120095.1_Capsicum_chinense_Helixer_JAPEIP010000009.1_003713.1_CNL... at 95.47%
+4	883aa, >GCA_030864215.1_Capsicum_pubescens_Helixer_CM061545.1_000800.1_CNL... at 95.47%
+5	883aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124710.1_002213.1_CNL... at 95.81%
+6	883aa, >GCA_035772735.1_Datura_wrightii_Helixer_JASDFA010000009.1_000794.1_CNL... at 95.36%
+7	883aa, >GOB_00000000002_Physalis_grisea_Helixer_chr10_000352.1_CNL... at 95.02%
+>Cluster 215
+0	885aa, >GCA_003996215.1_Jaltomata_sinuosa_Helixer_QJPP01002678.1_000022.1_CNL... *
+>Cluster 216
+0	885aa, >GCA_026929995.1_Petunia_axillaris_Helixer_CM049419.1_003998.1_CNL... *
+1	885aa, >GCA_046563445.1_Petunia_x_hybrida_Helixer_CM102210.1_000624.1_CNL... at 99.89%
+>Cluster 217
+0	885aa, >GCA_026929995.1_Petunia_axillaris_Helixer_CM049419.1_003100.1_CNL... *
+1	885aa, >GCA_046563445.1_Petunia_x_hybrida_Helixer_CM102210.1_006363.1_CNL... at 98.19%
+>Cluster 218
+0	885aa, >GCA_029783415.1_Anisodus_acutangulus_Helixer_CM056490.1_001359.1_CNL... *
+1	885aa, >GCA_029844215.1_Przewalskia_tangutica_Helixer_CM056738.1_000252.1_CNL... at 97.97%
+2	885aa, >GCA_034509755.1_Anisodus_tanguticus_Helixer_CM067540.1_001402.1_CNL... at 99.77%
+>Cluster 219
+0	885aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124709.1_000139.1_CNL... *
+>Cluster 220
+0	885aa, >GCA_046563445.1_Petunia_x_hybrida_Helixer_CM102210.1_006098.1_CNL... *
+>Cluster 221
+0	885aa, >GCF_019175385.1_Lycium_barbarum_Helixer_NC_083346.1_002027.1_CNL... *
+1	879aa, >GCF_029784015.1_Lycium_ferocissimum_Helixer_NC_081347.1_001838.1_CNL... at 95.34%
+>Cluster 222
+0	885aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0040_000748.1_NL... *
+>Cluster 223
+0	885aa, >GOC_00000000016_Solanum_candolleanum_Helixer_C413_H2_chr4_2_003201.1_CNL... *
+>Cluster 224
+0	885aa, >GOB_00000000022_Solanum_aethiopicum_Helixer_chr5_001129.1_CNL... *
+>Cluster 225
+0	884aa, >GCA_015076265.1_Solanum_tuberosum_Helixer_CP055237.1_000084.1_CNL... *
+>Cluster 226
+0	884aa, >GCA_026929995.1_Petunia_axillaris_Helixer_CM049424.1_003663.1_CNL... *
+>Cluster 227
+0	884aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_atg0320_000074.1_CNL... *
+>Cluster 228
+0	884aa, >GOL_00000000031_Solanum_tuberosum_Helixer_PG6090_atg0411_000016.1_CNL... *
+>Cluster 229
+0	884aa, >GOB_00000000002_Physalis_grisea_Helixer_chr7_001521.1_CNL... *
+>Cluster 230
+0	883aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_hptg0064_000068.1_CNL... *
+>Cluster 231
+0	883aa, >GCA_003996215.1_Jaltomata_sinuosa_Helixer_QJPP01007198.1_000029.1_CNL... *
+>Cluster 232
+0	883aa, >GCA_018107945.1_Datura_stramonium_Helixer_JACEIK010000389.1_000025.1_CNL... *
+1	881aa, >GCA_035772735.1_Datura_wrightii_Helixer_JASDFA010000027.1_000613.1_CNL... at 96.71%
+>Cluster 233
+0	869aa, >GOZ_00000000001_Solanum_pimpinellifolium_Helixer_4_000065.1_CNL... at 99.54%
+1	869aa, >GOZ_00000000002_Solanum_lycopersicum_Helixer_4_000132.1_CNL... at 99.54%
+2	869aa, >GOZ_00000000004_Solanum_lycopersicum_Helixer_4_000179.1_CNL... at 99.42%
+3	883aa, >GCA_025758845.1_Solanum_galapagense_Helixer_CM047060.1_000064.1_CNL... *
+4	869aa, >GCA_025758855.1_Solanum_pimpinellifolium_Helixer_CM047048.1_000071.1_CNL... at 99.42%
+5	869aa, >GCA_025758865.1_Solanum_pimpinellifolium_Helixer_CM047072.1_000071.1_CNL... at 99.54%
+6	869aa, >GCA_025759355.1_Solanum_pimpinellifolium_Helixer_CM047096.1_000068.1_CNL... at 99.42%
+7	869aa, >GCA_027705065.1_Solanum_peruvianum_Helixer_JAKWJD010001758.1_000055.1_CNL... at 96.55%
+8	869aa, >GCA_027789145.1_Solanum_arcanum_Helixer_CM050936.1_002804.1_CNL... at 98.39%
+9	869aa, >GCF_001406875.1_Solanum_pennellii_Helixer_NC_028640.1_000059.1_CNL... at 97.81%
+10	869aa, >GOZ_00000000027_Solanum_pimpinellifolium_Helixer_4_000102.1_CNL... at 99.42%
+11	869aa, >GOZ_00000000036_Solanum_pimpinellifolium_Helixer_4_000071.1_CNL... at 99.42%
+12	869aa, >GOZ_00000000040_Solanum_lycopersicum_Helixer_4_000177.1_CNL... at 99.42%
+>Cluster 234
+0	883aa, >GCA_030407365.1_Solanum_americanum_Helixer_CM059531.1_002022.1_CNL... *
+1	883aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176035.1_000699.1_CNL... at 99.32%
+2	883aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176040.1_001447.1_CNL... at 98.75%
+>Cluster 235
+0	883aa, >GCA_036553645.1_Solanum_okadae_Helixer_CM071693.1_000075.1_CNL... *
+1	879aa, >GOC_00000000038_Solanum_tuberosum_Helixer_C027_H2_chr4_2_000066.1_CNL... at 95.90%
+>Cluster 236
+0	883aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0040_000756.1_CNL... *
+>Cluster 237
+0	883aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_atg0320_000067.1_CNL... *
+>Cluster 238
+0	883aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_atg0320_000069.1_CNL... *
+>Cluster 239
+0	881aa, >GOB_00000000006_Solanum_candidum_Helixer_chr4_000489.1_CNL... at 99.89%
+1	880aa, >GOB_00000000029_Solanum_pseudolulo_Helixer_chr4_001886.1_CNL... at 98.98%
+2	883aa, >GOB_00000000030_Solanum_quitoense_Helixer_chr4_001879.1_CNL... *
+3	881aa, >GOB_00000000031_Solanum_robustum_Helixer_chr4_002092.1_CNL... at 95.80%
+4	881aa, >GOB_00000000032_Solanum_stramoniifolium_Helixer_chr3_001772.1_CNL... at 98.64%
+5	881aa, >GOB_00000000032_Solanum_stramoniifolium_Helixer_chr4_001932.1_CNL... at 98.86%
+6	881aa, >GOB_00000000032_Solanum_stramoniifolium_Helixer_chr4_001931.1_CNL... at 97.50%
+>Cluster 240
+0	882aa, >GOS_00000000001_Capsicum_annuum_Helixer_Chr08_001856.1_CNL... *
+1	882aa, >GCA_000512255.2_Capsicum_annuum_Helixer_CM008455.1_001406.1_CNL... at 99.66%
+2	882aa, >GCA_002271885.2_Capsicum_baccatum_Helixer_CM008443.1_001071.1_CNL... at 99.09%
+3	882aa, >GCA_030864215.1_Capsicum_pubescens_Helixer_CM061538.1_002777.1_CNL... at 99.55%
+4	881aa, >GCA_030867735.1_Capsicum_annuum_Helixer_CM061599.1_001940.1_CNL... at 99.66%
+>Cluster 241
+0	882aa, >GOA_00000000012_Solanum_tuberosum_Helixer_chr04_hap16_v2_002670.1_CNL... *
+1	869aa, >GCA_020169585.1_Solanum_tuberosum_Helixer_CM034979.1_003060.1_CNL... at 99.88%
+>Cluster 242
+0	882aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066018.1_000387.1_CNL... *
+1	876aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065990.1_001418.1_CNL... at 99.89%
+2	882aa, >GCF_000715135.1_Nicotiana_tabacum_Helixer_NW_015888910.1_000001.1_CNL... at 99.89%
+>Cluster 243
+0	882aa, >GCA_015076265.1_Solanum_tuberosum_Helixer_CP055237.1_000097.1_CNL... *
+>Cluster 244
+0	882aa, >GCA_029783415.1_Anisodus_acutangulus_Helixer_CM056493.1_000284.1_CNL... *
+1	882aa, >GCA_029844215.1_Przewalskia_tangutica_Helixer_CM056722.1_001299.1_CNL... at 98.07%
+2	882aa, >GCA_034509755.1_Anisodus_tanguticus_Helixer_CM067543.1_001224.1_CNL... at 99.32%
+>Cluster 245
+0	882aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124719.1_001091.1_CNL... *
+1	882aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124719.1_001092.1_CNL... at 98.19%
+>Cluster 246
+0	882aa, >GCA_036553675.1_Solanum_okadae_Helixer_CM071681.1_000100.1_CNL... *
+>Cluster 247
+0	882aa, >GCA_041430385.1_Lycium_ruthenicum_Helixer_CM084482.1_000481.1_CNL... *
+1	882aa, >GCF_029784015.1_Lycium_ferocissimum_Helixer_NC_081349.1_001093.1_CNL... at 96.60%
+>Cluster 248
+0	882aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176031.1_002116.1_CNL... *
+>Cluster 249
+0	882aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176031.1_002115.1_CNL... *
+>Cluster 250
+0	882aa, >GCF_029784015.1_Lycium_ferocissimum_Helixer_NC_081352.1_002385.1_CNL... *
+>Cluster 251
+0	882aa, >GCF_947179165.1_Solanum_dulcamara_Helixer_NC_077246.1_000553.1_CNL... *
+>Cluster 252
+0	882aa, >GCF_947179165.1_Solanum_dulcamara_Helixer_NC_077246.1_001328.1_CNL... *
+>Cluster 253
+0	882aa, >GOA_00000000027_Solanum_tuberosum_Helixer_chr04_hap15_v2_000062.1_CNL... *
+1	882aa, >GOA_00000000027_Solanum_tuberosum_Helixer_chr04_hap15_v2_000073.1_CNL... at 97.73%
+2	882aa, >GOL_00000000021_Solanum_candolleanum_Helixer_PG5003_atg0249_000032.1_CNL... at 99.43%
+>Cluster 254
+0	882aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_atg0024_000077.1_CNL... *
+1	882aa, >GOL_00000000015_Solanum_sogarandinum_Helixer_PG4032_ptg0030_000168.1_CNL... at 98.98%
+2	882aa, >GOA_00000000034_Solanum_tuberosum_Helixer_chr04_hap14_v2_000079.1_CNL... at 99.09%
+>Cluster 255
+0	882aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_000065.1_CNL... *
+1	882aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_000067.1_CNL... at 99.77%
+2	882aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_000069.1_CNL... at 98.98%
+>Cluster 256
+0	882aa, >GOC_00000000022_Solanum_candolleanum_Helixer_C422_H2_chr4_2_000098.1_CNL... *
+>Cluster 257
+0	882aa, >GOB_00000000011_Solanum_havanense_Helixer_chr4_000390.1_CNL... *
+>Cluster 258
+0	882aa, >GOB_00000000018_Solanum_muricatum_Helixer_chr4_000059.1_CNL... *
+>Cluster 259
+0	880aa, >GOS_00000000001_Capsicum_annuum_Helixer_Chr11_001972.1_CNL... at 98.52%
+1	881aa, >GCA_000512255.2_Capsicum_annuum_Helixer_CM008465.1_000194.1_CNL... *
+2	880aa, >GCA_000710875.1_Capsicum_annuum_Helixer_CM002822.1_001959.1_CNL... at 98.64%
+3	880aa, >GCA_002271885.2_Capsicum_baccatum_Helixer_CM008453.1_003746.1_CNL... at 98.41%
+4	880aa, >GCA_021292125.1_Capsicum_annuum_Helixer_CM037902.1_001826.1_CNL... at 98.41%
+5	880aa, >GCA_026120095.1_Capsicum_chinense_Helixer_JAPEIP010000012.1_004146.1_CNL... at 98.75%
+6	880aa, >GCA_030864215.1_Capsicum_pubescens_Helixer_CM061548.1_002860.1_CNL... at 97.73%
+7	880aa, >GCA_030864225.1_Capsicum_baccatum_Helixer_CM061560.1_002121.1_CNL... at 98.64%
+8	881aa, >GCA_042919565.1_Capsicum_annuum_Helixer_CM091473.1_002812.1_CNL... at 98.64%
+>Cluster 260
+0	881aa, >GCA_015076265.1_Solanum_tuberosum_Helixer_CP055237.1_000078.1_CNL... *
+>Cluster 261
+0	881aa, >GCA_026929995.1_Petunia_axillaris_Helixer_CM049419.1_004008.1_CNL... *
+>Cluster 262
+0	881aa, >GCA_029948455.1_Solanum_rostratum_Helixer_CM057045.1_000876.1_CNL... *
+1	881aa, >GOB_00000000006_Solanum_candidum_Helixer_chr1_000519.1_CNL... at 95.91%
+2	881aa, >GOB_00000000007_Solanum_citrullifolium_Helixer_chr1_000859.1_CNL... at 98.75%
+3	881aa, >GOB_00000000029_Solanum_pseudolulo_Helixer_chr1_000416.1_CNL... at 95.80%
+4	881aa, >GOB_00000000030_Solanum_quitoense_Helixer_chr1_000911.1_CNL... at 95.91%
+5	881aa, >GOB_00000000031_Solanum_robustum_Helixer_chr1_000945.1_CNL... at 96.59%
+6	881aa, >GOB_00000000032_Solanum_stramoniifolium_Helixer_chr1_001016.1_CNL... at 95.57%
+7	881aa, >GOB_00000000033_Solanum_torvum_Helixer_chr1_000963.1_CNL... at 95.69%
+>Cluster 263
+0	881aa, >GCA_029948455.1_Solanum_rostratum_Helixer_CM057053.1_000712.1_CNL... *
+>Cluster 264
+0	881aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124715.1_000921.1_CNL... *
+>Cluster 265
+0	881aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124709.1_001719.1_CNL... *
+>Cluster 266
+0	864aa, >GCA_018107945.1_Datura_stramonium_Helixer_JACEIK010002302.1_000002.1_CNL... at 99.07%
+1	881aa, >GCA_035772735.1_Datura_wrightii_Helixer_JASDFA010000003.1_000997.1_CNL... *
+>Cluster 267
+0	881aa, >GCF_947179165.1_Solanum_dulcamara_Helixer_NC_077240.1_002562.1_CNL... *
+>Cluster 268
+0	881aa, >GOL_00000000006_Solanum_jamesii_Helixer_PG1008_ptg0014_000587.1_CNL... *
+>Cluster 269
+0	881aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_atg0171_000175.1_CNL... *
+>Cluster 270
+0	881aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_atg0998_000004.1_CNL... *
+>Cluster 271
+0	881aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_ptg0002_000061.1_CNL... *
+>Cluster 272
+0	881aa, >GOB_00000000002_Physalis_grisea_Helixer_chr2_001705.1_CNL... *
+>Cluster 273
+0	881aa, >GOB_00000000002_Physalis_grisea_Helixer_chr8_003528.1_CNL... *
+>Cluster 274
+0	881aa, >GOB_00000000001_Solanum_abutiloides_Helixer_chr1_000942.1_CNL... *
+>Cluster 275
+0	881aa, >GOB_00000000007_Solanum_citrullifolium_Helixer_chr4_001718.1_CNL... *
+>Cluster 276
+0	881aa, >GOB_00000000016_Solanum_mammosum_Helixer_chr4_000832.1_CNL... *
+>Cluster 277
+0	881aa, >GOB_00000000018_Solanum_muricatum_Helixer_chr4_000058.1_CNL... *
+>Cluster 278
+0	880aa, >GOB_00000000006_Solanum_candidum_Helixer_chr4_001947.1_CNL... at 99.77%
+1	881aa, >GOB_00000000029_Solanum_pseudolulo_Helixer_chr4_000488.1_CNL... *
+2	880aa, >GOB_00000000032_Solanum_stramoniifolium_Helixer_chr4_000463.1_CNL... at 99.66%
+>Cluster 279
+0	881aa, >GOB_00000000031_Solanum_robustum_Helixer_chr4_002239.1_CNL... *
+>Cluster 280
+0	881aa, >GOB_00000000033_Solanum_torvum_Helixer_chr4_000622.1_CNL... *
+>Cluster 281
+0	881aa, >GOB_00000000033_Solanum_torvum_Helixer_chr4_002402.1_CNL... *
+>Cluster 282
+0	881aa, >GOB_00000000034_Solanum_violaceum_Helixer_chr4_000463.1_CNL... *
+>Cluster 283
+0	880aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr04_hap13_v2_000492.1_CNL... *
+>Cluster 284
+0	880aa, >GOA_00000000006_Solanum_tuberosum_Helixer_chr04_hap14_v2_000051.1_CNL... *
+1	879aa, >GOA_00000000008_Solanum_tuberosum_Helixer_chr04_hap16_v2_000066.1_CNL... at 95.22%
+2	879aa, >GCA_015076265.1_Solanum_tuberosum_Helixer_CP055237.1_000069.1_CNL... at 95.22%
+3	879aa, >GCA_018258275.1_Solanum_commersonii_Helixer_JACXVP010000078.1_000006.1_CNL... at 95.68%
+4	879aa, >GCA_035578085.1_Solanum_pinnatisectum_Helixer_CM069079.1_000060.1_CNL... at 95.45%
+5	879aa, >GCA_045791845.1_Solanum_stoloniferum_Helixer_CM099228.1_000064.1_CNL... at 95.11%
+6	879aa, >GOL_00000000006_Solanum_jamesii_Helixer_PG1008_ptg0014_000589.1_CNL... at 95.22%
+7	879aa, >GOL_00000000008_Solanum_pinnatisectum_Helixer_PG1013_ptg0052_000218.1_CNL... at 95.22%
+8	879aa, >GOL_00000000011_Solanum_paucissectum_Helixer_PG3022_ptg0011_000065.1_CNL... at 96.70%
+9	879aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_ptg0068_000078.1_CNL... at 96.02%
+10	879aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_atg0098_000213.1_CNL... at 95.34%
+11	880aa, >GOL_00000000013_Solanum_burkartii_Helixer_PG4005_ptg0077_000064.1_CNL... at 96.59%
+12	879aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_ptg0002_000069.1_CNL... at 95.45%
+13	879aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_ptg0002_000070.1_CNL... at 95.68%
+14	879aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_ptg0002_000071.1_CNL... at 95.56%
+15	879aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_atg0240_000017.1_CNL... at 95.90%
+16	879aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_ptg0073_000055.1_CNL... at 96.81%
+17	879aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_000064.1_CNL... at 95.56%
+18	879aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_000066.1_CNL... at 95.45%
+19	879aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_000066.1_CNL... at 95.45%
+20	879aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr4_1_000066.1_CNL... at 95.79%
+21	879aa, >GOC_00000000012_Solanum_candolleanum_Helixer_C497_H2_chr4_2_000064.1_CNL... at 95.90%
+22	879aa, >GOC_00000000013_Solanum_candolleanum_Helixer_C462_H1_chr4_1_000045.1_CNL... at 95.79%
+23	879aa, >GOC_00000000016_Solanum_candolleanum_Helixer_C413_H2_chr4_2_000078.1_CNL... at 95.45%
+24	879aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_atg0388_000055.1_CNL... at 95.45%
+25	879aa, >GOC_00000000031_Solanum_tuberosum_Helixer_C025_H1_chr4_1_000066.1_CNL... at 95.34%
+>Cluster 285
+0	880aa, >GOS_00000000001_Capsicum_annuum_Helixer_Chr00_007145.1_CNL... *
+1	880aa, >GCA_000512255.2_Capsicum_annuum_Helixer_AYRZ02000165.1_000001.1_CNL... at 99.43%
+2	880aa, >GCA_000710875.1_Capsicum_annuum_Helixer_KL543172.1_000003.1_CNL... at 99.43%
+3	880aa, >GCA_002271885.2_Capsicum_baccatum_Helixer_CM008453.1_003693.1_CNL... at 99.09%
+4	880aa, >GCA_011745865.1_Capsicum_annuum_Helixer_VYZZ01020029.1_000001.1_CNL... at 99.20%
+5	880aa, >GCA_030864215.1_Capsicum_pubescens_Helixer_CM061548.1_003438.1_CNL... at 98.07%
+>Cluster 286
+0	880aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066018.1_000264.1_CNL... *
+1	880aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065990.1_001288.1_CNL... at 99.66%
+>Cluster 287
+0	880aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066018.1_002041.1_CNL... *
+1	880aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065990.1_000808.1_CNL... at 99.89%
+>Cluster 288
+0	880aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066023.1_000789.1_CNL... *
+1	880aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065992.1_000773.1_CNL... at 99.89%
+>Cluster 289
+0	880aa, >GCA_000393655.2_Nicotiana_sylvestris_Helixer_CM066006.1_002200.1_CNL... *
+1	880aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065994.1_000806.1_CNL... at 99.66%
+>Cluster 290
+0	880aa, >GCA_000393655.2_Nicotiana_sylvestris_Helixer_CM066011.1_001101.1_CNL... *
+1	880aa, >GCA_000715095.1_Nicotiana_tabacum_Helixer_AWOK01S128606.1_000004.1_CNL... at 98.86%
+2	880aa, >GCA_002210045.1_Nicotiana_tabacum_Helixer_NCAA01003268.1_000016.1_CNL... at 98.98%
+>Cluster 291
+0	880aa, >GCA_002271885.2_Capsicum_baccatum_Helixer_CM008443.1_003514.1_CNL... *
+1	880aa, >GCA_030864225.1_Capsicum_baccatum_Helixer_CM061550.1_001495.1_CNL... at 98.75%
+>Cluster 292
+0	880aa, >GCA_003996215.1_Jaltomata_sinuosa_Helixer_QJPP01007209.1_000045.1_CNL... *
+>Cluster 293
+0	880aa, >GCA_011745865.1_Capsicum_annuum_Helixer_VYZZ01001315.1_000001.1_CNL... *
+>Cluster 294
+0	880aa, >GCA_014182985.2_Solanum_tuberosum_Helixer_CM024426.2_003175.1_CNL... *
+1	880aa, >GCA_031230405.1_Solanum_verrucosum_Helixer_CP133615.1_003155.1_CNL... at 98.41%
+2	880aa, >GCA_045791845.1_Solanum_stoloniferum_Helixer_CM099216.1_003020.1_CNL... at 98.41%
+3	880aa, >GCF_900185275.1_Solanum_verrucosum_Helixer_NW_026020815.1_000051.1_CNL... at 98.41%
+4	878aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_ptg0001_000638.1_CNL... at 98.75%
+5	880aa, >GOC_00000000031_Solanum_tuberosum_Helixer_C025_H1_chr4_1_003107.1_CNL... at 99.89%
+>Cluster 295
+0	880aa, >GCA_018107945.1_Datura_stramonium_Helixer_JACEIK010000219.1_000008.1_CNL... *
+1	880aa, >GCA_035772735.1_Datura_wrightii_Helixer_JASDFA010000014.1_000354.1_CNL... at 99.32%
+>Cluster 296
+0	880aa, >GCA_026929995.1_Petunia_axillaris_Helixer_CM049419.1_004009.1_CNL... *
+1	880aa, >GCA_046563445.1_Petunia_x_hybrida_Helixer_CM102210.1_000637.1_CNL... at 99.77%
+>Cluster 297
+0	880aa, >GCA_026929995.1_Petunia_axillaris_Helixer_CM049424.1_000485.1_CNL... *
+>Cluster 298
+0	880aa, >GCA_029783415.1_Anisodus_acutangulus_Helixer_CM056500.1_000394.1_CNL... *
+1	880aa, >GCA_029844215.1_Przewalskia_tangutica_Helixer_CM056735.1_000997.1_CNL... at 96.93%
+2	880aa, >GCA_034509755.1_Anisodus_tanguticus_Helixer_CM067550.1_000432.1_CNL... at 99.09%
+>Cluster 299
+0	880aa, >GCA_029948455.1_Solanum_rostratum_Helixer_CM057053.1_000713.1_CNL... *
+1	880aa, >GOB_00000000007_Solanum_citrullifolium_Helixer_chr4_001719.1_CNL... at 99.09%
+>Cluster 300
+0	880aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124715.1_001562.1_CNL... *
+>Cluster 301
+0	880aa, >GCA_034376525.1_Nicotiana_benthamiana_Helixer_CM067328.1_001986.1_CNL... *
+>Cluster 302
+0	880aa, >GCA_036553675.1_Solanum_okadae_Helixer_CM071681.1_000096.1_CNL... *
+>Cluster 303
+0	880aa, >GCA_041222595.1_Solanum_tuberosum_Helixer_CM083533.1_002187.1_CNL... *
+>Cluster 304
+0	880aa, >GCA_041430385.1_Lycium_ruthenicum_Helixer_CM084482.1_001641.1_CNL... *
+1	880aa, >GCF_019175385.1_Lycium_barbarum_Helixer_NC_083341.1_001745.1_CNL... at 98.41%
+2	880aa, >GCF_029784015.1_Lycium_ferocissimum_Helixer_NC_081349.1_002193.1_CNL... at 97.50%
+>Cluster 305
+0	880aa, >GCA_046563305.1_Solanum_acaule_Helixer_CM102190.1_000066.1_CNL... *
+1	880aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr4_1_000067.1_CNL... at 98.86%
+2	880aa, >GOC_00000000016_Solanum_candolleanum_Helixer_C413_H2_chr4_2_000079.1_CNL... at 99.09%
+3	880aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_ptg0010_000707.1_CNL... at 99.77%
+4	880aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_atg0164_000011.1_CNL... at 99.66%
+>Cluster 306
+0	880aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176032.1_001950.1_CNL... *
+>Cluster 307
+0	880aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NC_064283.1_001659.1_CNL... *
+>Cluster 308
+0	868aa, >GOS_00000000002_Solanum_melongena_Helixer_11_002044.1_CNL... at 96.77%
+1	880aa, >GWHCAWW00000000_Solanum_melongena_Helixer_GWHCAWW00000001_000471.1_CNL... *
+2	880aa, >GOB_00000000012_Solanum_insanum_Helixer_chr7_000421.1_CNL... at 98.30%
+>Cluster 309
+0	880aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_ptg0068_000082.1_CNL... *
+1	880aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_atg0098_000215.1_CNL... at 99.20%
+2	879aa, >GOL_00000000015_Solanum_sogarandinum_Helixer_PG4032_ptg0030_000163.1_CNL... at 95.79%
+>Cluster 310
+0	879aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr04_hap13_v2_000060.1_CNL... at 96.81%
+1	879aa, >GOA_00000000003_Solanum_tuberosum_Helixer_chr04_hap14_v2_000061.1_CNL... at 95.56%
+2	879aa, >GOA_00000000008_Solanum_tuberosum_Helixer_chr04_hap16_v2_000061.1_CNL... at 96.93%
+3	879aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_chr04_000059.1_CNL... at 97.16%
+4	879aa, >GOA_00000000012_Solanum_tuberosum_Helixer_chr04_hap16_v2_000073.1_CNL... at 96.59%
+5	879aa, >GOA_00000000014_Solanum_tuberosum_Helixer_chr04_hap14_v2_000061.1_CNL... at 96.70%
+6	879aa, >GOA_00000000024_Solanum_tuberosum_Helixer_chr04_hap16_v2_000060.1_CNL... at 97.16%
+7	879aa, >GCA_018258275.1_Solanum_commersonii_Helixer_CM031109.1_000060.1_CNL... at 96.81%
+8	879aa, >GCA_036553645.1_Solanum_okadae_Helixer_CM071693.1_000085.1_CNL... at 97.27%
+9	879aa, >GCA_036553675.1_Solanum_okadae_Helixer_CM071681.1_000075.1_CNL... at 96.59%
+10	879aa, >GCA_041222595.1_Solanum_tuberosum_Helixer_CM083533.1_002185.1_CNL... at 95.45%
+11	879aa, >GCA_045791845.1_Solanum_stoloniferum_Helixer_CM099216.1_000067.1_CNL... at 97.16%
+12	879aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NC_064283.1_001658.1_CNL... at 96.70%
+13	879aa, >GOA_00000000027_Solanum_tuberosum_Helixer_chr04_hap15_v2_000060.1_CNL... at 95.68%
+14	879aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_ptg0029_000606.1_CNL... at 96.02%
+15	879aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_atg0244_000062.1_CNL... at 95.90%
+16	880aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_ptg0066_000708.1_CNL... *
+17	879aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_atg0091_000060.1_CNL... at 100.00%
+18	879aa, >GOL_00000000015_Solanum_sogarandinum_Helixer_PG4032_ptg0030_000157.1_CNL... at 96.25%
+19	879aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_ptg0017_000488.1_CNL... at 96.36%
+20	879aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_ptg0017_000473.1_CNL... at 97.84%
+21	879aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_atg0171_000065.1_CNL... at 96.81%
+22	879aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0007_000731.1_CNL... at 96.70%
+23	879aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0040_000754.1_CNL... at 96.81%
+24	879aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_atg0046_000184.1_CNL... at 97.16%
+25	879aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_ptg0007_000730.1_CNL... at 95.45%
+26	879aa, >GOL_00000000021_Solanum_candolleanum_Helixer_PG5003_ptg0022_000488.1_CNL... at 95.34%
+27	879aa, >GOL_00000000021_Solanum_candolleanum_Helixer_PG5003_atg0249_000026.1_CNL... at 95.68%
+28	879aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_ptg0103_000065.1_CNL... at 95.56%
+29	862aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_000071.1_CNL... at 95.48%
+30	863aa, >GOC_00000000015_Solanum_candolleanum_Helixer_C413_H1_chr4_1_000065.1_CNL... at 95.48%
+31	879aa, >GOC_00000000015_Solanum_candolleanum_Helixer_C413_H1_chr4_1_000070.1_CNL... at 96.70%
+32	879aa, >GOC_00000000015_Solanum_candolleanum_Helixer_C413_H1_chr4_1_000082.1_CNL... at 95.90%
+33	879aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_chr04_003335.1_CNL... at 95.68%
+34	879aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_ptg0001_000812.1_CNL... at 96.70%
+35	879aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_atg0912_000001.1_CNL... at 96.93%
+36	879aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0058_000544.1_CNL... at 97.38%
+37	879aa, >GOL_00000000031_Solanum_tuberosum_Helixer_PG6090_atg0297_000068.1_CNL... at 95.79%
+38	879aa, >GOC_00000000038_Solanum_tuberosum_Helixer_C027_H2_chr4_2_000070.1_CNL... at 96.25%
+39	879aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_ptg0002_000062.1_CNL... at 96.59%
+40	879aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0008_000340.1_CNL... at 97.04%
+41	879aa, >GOA_00000000034_Solanum_tuberosum_Helixer_chr04_hap14_v2_000075.1_CNL... at 96.02%
+>Cluster 311
+0	880aa, >GOB_00000000002_Physalis_grisea_Helixer_chr2_001703.1_CNL... *
+>Cluster 312
+0	880aa, >GOB_00000000002_Physalis_grisea_Helixer_chr4_001191.1_CNL... *
+>Cluster 313
+0	880aa, >GOB_00000000003_Solanum_aethiopicum_Helixer_chr7_002601.1_CNL... *
+1	880aa, >GOB_00000000013_Solanum_linnaeanum_Helixer_chr4_000477.1_CNL... at 96.36%
+2	880aa, >GOB_00000000015_Solanum_macrocarpon_Helixer_chr4_002102.1_CNL... at 95.34%
+3	880aa, >GOB_00000000015_Solanum_macrocarpon_Helixer_chr4_002101.1_CNL... at 97.05%
+4	880aa, >GOB_00000000034_Solanum_violaceum_Helixer_chr4_001971.1_CNL... at 95.34%
+>Cluster 314
+0	879aa, >GWHCAWW00000000_Solanum_melongena_Helixer_GWHCAWW00000001_002221.1_CNL... at 95.68%
+1	880aa, >GOB_00000000008_Solanum_cleistogamum_Helixer_chr4_000391.1_CNL... *
+2	879aa, >GOB_00000000012_Solanum_insanum_Helixer_chr7_002579.1_CNL... at 95.68%
+3	880aa, >GOB_00000000013_Solanum_linnaeanum_Helixer_chr4_002138.1_CNL... at 95.11%
+4	880aa, >GOB_00000000028_Solanum_prinophyllum_Helixer_chr4_001923.1_CNL... at 96.70%
+>Cluster 315
+0	880aa, >GOB_00000000010_Solanum_giganteum_Helixer_chr4_001917.1_CNL... *
+>Cluster 316
+0	880aa, >GOB_00000000010_Solanum_giganteum_Helixer_chr4_001916.1_CNL... *
+>Cluster 317
+0	879aa, >GOA_00000000006_Solanum_tuberosum_Helixer_chr04_hap14_v2_000053.1_CNL... *
+1	876aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_ptg0029_000607.1_CNL... at 95.43%
+>Cluster 318
+0	879aa, >GOZ_00000000001_Solanum_pimpinellifolium_Helixer_4_000064.1_CNL... *
+1	879aa, >GOZ_00000000002_Solanum_lycopersicum_Helixer_4_000131.1_CNL... at 99.89%
+2	879aa, >GOZ_00000000006_Solanum_lycopersicum_Helixer_4_000083.1_CNL... at 99.89%
+3	879aa, >GCA_014964335.1_Solanum_pimpinellifolium_Helixer_CM026538.1_000075.1_CNL... at 99.77%
+4	879aa, >GCA_025758855.1_Solanum_pimpinellifolium_Helixer_CM047048.1_000070.1_CNL... at 99.66%
+5	879aa, >GCA_025758865.1_Solanum_pimpinellifolium_Helixer_CM047072.1_000070.1_CNL... at 99.77%
+6	879aa, >GCA_025759355.1_Solanum_pimpinellifolium_Helixer_CM047096.1_000067.1_CNL... at 99.89%
+7	879aa, >GCA_027704765.1_Solanum_habrochaites_Helixer_JAKWJA010002492.1_000062.1_CNL... at 98.52%
+8	873aa, >GCA_027705065.1_Solanum_peruvianum_Helixer_JAKWJD010001758.1_000054.1_CNL... at 97.59%
+9	879aa, >GCA_027789145.1_Solanum_arcanum_Helixer_CM050936.1_002803.1_CNL... at 99.09%
+10	879aa, >GCF_001406875.1_Solanum_pennellii_Helixer_NC_028640.1_000058.1_CNL... at 98.52%
+>Cluster 319
+0	879aa, >GOA_00000000009_Solanum_tuberosum_Helixer_chr04_hap13_v2_000061.1_CNL... *
+1	879aa, >GOA_00000000016_Solanum_tuberosum_Helixer_chr04_hap16_v2_000064.1_CNL... at 99.89%
+2	879aa, >GCA_046563305.1_Solanum_acaule_Helixer_CM102190.1_000065.1_CNL... at 96.59%
+3	879aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_atg0320_000066.1_CNL... at 95.90%
+4	879aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_ptg0010_000705.1_CNL... at 98.29%
+5	879aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_atg0164_000010.1_CNL... at 97.04%
+>Cluster 320
+0	879aa, >GCA_009827155.1_Solanum_tuberosum_Helixer_CP046685.1_000054.1_CNL... *
+1	879aa, >GCA_009827175.1_Solanum_tuberosum_Helixer_CP046699.1_000054.1_CNL... at 96.59%
+2	862aa, >GCA_010127505.1_Solanum_tuberosum_Helixer_CM020972.1_000056.1_CNL... at 95.13%
+>Cluster 321
+0	879aa, >GCA_009887355.1_Solanum_pinnatisectum_Helixer_CP047561.1_000049.1_CNL... *
+1	879aa, >GCA_037074985.1_Solanum_bulbocastanum_Helixer_CM073600.1_000064.1_CNL... at 96.13%
+2	878aa, >GOL_00000000006_Solanum_jamesii_Helixer_PG1008_ptg0014_000590.1_CNL... at 95.79%
+3	879aa, >GOL_00000000037_Solanum_bulbocastanum_Helixer_PG6241_ptg0022_000060.1_CNL... at 96.13%
+>Cluster 322
+0	879aa, >GCA_022817965.1_Solanum_lycopersicoides_Helixer_CM040621.1_000132.1_CNL... *
+>Cluster 323
+0	879aa, >GCA_029783415.1_Anisodus_acutangulus_Helixer_CM056493.1_001557.1_CNL... *
+>Cluster 324
+0	879aa, >GCA_030407365.1_Solanum_americanum_Helixer_CM059532.1_001129.1_CNL... *
+1	879aa, >GCA_030407385.1_Solanum_americanum_Helixer_CM059544.1_000967.1_CNL... at 96.93%
+2	879aa, >GCA_030463325.1_Solanum_americanum_Helixer_CM059889.1_000947.1_CNL... at 98.29%
+3	879aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176017.1_002401.1_CNL... at 98.29%
+4	879aa, >GOL_00000000004_Solanum_americanum_Helixer_utg1245_000004.1_CNL... at 99.89%
+>Cluster 325
+0	879aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124709.1_001340.1_CNL... *
+>Cluster 326
+0	879aa, >GCA_036553675.1_Solanum_okadae_Helixer_CM071681.1_000083.1_CNL... *
+1	879aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_ptg0017_000483.1_CNL... at 99.66%
+>Cluster 327
+0	879aa, >GCA_041222595.1_Solanum_tuberosum_Helixer_CM083533.1_002195.1_CNL... *
+>Cluster 328
+0	879aa, >GCF_947179165.1_Solanum_dulcamara_Helixer_NC_077246.1_001327.1_CNL... *
+>Cluster 329
+0	879aa, >GWHCAWW00000000_Solanum_melongena_Helixer_GWHCAWW00000001_002219.1_CNL... *
+1	879aa, >GOB_00000000012_Solanum_insanum_Helixer_chr7_002577.1_CNL... at 99.66%
+>Cluster 330
+0	879aa, >GOL_00000000004_Solanum_palustre_Helixer_PG0009_tig00065009_000354.1_CNL... *
+>Cluster 331
+0	879aa, >GOL_00000000006_Solanum_jamesii_Helixer_PG1008_ptg0014_000588.1_CNL... *
+>Cluster 332
+0	879aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_ptg0014_000074.1_CNL... *
+1	878aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_atg0024_000062.1_CNL... at 98.52%
+>Cluster 333
+0	879aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_atg0024_000068.1_CNL... *
+>Cluster 334
+0	879aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_atg0024_000070.1_CNL... *
+>Cluster 335
+0	879aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_ptg0068_000079.1_CNL... *
+>Cluster 336
+0	879aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr4_1_000063.1_CNL... *
+1	862aa, >GOC_00000000016_Solanum_candolleanum_Helixer_C413_H2_chr4_2_000073.1_CNL... at 97.56%
+2	879aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_ptg0010_000701.1_CNL... at 96.81%
+>Cluster 337
+0	864aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_ptg0010_000708.1_CNL... at 98.50%
+1	879aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_atg0164_000013.1_CNL... *
+2	879aa, >GOC_00000000017_Solanum_candolleanum_Helixer_C574_H1_chr4_1_000072.1_CNL... at 98.07%
+3	879aa, >GOC_00000000018_Solanum_candolleanum_Helixer_C574_H2_chr4_2_000071.1_CNL... at 98.75%
+>Cluster 338
+0	879aa, >GOC_00000000021_Solanum_candolleanum_Helixer_C422_H1_chr4_1_000079.1_CNL... *
+>Cluster 339
+0	879aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0058_000543.1_CNL... *
+>Cluster 340
+0	879aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_ptg0002_000063.1_CNL... *
+>Cluster 341
+0	879aa, >GOB_00000000001_Solanum_abutiloides_Helixer_chr4_002184.1_CNL... *
+>Cluster 342
+0	879aa, >GOB_00000000007_Solanum_citrullifolium_Helixer_chr4_000371.1_CNL... *
+>Cluster 343
+0	879aa, >GOB_00000000015_Solanum_macrocarpon_Helixer_chr4_000530.1_CNL... *
+>Cluster 344
+0	879aa, >GOB_00000000031_Solanum_robustum_Helixer_chr7_000593.1_CNL... *
+>Cluster 345
+0	879aa, >GOB_00000000033_Solanum_torvum_Helixer_chr4_000624.1_CNL... *
+>Cluster 346
+0	878aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124715.1_001786.1_CNL... *
+>Cluster 347
+0	878aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124715.1_000985.1_CNL... *
+>Cluster 348
+0	878aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176020.1_000972.1_CNL... *
+>Cluster 349
+0	878aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_ptg0014_001105.1_CNL... *
+>Cluster 350
+0	878aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_atg0024_000063.1_CNL... *
+>Cluster 351
+0	873aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr03_hap9_v2_000043.1_CNL... at 96.68%
+1	874aa, >GOA_00000000005_Solanum_tuberosum_Helixer_chr03_hap9_v2_000037.1_CNL... at 96.68%
+2	875aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_chr03_000035.1_CNL... at 98.86%
+3	867aa, >GOA_00000000011_Solanum_tuberosum_Helixer_chr03_hap11_v2_000250.1_CNL... at 96.19%
+4	874aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NC_064284.1_001980.1_CNL... at 97.03%
+5	874aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0022_000366.1_CNL... at 97.14%
+6	874aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_atg0106_000224.1_CNL... at 97.14%
+7	873aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0015_000317.1_CNL... at 96.68%
+8	875aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_atg0259_000046.1_CNL... at 97.14%
+9	874aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_ptg0017_001733.1_CNL... at 96.34%
+10	874aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_atg0098_000024.1_CNL... at 96.22%
+11	874aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr3_1_000036.1_CNL... at 96.68%
+12	875aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr3_1_000040.1_CNL... at 96.69%
+13	875aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr3_1_000044.1_CNL... at 97.14%
+14	875aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr3_1_000047.1_CNL... at 97.14%
+15	875aa, >GOC_00000000013_Solanum_candolleanum_Helixer_C462_H1_chr3_1_000035.1_CNL... at 99.09%
+16	875aa, >GOC_00000000014_Solanum_candolleanum_Helixer_C462_H2_chr3_2_000041.1_CNL... at 96.69%
+17	875aa, >GOC_00000000014_Solanum_candolleanum_Helixer_C462_H2_chr3_2_000044.1_CNL... at 96.80%
+18	875aa, >GOC_00000000014_Solanum_candolleanum_Helixer_C462_H2_chr3_2_000048.1_CNL... at 97.03%
+19	878aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_ptg0031_000381.1_CNL... *
+20	875aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_atg0355_000219.1_CNL... at 98.63%
+21	875aa, >GOC_00000000017_Solanum_candolleanum_Helixer_C574_H1_chr3_1_000037.1_CNL... at 100.00%
+22	875aa, >GOC_00000000022_Solanum_candolleanum_Helixer_C422_H2_chr3_2_000039.1_CNL... at 98.97%
+23	875aa, >GOC_00000000024_Solanum_candolleanum_Helixer_C423_H2_chr3_2_000035.1_CNL... at 98.97%
+24	874aa, >GOL_00000000034_Solanum_tuberosum_Helixer_PG6169_hptg0034_000333.1_CNL... at 97.48%
+25	874aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0024_000034.1_CNL... at 95.88%
+>Cluster 352
+0	878aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_atg0164_000012.1_NL... *
+>Cluster 353
+0	878aa, >GOL_00000000042_Solanum_tuberosum_Helixer_PG6246_ptg0051_000507.1_CNL... *
+>Cluster 354
+0	878aa, >GOB_00000000011_Solanum_havanense_Helixer_chr4_000391.1_CNL... *
+>Cluster 355
+0	878aa, >GOB_00000000018_Solanum_muricatum_Helixer_chr4_002408.1_CNL... *
+>Cluster 356
+0	877aa, >GCA_003996215.1_Jaltomata_sinuosa_Helixer_QJPP01001184.1_000001.1_CNL... *
+>Cluster 357
+0	873aa, >GOA_00000000008_Solanum_tuberosum_Helixer_chr04_hap16_v2_000069.1_CNL... at 97.71%
+1	873aa, >GOA_00000000012_Solanum_tuberosum_Helixer_chr04_hap16_v2_000089.1_CNL... at 97.37%
+2	877aa, >GCA_020169585.1_Solanum_tuberosum_Helixer_CM034979.1_000071.1_CNL... *
+3	868aa, >GCA_041222595.1_Solanum_tuberosum_Helixer_CM083534.1_001807.1_CNL... at 99.88%
+4	873aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_ptg0073_000057.1_CNL... at 98.63%
+5	873aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_ptg0073_000058.1_CNL... at 98.05%
+6	873aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_atg0923_000019.1_CNL... at 98.40%
+7	873aa, >GOC_00000000016_Solanum_candolleanum_Helixer_C413_H2_chr4_2_000096.1_CNL... at 97.25%
+8	873aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_atg0164_000015.1_CNL... at 97.14%
+9	873aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_ptg0001_000822.1_CNL... at 97.48%
+>Cluster 358
+0	877aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124715.1_001119.1_CNL... *
+>Cluster 359
+0	877aa, >GCA_037074985.1_Solanum_bulbocastanum_Helixer_CM073600.1_000063.1_CNL... *
+>Cluster 360
+0	877aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_atg0098_000068.1_NL... *
+>Cluster 361
+0	877aa, >GOB_00000000001_Solanum_abutiloides_Helixer_chr4_002182.1_CNL... *
+>Cluster 362
+0	876aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM066002.1_000115.1_CNL... *
+1	876aa, >GCA_000715095.1_Nicotiana_tabacum_Helixer_AWOK01S049937.1_000001.1_CNL... at 99.89%
+2	876aa, >GCF_000715135.1_Nicotiana_tabacum_Helixer_NW_015936229.1_000001.1_CNL... at 99.77%
+>Cluster 363
+0	876aa, >GCA_000715095.1_Nicotiana_tabacum_Helixer_AWOK01S643190.1_000001.1_CNL... *
+>Cluster 364
+0	876aa, >GCA_003996215.1_Jaltomata_sinuosa_Helixer_QJPP01001675.1_000011.1_CNL... *
+>Cluster 365
+0	876aa, >GCA_029948455.1_Solanum_rostratum_Helixer_CM057053.1_001490.1_CNL... *
+1	876aa, >GOB_00000000006_Solanum_candidum_Helixer_chr4_001948.1_CNL... at 97.37%
+2	876aa, >GOB_00000000007_Solanum_citrullifolium_Helixer_chr4_000373.1_CNL... at 98.86%
+3	876aa, >GOB_00000000016_Solanum_mammosum_Helixer_chr4_003123.1_CNL... at 96.12%
+4	876aa, >GOB_00000000029_Solanum_pseudolulo_Helixer_chr4_000489.1_CNL... at 97.49%
+5	876aa, >GOB_00000000031_Solanum_robustum_Helixer_chr4_000551.1_CNL... at 97.03%
+6	876aa, >GOB_00000000032_Solanum_stramoniifolium_Helixer_chr4_001981.1_CNL... at 97.03%
+7	876aa, >GOB_00000000032_Solanum_stramoniifolium_Helixer_chr4_000467.1_CNL... at 97.15%
+8	876aa, >GOB_00000000033_Solanum_torvum_Helixer_chr4_000625.1_CNL... at 96.80%
+>Cluster 366
+0	876aa, >GCA_041430385.1_Lycium_ruthenicum_Helixer_CM084482.1_001357.1_CNL... *
+1	876aa, >GCF_029784015.1_Lycium_ferocissimum_Helixer_NC_081349.1_000611.1_CNL... at 96.58%
+>Cluster 367
+0	876aa, >GCF_029784015.1_Lycium_ferocissimum_Helixer_NC_081350.1_001632.1_CNL... *
+>Cluster 368
+0	876aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_atg0240_000011.1_CNL... *
+1	874aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0058_000537.1_CNL... at 95.77%
+>Cluster 369
+0	874aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_hptg0064_000067.1_CNL... at 100.00%
+1	873aa, >GOA_00000000012_Solanum_tuberosum_Helixer_chr04_hap16_v2_000074.1_CNL... at 95.76%
+2	873aa, >GOA_00000000012_Solanum_tuberosum_Helixer_chr04_hap16_v2_000079.1_CNL... at 95.65%
+3	873aa, >GCA_036553675.1_Solanum_okadae_Helixer_CM071681.1_000091.1_CNL... at 95.88%
+4	876aa, >GOC_00000000030_Solanum_tuberosum_Helixer_C005_H2_chr4_2_000068.1_CNL... *
+>Cluster 370
+0	876aa, >GOB_00000000001_Solanum_abutiloides_Helixer_chr4_000453.1_CNL... *
+>Cluster 371
+0	875aa, >GCA_018258275.1_Solanum_commersonii_Helixer_CM031109.1_003105.1_CNL... *
+>Cluster 372
+0	875aa, >GCA_030407365.1_Solanum_americanum_Helixer_CM059522.1_001160.1_CNL... *
+1	875aa, >GCA_030407385.1_Solanum_americanum_Helixer_CM059534.1_001093.1_CNL... at 99.89%
+2	875aa, >GCA_030463325.1_Solanum_americanum_Helixer_CM059879.1_001165.1_CNL... at 99.89%
+3	875aa, >GCA_035772555.1_Solanum_americanum_Helixer_CM069614.1_003249.1_CNL... at 99.77%
+4	875aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176018.1_003038.1_CNL... at 97.94%
+>Cluster 373
+0	875aa, >GCA_034509755.1_Anisodus_tanguticus_Helixer_CM067543.1_000727.1_CNL... *
+>Cluster 374
+0	865aa, >GCA_036553645.1_Solanum_okadae_Helixer_CM071693.1_000187.1_CNL... at 96.99%
+1	875aa, >GCA_046563305.1_Solanum_acaule_Helixer_CM102190.1_000164.1_CNL... *
+2	852aa, >GOC_00000000008_Solanum_candolleanum_Helixer_C399_H2_chr4_2_000156.1_CNL... at 95.07%
+3	875aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_chr04_003454.1_CNL... at 97.94%
+>Cluster 375
+0	874aa, >GCA_037074985.1_Solanum_bulbocastanum_Helixer_CM073599.1_000034.1_CNL... at 96.91%
+1	874aa, >GCA_045791845.1_Solanum_stoloniferum_Helixer_CM099227.1_000037.1_CNL... at 96.57%
+2	874aa, >GOL_00000000006_Solanum_jamesii_Helixer_PG1008_ptg0025_000034.1_CNL... at 95.42%
+3	875aa, >GOL_00000000008_Solanum_pinnatisectum_Helixer_PG1013_ptg0026_000343.1_CNL... *
+4	874aa, >GOL_00000000037_Solanum_bulbocastanum_Helixer_PG6241_ptg0010_000346.1_CNL... at 96.68%
+>Cluster 376
+0	875aa, >GOL_00000000013_Solanum_burkartii_Helixer_PG4005_ptg0077_000066.1_CNL... *
+>Cluster 377
+0	873aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr04_hap13_v2_000062.1_CNL... at 96.11%
+1	873aa, >GOA_00000000024_Solanum_tuberosum_Helixer_chr04_hap16_v2_000063.1_CNL... at 95.30%
+2	865aa, >GOA_00000000024_Solanum_tuberosum_Helixer_chr04_hap16_v2_000067.1_CNL... at 95.14%
+3	873aa, >GCA_014182985.2_Solanum_tuberosum_Helixer_CM024426.2_000062.1_CNL... at 96.33%
+4	873aa, >GCA_014182985.2_Solanum_tuberosum_Helixer_CM024426.2_000066.1_CNL... at 95.19%
+5	873aa, >GCA_020169555.1_Solanum_tuberosum_Helixer_CM035015.1_000063.1_CNL... at 95.30%
+6	873aa, >GCA_036553645.1_Solanum_okadae_Helixer_CM071693.1_000093.1_CNL... at 95.19%
+7	873aa, >GCA_036553675.1_Solanum_okadae_Helixer_CM071681.1_000080.1_CNL... at 95.19%
+8	873aa, >GCF_900185275.1_Solanum_verrucosum_Helixer_NW_026020618.1_000001.1_CNL... at 95.53%
+9	873aa, >GOL_00000000011_Solanum_paucissectum_Helixer_PG3022_ptg0011_000066.1_CNL... at 95.53%
+10	875aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_ptg0066_000713.1_CNL... *
+11	873aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_atg0171_000070.1_CNL... at 95.19%
+12	873aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0040_000755.1_CNL... at 95.07%
+13	873aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_atg0012_000123.1_CNL... at 95.19%
+14	873aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_ptg0103_000066.1_CNL... at 96.22%
+15	873aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_ptg0073_000056.1_CNL... at 95.53%
+16	873aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_atg0923_000018.1_CNL... at 95.53%
+17	873aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_000077.1_CNL... at 96.33%
+18	873aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr4_1_000085.1_CNL... at 95.07%
+19	873aa, >GOC_00000000012_Solanum_candolleanum_Helixer_C497_H2_chr4_2_000077.1_CNL... at 96.22%
+20	873aa, >GOC_00000000016_Solanum_candolleanum_Helixer_C413_H2_chr4_2_000094.1_CNL... at 95.07%
+21	873aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_ptg0001_000824.1_CNL... at 95.19%
+22	873aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0008_000341.1_CNL... at 95.30%
+23	875aa, >GOL_00000000040_Solanum_tuberosum_Helixer_PG6244_atg0219_000023.1_CNL... at 97.94%
+24	875aa, >GOL_00000000040_Solanum_tuberosum_Helixer_PG6244_atg0219_000021.1_CNL... at 95.77%
+>Cluster 378
+0	875aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_atg0171_000074.1_CNL... *
+>Cluster 379
+0	873aa, >GOA_00000000008_Solanum_tuberosum_Helixer_chr04_hap16_v2_000067.1_CNL... at 96.11%
+1	873aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_chr04_000060.1_CNL... at 95.88%
+2	873aa, >GCA_018258275.1_Solanum_commersonii_Helixer_CM031109.1_000064.1_CNL... at 96.11%
+3	873aa, >GCA_020169555.1_Solanum_tuberosum_Helixer_CM035015.1_000060.1_CNL... at 95.53%
+4	873aa, >GCA_041222595.1_Solanum_tuberosum_Helixer_CM083533.1_002194.1_CNL... at 95.30%
+5	873aa, >GCA_046563305.1_Solanum_acaule_Helixer_CM102190.1_000070.1_CNL... at 95.42%
+6	861aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_ptg0068_000085.1_CNL... at 96.52%
+7	873aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_ptg0017_000489.1_CNL... at 95.65%
+8	874aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0007_000745.1_CNL... at 95.08%
+9	875aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0007_000734.1_CNL... *
+10	873aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0040_000762.1_CNL... at 96.45%
+11	873aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_ptg0002_000072.1_CNL... at 96.11%
+12	873aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_000091.1_CNL... at 95.65%
+13	873aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_atg0164_000014.1_CNL... at 95.88%
+14	875aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0058_000560.1_CNL... at 95.20%
+15	873aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0008_000346.1_CNL... at 95.99%
+>Cluster 380
+0	873aa, >GOA_00000000012_Solanum_tuberosum_Helixer_chr04_hap16_v2_000091.1_CNL... at 96.22%
+1	875aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_chr04_003339.1_CNL... *
+2	873aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0058_000551.1_CNL... at 97.25%
+3	875aa, >GOC_00000000031_Solanum_tuberosum_Helixer_C025_H1_chr4_1_000067.1_CNL... at 99.31%
+>Cluster 381
+0	875aa, >GOC_00000000022_Solanum_candolleanum_Helixer_C422_H2_chr4_2_000071.1_CNL... *
+>Cluster 382
+0	873aa, >GOA_00000000006_Solanum_tuberosum_Helixer_chr04_hap14_v2_000056.1_CNL... at 98.40%
+1	873aa, >GCA_031230405.1_Solanum_verrucosum_Helixer_CP133615.1_000068.1_CNL... at 95.88%
+2	874aa, >GOL_00000000013_Solanum_burkartii_Helixer_PG4005_ptg0077_000068.1_CNL... at 95.54%
+3	873aa, >GOL_00000000015_Solanum_sogarandinum_Helixer_PG4032_ptg0030_000166.1_CNL... at 99.43%
+4	873aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_atg0240_000020.1_CNL... at 95.65%
+5	873aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_ptg0002_000065.1_CNL... at 99.77%
+6	875aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_atg0064_000001.1_CNL... *
+>Cluster 383
+0	875aa, >GOB_00000000002_Physalis_grisea_Helixer_chr2_001704.1_CNL... *
+>Cluster 384
+0	875aa, >GOB_00000000031_Solanum_robustum_Helixer_chr4_000547.1_CNL... *
+>Cluster 385
+0	874aa, >GOA_00000000009_Solanum_tuberosum_Helixer_chr04_hap13_v2_000064.1_CNL... *
+1	874aa, >GOA_00000000016_Solanum_tuberosum_Helixer_chr04_hap16_v2_000067.1_CNL... at 99.89%
+2	874aa, >GCA_015076265.1_Solanum_tuberosum_Helixer_CP055237.1_000074.1_CNL... at 99.77%
+3	874aa, >GCA_036553675.1_Solanum_okadae_Helixer_CM071681.1_000099.1_CNL... at 98.05%
+4	874aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NC_064283.1_001661.1_CNL... at 98.51%
+5	874aa, >GOA_00000000027_Solanum_tuberosum_Helixer_chr04_hap15_v2_000069.1_CNL... at 98.63%
+6	874aa, >GOA_00000000027_Solanum_tuberosum_Helixer_chr04_hap15_v2_000070.1_CNL... at 98.86%
+7	874aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_000092.1_CNL... at 98.51%
+8	874aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr4_1_000070.1_CNL... at 99.54%
+9	874aa, >GOC_00000000013_Solanum_candolleanum_Helixer_C462_H1_chr4_1_000050.1_CNL... at 98.28%
+10	873aa, >GOC_00000000016_Solanum_candolleanum_Helixer_C413_H2_chr4_2_000089.1_CNL... at 95.07%
+11	874aa, >GOC_00000000022_Solanum_candolleanum_Helixer_C422_H2_chr4_2_000081.1_CNL... at 96.34%
+12	874aa, >GOC_00000000024_Solanum_candolleanum_Helixer_C423_H2_chr4_2_000069.1_CNL... at 99.66%
+>Cluster 386
+0	874aa, >GCA_003996215.1_Jaltomata_sinuosa_Helixer_QJPP01005693.1_000001.1_CNL... *
+>Cluster 387
+0	874aa, >GCA_018258275.1_Solanum_commersonii_Helixer_CM031110.1_000158.1_CNL... *
+>Cluster 388
+0	873aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_hptg0064_000072.1_CNL... at 95.88%
+1	873aa, >GOA_00000000012_Solanum_tuberosum_Helixer_chr04_hap16_v2_000078.1_CNL... at 95.42%
+2	873aa, >GOA_00000000012_Solanum_tuberosum_Helixer_chr04_hap16_v2_000083.1_CNL... at 95.30%
+3	873aa, >GOA_00000000012_Solanum_tuberosum_Helixer_chr04_hap16_v2_000087.1_CNL... at 95.76%
+4	873aa, >GOA_00000000016_Solanum_tuberosum_Helixer_chr04_hap16_v2_000072.1_CNL... at 95.42%
+5	873aa, >GCA_018258275.1_Solanum_commersonii_Helixer_CM031109.1_000061.1_CNL... at 95.99%
+6	874aa, >GCA_036553675.1_Solanum_okadae_Helixer_CM071681.1_000101.1_CNL... *
+7	873aa, >GCA_045791845.1_Solanum_stoloniferum_Helixer_CM099216.1_000068.1_CNL... at 95.88%
+8	873aa, >GOA_00000000027_Solanum_tuberosum_Helixer_chr04_hap15_v2_000064.1_CNL... at 95.30%
+9	873aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_ptg0007_000739.1_CNL... at 96.68%
+10	873aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_atg0320_000077.1_CNL... at 96.56%
+11	873aa, >GOL_00000000021_Solanum_candolleanum_Helixer_PG5003_ptg0022_000490.1_CNL... at 95.30%
+12	873aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_000086.1_CNL... at 95.19%
+13	873aa, >GOC_00000000012_Solanum_candolleanum_Helixer_C497_H2_chr4_2_000074.1_CNL... at 95.99%
+14	873aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_ptg0010_000709.1_CNL... at 95.53%
+15	873aa, >GOL_00000000029_Solanum_tuberosum_Helixer_PG6055_ptg0028_000073.1_CNL... at 95.99%
+>Cluster 389
+0	874aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_ptg0025_000350.1_CNL... *
+1	874aa, >GOL_00000000013_Solanum_burkartii_Helixer_PG4005_ptg0033_000035.1_CNL... at 95.08%
+2	874aa, >GOL_00000000015_Solanum_sogarandinum_Helixer_PG4032_ptg0009_000032.1_CNL... at 95.31%
+3	874aa, >GOL_00000000015_Solanum_sogarandinum_Helixer_PG4032_atg0212_000034.1_CNL... at 95.88%
+4	874aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_ptg0045_000038.1_CNL... at 95.08%
+>Cluster 390
+0	874aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_ptg0075_000365.1_CNL... *
+1	873aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_ptg0040_000038.1_CNL... at 96.11%
+>Cluster 391
+0	874aa, >GOL_00000000021_Solanum_candolleanum_Helixer_PG5003_atg1221_000003.1_CNL... *
+>Cluster 392
+0	874aa, >GOC_00000000016_Solanum_candolleanum_Helixer_C413_H2_chr4_2_000088.1_CNL... *
+>Cluster 393
+0	874aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_hptg0058_000188.1_CNL... *
+>Cluster 394
+0	874aa, >GOB_00000000018_Solanum_muricatum_Helixer_chr4_002409.1_CNL... *
+>Cluster 395
+0	873aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr04_hap13_v2_000064.1_CNL... *
+1	873aa, >GOL_00000000031_Solanum_tuberosum_Helixer_PG6090_atg0297_000079.1_CNL... at 97.94%
+>Cluster 396
+0	873aa, >GOA_00000000003_Solanum_tuberosum_Helixer_chr04_hap14_v2_000064.1_CNL... *
+1	873aa, >GOC_00000000021_Solanum_candolleanum_Helixer_C422_H1_chr4_1_000068.1_CNL... at 99.43%
+>Cluster 397
+0	873aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_hptg0064_000064.1_CNL... *
+1	873aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_ptg0007_000731.1_CNL... at 95.19%
+2	873aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_002470.1_CNL... at 95.19%
+3	873aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_002525.1_CNL... at 95.30%
+4	873aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_ptg0001_000813.1_CNL... at 95.07%
+5	873aa, >GOC_00000000021_Solanum_candolleanum_Helixer_C422_H1_chr4_1_000073.1_CNL... at 97.02%
+>Cluster 398
+0	873aa, >GOA_00000000009_Solanum_tuberosum_Helixer_chr04_hap13_v2_000062.1_CNL... *
+1	856aa, >GCA_014189475.1_Solanum_tuberosum_Helixer_CM024744.1_000136.1_CNL... at 97.66%
+2	873aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_atg0098_000222.1_CNL... at 96.68%
+3	873aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0007_000732.1_CNL... at 97.48%
+4	873aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_000067.1_CNL... at 98.17%
+5	873aa, >GOC_00000000013_Solanum_candolleanum_Helixer_C462_H1_chr4_1_000046.1_CNL... at 97.59%
+6	873aa, >GOC_00000000016_Solanum_candolleanum_Helixer_C413_H2_chr4_2_000084.1_CNL... at 97.59%
+7	873aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_atg0388_000056.1_CNL... at 97.37%
+8	873aa, >GOC_00000000022_Solanum_candolleanum_Helixer_C422_H2_chr4_2_000063.1_CNL... at 99.54%
+>Cluster 399
+0	873aa, >GOA_00000000012_Solanum_tuberosum_Helixer_chr04_hap16_v2_000086.1_CNL... *
+1	855aa, >GOL_00000000040_Solanum_tuberosum_Helixer_PG6244_ptg0037_000775.1_CNL... at 95.20%
+>Cluster 400
+0	873aa, >GCA_000393655.2_Nicotiana_sylvestris_Helixer_CM066011.1_001218.1_CNL... *
+>Cluster 401
+0	873aa, >GCA_010127505.1_Solanum_tuberosum_Helixer_CM020972.1_000061.1_CNL... *
+>Cluster 402
+0	873aa, >GCA_014182985.2_Solanum_tuberosum_Helixer_CM024426.2_000063.1_CNL... *
+>Cluster 403
+0	873aa, >GCA_015076265.1_Solanum_tuberosum_Helixer_CP055237.1_000076.1_CNL... *
+1	873aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_000081.1_CNL... at 97.25%
+2	873aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_000080.1_CNL... at 97.14%
+>Cluster 404
+0	873aa, >GCA_026929995.1_Petunia_axillaris_Helixer_CM049425.1_001866.1_CNL... *
+>Cluster 405
+0	873aa, >GCA_029948455.1_Solanum_rostratum_Helixer_CM057053.1_001489.1_CNL... *
+>Cluster 406
+0	873aa, >GCA_030463325.1_Solanum_americanum_Helixer_CM059889.1_001917.1_CNL... *
+1	873aa, >GCA_035772555.1_Solanum_americanum_Helixer_CM069619.1_001868.1_CNL... at 99.89%
+>Cluster 407
+0	873aa, >GCA_031230405.1_Solanum_verrucosum_Helixer_CP133615.1_000063.1_CNL... *
+1	873aa, >GCA_035578085.1_Solanum_pinnatisectum_Helixer_CM069079.1_000062.1_CNL... at 98.17%
+2	873aa, >GCA_037074985.1_Solanum_bulbocastanum_Helixer_CM073600.1_000066.1_CNL... at 97.59%
+3	873aa, >GCA_045791845.1_Solanum_stoloniferum_Helixer_CM099228.1_000067.1_CNL... at 98.40%
+4	873aa, >GCA_045791845.1_Solanum_stoloniferum_Helixer_CM099228.1_000069.1_CNL... at 95.76%
+5	873aa, >GOL_00000000006_Solanum_jamesii_Helixer_PG1008_ptg0014_000591.1_CNL... at 98.05%
+6	873aa, >GOL_00000000007_Solanum_morelliforme_Helixer_PG1011_ptg0021_000061.1_CNL... at 96.22%
+7	873aa, >GOL_00000000008_Solanum_pinnatisectum_Helixer_PG1013_ptg0052_000220.1_CNL... at 98.51%
+8	873aa, >GOL_00000000037_Solanum_bulbocastanum_Helixer_PG6241_ptg0022_000063.1_CNL... at 97.71%
+>Cluster 408
+0	873aa, >GCA_036553675.1_Solanum_okadae_Helixer_CM071681.1_000076.1_CNL... *
+>Cluster 409
+0	873aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NC_064286.1_001156.1_CNL... *
+1	873aa, >GOC_00000000014_Solanum_candolleanum_Helixer_C462_H2_chr10_2_001433.1_CNL... at 95.07%
+2	873aa, >GOC_00000000015_Solanum_candolleanum_Helixer_C413_H1_chr10_1_001433.1_CNL... at 95.07%
+>Cluster 410
+0	873aa, >GWHCAWW00000000_Solanum_melongena_Helixer_GWHCAWW00000001_000475.1_CNL... *
+1	873aa, >GOB_00000000003_Solanum_aethiopicum_Helixer_chr7_000608.1_CNL... at 97.02%
+2	872aa, >GOB_00000000010_Solanum_giganteum_Helixer_chr4_000530.1_CNL... at 95.87%
+3	873aa, >GOB_00000000012_Solanum_insanum_Helixer_chr7_000424.1_CNL... at 99.43%
+4	873aa, >GOB_00000000013_Solanum_linnaeanum_Helixer_chr4_000478.1_CNL... at 98.63%
+5	873aa, >GOB_00000000015_Solanum_macrocarpon_Helixer_chr4_000534.1_CNL... at 98.05%
+6	873aa, >GOB_00000000020_Solanum_aethiopicum_Helixer_chr4_000594.1_CNL... at 97.14%
+7	873aa, >GOB_00000000028_Solanum_prinophyllum_Helixer_chr4_000417.1_CNL... at 95.88%
+8	873aa, >GOB_00000000034_Solanum_violaceum_Helixer_chr4_000467.1_CNL... at 96.33%
+>Cluster 411
+0	873aa, >GOL_00000000004_Solanum_palustre_Helixer_PG0009_tig00065009_000356.1_CNL... *
+>Cluster 412
+0	873aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_ptg0029_000611.1_CNL... *
+1	873aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_ptg0029_000610.1_CNL... at 96.91%
+>Cluster 413
+0	873aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_ptg0014_000077.1_CNL... *
+>Cluster 414
+0	873aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_ptg0007_000444.1_CNL... *
+1	873aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_atg0248_000064.1_CNL... at 99.89%
+>Cluster 415
+0	873aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_ptg0007_000746.1_CNL... *
+>Cluster 416
+0	873aa, >GOC_00000000016_Solanum_candolleanum_Helixer_C413_H2_chr4_2_000099.1_CNL... *
+>Cluster 417
+0	873aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_chr04_003346.1_CNL... *
+1	873aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_atg0368_000018.1_CNL... at 99.89%
+>Cluster 418
+0	873aa, >GOC_00000000038_Solanum_tuberosum_Helixer_C027_H2_chr4_2_000071.1_CNL... *
+>Cluster 419
+0	873aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_atg0303_000002.1_CNL... *
+>Cluster 420
+0	873aa, >GOB_00000000001_Solanum_abutiloides_Helixer_chr4_000454.1_CNL... *
+>Cluster 421
+0	873aa, >GOB_00000000001_Solanum_abutiloides_Helixer_chr4_000455.1_CNL... *
+>Cluster 422
+0	873aa, >GOB_00000000008_Solanum_cleistogamum_Helixer_chr4_000389.1_CNL... *
+>Cluster 423
+0	873aa, >GOB_00000000016_Solanum_mammosum_Helixer_chr4_003124.1_CNL... *
+>Cluster 424
+0	873aa, >GOB_00000000031_Solanum_robustum_Helixer_chr4_000552.1_CNL... *
+>Cluster 425
+0	873aa, >GOB_00000000033_Solanum_torvum_Helixer_chr4_002405.1_CNL... *
+>Cluster 426
+0	873aa, >GOB_00000000033_Solanum_torvum_Helixer_chr4_000628.1_CNL... *
+>Cluster 427
+0	873aa, >GOB_00000000033_Solanum_torvum_Helixer_chr4_000629.1_CNL... *
+>Cluster 428
+0	872aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr04_hap13_v2_003284.1_CNL... *
+1	872aa, >GCA_031230405.1_Solanum_verrucosum_Helixer_CP133615.1_003184.1_CNL... at 98.39%
+2	872aa, >GCA_045791845.1_Solanum_stoloniferum_Helixer_CM099216.1_003035.1_CNL... at 97.82%
+>Cluster 429
+0	872aa, >GCA_030864215.1_Capsicum_pubescens_Helixer_CM061541.1_002619.1_CNL... *
+>Cluster 430
+0	872aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124709.1_001335.1_CNL... *
+>Cluster 431
+0	872aa, >GCA_034376525.1_Nicotiana_benthamiana_Helixer_CM067328.1_001982.1_CNL... *
+>Cluster 432
+0	872aa, >GOL_00000000004_Solanum_palustre_Helixer_PG0009_tig00006239_000249.1_CNL... *
+1	872aa, >GOL_00000000005_Solanum_etuberosum_Helixer_chr03_000034.1_CNL... at 99.77%
+>Cluster 433
+0	872aa, >GOL_00000000007_Solanum_morelliforme_Helixer_PG1011_ptg0021_000987.1_CNL... *
+>Cluster 434
+0	872aa, >GOB_00000000010_Solanum_giganteum_Helixer_chr5_003788.1_CNL... *
+>Cluster 435
+0	872aa, >GOB_00000000016_Solanum_mammosum_Helixer_chr4_003125.1_CNL... *
+>Cluster 436
+0	871aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_hptg0064_000186.1_CNL... *
+1	871aa, >GOL_00000000011_Solanum_paucissectum_Helixer_PG3022_ptg0011_001267.1_CNL... at 96.90%
+>Cluster 437
+0	871aa, >GOA_00000000012_Solanum_tuberosum_Helixer_chr04_hap16_v2_003144.1_CNL... *
+>Cluster 438
+0	871aa, >GOA_00000000012_Solanum_tuberosum_Helixer_chr04_hap16_v2_000092.1_CNL... *
+1	871aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_ptg0017_000493.1_CNL... at 99.31%
+>Cluster 439
+0	871aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065992.1_000876.1_CNL... *
+>Cluster 440
+0	871aa, >GCA_030407365.1_Solanum_americanum_Helixer_CM059532.1_000953.1_CNL... *
+1	871aa, >GCA_030407385.1_Solanum_americanum_Helixer_CM059544.1_000815.1_CNL... at 99.77%
+2	871aa, >GCA_035772555.1_Solanum_americanum_Helixer_CM069619.1_000789.1_CNL... at 99.89%
+3	871aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176017.1_002207.1_CNL... at 99.77%
+4	871aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176031.1_001992.1_CNL... at 98.62%
+5	871aa, >GOL_00000000004_Solanum_americanum_Helixer_utg643_000054.1_CNL... at 99.89%
+>Cluster 441
+0	871aa, >GOB_00000000031_Solanum_robustum_Helixer_chr12_002104.1_CNL... *
+>Cluster 442
+0	871aa, >GOB_00000000033_Solanum_torvum_Helixer_chr4_000631.1_CNL... *
+>Cluster 443
+0	870aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_chr04_002874.1_CNL... *
+>Cluster 444
+0	870aa, >GCA_018107945.1_Datura_stramonium_Helixer_JACEIK010001001.1_000029.1_CNL... *
+>Cluster 445
+0	870aa, >GCA_030407385.1_Solanum_americanum_Helixer_CM059544.1_001886.1_CNL... *
+>Cluster 446
+0	870aa, >GCA_030407385.1_Solanum_americanum_Helixer_CM059544.1_001884.1_CNL... *
+1	870aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176017.1_000356.1_CNL... at 99.43%
+>Cluster 447
+0	870aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NC_064283.1_001489.1_CNL... *
+>Cluster 448
+0	870aa, >GOL_00000000024_Solanum_candolleanum_Helixer_PG5062_ptg0010_000717.1_CNL... *
+>Cluster 449
+0	870aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_atg0076_000160.1_CNL... *
+>Cluster 450
+0	870aa, >GOB_00000000003_Solanum_aethiopicum_Helixer_chr7_002691.1_NL... *
+1	870aa, >GOB_00000000005_Solanum_anguivi_Helixer_chr7_002472.1_NL... at 99.89%
+2	870aa, >GOB_00000000027_Solanum_aethiopicum_Helixer_chr4_002292.1_NL... at 99.08%
+>Cluster 451
+0	870aa, >GOB_00000000007_Solanum_citrullifolium_Helixer_chr4_000370.1_CNL... *
+>Cluster 452
+0	870aa, >GOB_00000000028_Solanum_prinophyllum_Helixer_chr4_000416.1_CNL... *
+>Cluster 453
+0	870aa, >GOB_00000000033_Solanum_torvum_Helixer_chr4_002667.1_CNL... *
+>Cluster 454
+0	857aa, >GCA_035578085.1_Solanum_pinnatisectum_Helixer_CM069079.1_000130.1_CNL... at 99.77%
+1	869aa, >GOL_00000000008_Solanum_pinnatisectum_Helixer_PG1013_ptg0052_000284.1_CNL... *
+>Cluster 455
+0	869aa, >GOB_00000000001_Solanum_abutiloides_Helixer_chr4_000456.1_CNL... *
+>Cluster 456
+0	868aa, >GCA_003996215.1_Jaltomata_sinuosa_Helixer_QJPP01007518.1_000113.1_CNL... *
+>Cluster 457
+0	868aa, >GCA_010127505.1_Solanum_tuberosum_Helixer_CM020972.1_003547.1_CNL... *
+>Cluster 458
+0	868aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124709.1_001341.1_CNL... *
+>Cluster 459
+0	868aa, >GCA_041430385.1_Lycium_ruthenicum_Helixer_CM084488.1_001299.1_CNL... *
+>Cluster 460
+0	867aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr10_hap37_v2_000178.1_CNL... *
+1	866aa, >GOA_00000000003_Solanum_tuberosum_Helixer_chr10_hap38_v2_000178.1_CNL... at 98.85%
+2	861aa, >GOA_00000000017_Solanum_tuberosum_Helixer_chr10_hap37_v2_000179.1_CNL... at 99.19%
+>Cluster 461
+0	867aa, >GCA_021292125.1_Capsicum_annuum_Helixer_CM037895.1_003612.1_CNL... *
+1	867aa, >GCA_027073655.1_Capsicum_annuum_Helixer_CM049683.1_001762.1_CNL... at 99.88%
+2	859aa, >GCA_030864225.1_Capsicum_baccatum_Helixer_CM061558.1_001984.1_CNL... at 99.19%
+>Cluster 462
+0	867aa, >GCA_030407365.1_Solanum_americanum_Helixer_CM059532.1_001626.1_CNL... *
+>Cluster 463
+0	867aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124709.1_001429.1_CNL... *
+>Cluster 464
+0	867aa, >GCF_000715135.1_Nicotiana_tabacum_Helixer_NW_015927163.1_000002.1_CNL... *
+>Cluster 465
+0	867aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_atg0171_000076.1_CNL... *
+>Cluster 466
+0	866aa, >GOZ_00000000001_Solanum_pimpinellifolium_Helixer_3_000032.1_CNL... *
+1	866aa, >GCA_012431665.1_Solanum_lycopersicum_Helixer_CM022784.1_000033.1_CNL... at 99.88%
+2	866aa, >GCA_025758845.1_Solanum_galapagense_Helixer_CM047059.1_000035.1_CNL... at 99.31%
+3	866aa, >GCA_027789145.1_Solanum_arcanum_Helixer_CM050935.1_000033.1_CNL... at 98.61%
+>Cluster 467
+0	866aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176035.1_001274.1_CNL... *
+>Cluster 468
+0	850aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066018.1_000385.1_CNL... at 97.29%
+1	864aa, >GCA_000393655.2_Nicotiana_sylvestris_Helixer_CM066006.1_000391.1_CNL... at 97.92%
+2	850aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065990.1_001416.1_CNL... at 97.41%
+3	865aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065994.1_001619.1_CNL... *
+4	850aa, >GCA_002210045.1_Nicotiana_tabacum_Helixer_NCAA01000280.1_000013.1_CNL... at 97.41%
+5	850aa, >GCA_002210045.1_Nicotiana_tabacum_Helixer_NCAA01009260.1_000002.1_CNL... at 99.88%
+6	853aa, >GCA_030864195.1_Nicotiana_attenuata_Helixer_CM061562.1_003504.1_CNL... at 95.90%
+7	837aa, >GCF_000715135.1_Nicotiana_tabacum_Helixer_NW_015910106.1_000005.1_CNL... at 97.37%
+8	850aa, >GCF_000715135.1_Nicotiana_tabacum_Helixer_NW_015936784.1_000001.1_CNL... at 99.76%
+9	840aa, >GCF_001879085.1_Nicotiana_attenuata_Helixer_NW_017673537.1_000003.1_CNL... at 95.83%
+>Cluster 469
+0	865aa, >GCF_019175385.1_Lycium_barbarum_Helixer_NC_083347.1_001172.1_NL... *
+1	865aa, >GCF_029784015.1_Lycium_ferocissimum_Helixer_NC_081352.1_000164.1_NL... at 95.26%
+>Cluster 470
+0	864aa, >GOA_00000000008_Solanum_tuberosum_Helixer_chr04_hap16_v2_003054.1_CNL... *
+>Cluster 471
+0	864aa, >GCA_000715075.2_Nicotiana_tabacum_Helixer_CM065990.1_001290.1_CNL... *
+>Cluster 472
+0	864aa, >GCA_026929995.1_Petunia_axillaris_Helixer_CM049419.1_003722.1_CNL... *
+>Cluster 473
+0	864aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_ptg0066_000467.1_CNL... *
+>Cluster 474
+0	863aa, >GCA_027073675.1_Capsicum_annuum_Helixer_CM049668.1_007584.1_CNL... *
+>Cluster 475
+0	863aa, >GON_00000000002_Nicotiana_benthamiana_Helixer_NbQld183C16_002655.1_CNL... *
+>Cluster 476
+0	863aa, >GOB_00000000002_Physalis_grisea_Helixer_chr4_000942.1_CNL... *
+>Cluster 477
+0	862aa, >GCA_003996215.1_Jaltomata_sinuosa_Helixer_QJPP01000504.1_000063.1_CNL... *
+>Cluster 478
+0	862aa, >GOC_00000000031_Solanum_tuberosum_Helixer_C025_H1_chr4_1_000071.1_CNL... *
+>Cluster 479
+0	861aa, >GCA_027704765.1_Solanum_habrochaites_Helixer_JAKWJA010002492.1_000063.1_CNL... *
+>Cluster 480
+0	861aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_ptg0029_000605.1_CNL... *
+1	860aa, >GOL_00000000009_Solanum_andreanum_Helixer_PG3003_atg0244_000061.1_CNL... at 100.00%
+>Cluster 481
+0	861aa, >GOB_00000000011_Solanum_havanense_Helixer_chr12_001779.1_CNL... *
+>Cluster 482
+0	861aa, >GOB_00000000033_Solanum_torvum_Helixer_chr4_002400.1_CNL... *
+>Cluster 483
+0	860aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_002823.1_CNL... *
+1	860aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_002870.1_CNL... at 99.77%
+>Cluster 484
+0	860aa, >GOA_00000000039_Solanum_tuberosum_Helixer_chr04_hap15_v2_000086.1_CNL... *
+>Cluster 485
+0	859aa, >GCF_019175385.1_Lycium_barbarum_Helixer_NC_083346.1_000969.1_CNL... *
+>Cluster 486
+0	859aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0008_000157.1_CNL... *
+>Cluster 487
+0	859aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0008_000345.1_CNL... *
+>Cluster 488
+0	859aa, >GOB_00000000031_Solanum_robustum_Helixer_chr12_002106.1_CNL... *
+>Cluster 489
+0	858aa, >GOA_00000000008_Solanum_tuberosum_Helixer_chr04_hap16_v2_000060.1_CNL... *
+>Cluster 490
+0	858aa, >GCA_015076265.1_Solanum_tuberosum_Helixer_CP055237.1_000068.1_CNL... *
+>Cluster 491
+0	858aa, >GCA_022817965.1_Solanum_lycopersicoides_Helixer_CM040621.1_000131.1_CNL... *
+>Cluster 492
+0	855aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_chr04_000058.1_CNL... at 96.73%
+1	858aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NC_064283.1_001655.1_CNL... *
+2	855aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_ptg0066_000707.1_CNL... at 96.37%
+3	849aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_atg0091_000059.1_CNL... at 95.88%
+4	855aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0007_000730.1_CNL... at 96.14%
+5	855aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_atg0046_000183.1_CNL... at 96.49%
+6	855aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_atg0240_000015.1_CNL... at 96.02%
+7	855aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_ptg0001_000811.1_CNL... at 97.19%
+8	856aa, >GOC_00000000022_Solanum_candolleanum_Helixer_C422_H2_chr4_2_000061.1_CNL... at 96.26%
+9	846aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0058_000542.1_CNL... at 98.58%
+10	856aa, >GOL_00000000040_Solanum_tuberosum_Helixer_PG6244_atg0219_000018.1_CNL... at 96.50%
+>Cluster 493
+0	852aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0036_000358.1_CNL... at 98.24%
+1	858aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0036_000357.1_CNL... *
+>Cluster 494
+0	857aa, >GCA_018258275.1_Solanum_commersonii_Helixer_CM031108.1_000039.1_CNL... *
+>Cluster 495
+0	857aa, >GCA_031230405.1_Solanum_verrucosum_Helixer_CP133615.1_003168.1_CNL... *
+>Cluster 496
+0	857aa, >GOL_00000000015_Solanum_sogarandinum_Helixer_PG4032_ptg0015_000955.1_CNL... *
+>Cluster 497
+0	857aa, >GOB_00000000018_Solanum_muricatum_Helixer_chr3_000034.1_CNL... *
+>Cluster 498
+0	856aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066023.1_001754.1_CNL... *
+>Cluster 499
+0	856aa, >GCA_036553645.1_Solanum_okadae_Helixer_CM071693.1_000097.1_CNL... *
+>Cluster 500
+0	856aa, >GCF_947179165.1_Solanum_dulcamara_Helixer_NC_077243.1_001430.1_CNL... *
+>Cluster 501
+0	856aa, >GON_00000000001_Nicotiana_benthamiana_Helixer_Nbe.v1.1.chr06_001979.1_CNL... *
+>Cluster 502
+0	856aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0040_000746.1_CNL... *
+>Cluster 503
+0	856aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_atg0320_000063.1_CNL... *
+>Cluster 504
+0	856aa, >GOC_00000000012_Solanum_candolleanum_Helixer_C497_H2_chr4_2_003242.1_CNL... *
+>Cluster 505
+0	847aa, >GOA_00000000002_Solanum_tuberosum_Helixer_chr04_hap13_v2_000059.1_CNL... at 99.65%
+1	848aa, >GOA_00000000014_Solanum_tuberosum_Helixer_chr04_hap14_v2_000060.1_CNL... at 99.53%
+2	847aa, >GCA_009827155.1_Solanum_tuberosum_Helixer_CP046685.1_000053.1_CNL... at 96.93%
+3	849aa, >GCA_014182985.2_Solanum_tuberosum_Helixer_CM024426.2_000060.1_CNL... at 95.41%
+4	849aa, >GCA_036553675.1_Solanum_okadae_Helixer_CM071681.1_000074.1_CNL... at 97.41%
+5	847aa, >GOL_00000000030_Solanum_tuberosum_Helixer_PG6059_atg0441_000034.1_CNL... at 95.63%
+6	856aa, >GOC_00000000031_Solanum_tuberosum_Helixer_C025_H1_chr4_1_000065.1_CNL... *
+7	848aa, >GOC_00000000044_Solanum_tuberosum_Helixer_C174_H2_chr4_2_000058.1_CNL... at 95.52%
+>Cluster 506
+0	840aa, >GOL_00000000029_Solanum_tuberosum_Helixer_PG6055_ptg0028_000189.1_CNL... at 99.88%
+1	846aa, >GOL_00000000030_Solanum_tuberosum_Helixer_PG6059_ptg0009_000188.1_CNL... at 100.00%
+2	838aa, >GOC_00000000029_Solanum_tuberosum_Helixer_C005_H1_chr4_1_000165.1_NL... at 97.85%
+3	856aa, >GOC_00000000039_Solanum_tuberosum_Helixer_C098_H1_chr4_1_000174.1_CNL... *
+4	855aa, >GOL_00000000042_Solanum_tuberosum_Helixer_PG6246_ptg0051_000178.1_CNL... at 100.00%
+>Cluster 507
+0	855aa, >GCA_000390325.3_Nicotiana_tomentosiformis_Helixer_CM066024.1_000785.1_CNL... *
+>Cluster 508
+0	855aa, >GCA_020169555.1_Solanum_tuberosum_Helixer_CM035015.1_000164.1_CNL... *
+1	847aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0058_000663.1_CNL... at 97.17%
+>Cluster 509
+0	855aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr4_1_000082.1_CNL... *
+>Cluster 510
+0	854aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_chr04_003334.1_CNL... at 100.00%
+1	855aa, >GOC_00000000020_Solanum_candolleanum_Helixer_C419_H2_chr4_2_000068.1_CNL... *
+>Cluster 511
+0	855aa, >GOL_00000000031_Solanum_tuberosum_Helixer_PG6090_ptg0023_001087.1_CNL... *
+>Cluster 512
+0	855aa, >GOB_00000000006_Solanum_candidum_Helixer_chr12_001876.1_CNL... *
+1	855aa, >GOB_00000000029_Solanum_pseudolulo_Helixer_chr12_002004.1_CNL... at 97.08%
+2	854aa, >GOB_00000000030_Solanum_quitoense_Helixer_chr12_000047.1_CNL... at 99.77%
+3	855aa, >GOB_00000000032_Solanum_stramoniifolium_Helixer_chr12_000046.1_CNL... at 95.09%
+>Cluster 513
+0	846aa, >GOA_00000000008_Solanum_tuberosum_Helixer_chr04_hap16_v2_002932.1_CNL... at 98.82%
+1	846aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_chr04_003195.1_CNL... at 98.94%
+2	854aa, >GOC_00000000004_Solanum_tuberosum_Helixer_E8669_H2_chr4_2_003137.1_CNL... *
+3	854aa, >GCA_020169575.1_Solanum_tuberosum_Helixer_CM035003.1_003407.1_CNL... at 99.88%
+>Cluster 514
+0	854aa, >GOA_00000000025_Solanum_tuberosum_Helixer_chr04_hap13_v2_003347.1_CNL... *
+1	854aa, >GOL_00000000025_Solanum_candolleanum_Helixer_PG5068_chr04_000142.1_CNL... at 98.83%
+2	852aa, >GOL_00000000043_Solanum_tuberosum_Helixer_PG6247_hptg0040_000511.1_CNL... at 95.31%
+>Cluster 515
+0	854aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_ptg0001_000415.1_CNL... *
+>Cluster 516
+0	853aa, >GOC_00000000003_Solanum_tuberosum_Helixer_E8669_H1_chr4_1_003223.1_CNL... at 99.18%
+1	854aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0106_000072.1_CNL... *
+2	849aa, >GOC_00000000043_Solanum_tuberosum_Helixer_C174_H1_chr4_1_003267.1_CNL... at 99.76%
+3	854aa, >GOL_00000000036_Solanum_tuberosum_Helixer_C115_H1_chr4_1_003258.1_CNL... at 99.88%
+>Cluster 517
+0	853aa, >GOA_00000000003_Solanum_tuberosum_Helixer_chr04_hap14_v2_000062.1_CNL... *
+>Cluster 518
+0	849aa, >GOZ_00000000001_Solanum_pimpinellifolium_Helixer_4_000063.1_CNL... at 95.05%
+1	849aa, >GCA_025759355.1_Solanum_pimpinellifolium_Helixer_CM047096.1_000066.1_CNL... at 95.05%
+2	853aa, >GCA_025759605.1_Solanum_pimpinellifolium_Helixer_CM047108.1_000078.1_CNL... *
+>Cluster 519
+0	853aa, >GCA_030407385.1_Solanum_americanum_Helixer_CM059544.1_001963.1_CNL... *
+1	853aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176017.1_002309.1_CNL... at 99.30%
+>Cluster 520
+0	853aa, >GCA_036553675.1_Solanum_okadae_Helixer_CM071681.1_003365.1_CNL... *
+>Cluster 521
+0	853aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NW_026036724.1_000001.1_CNL... *
+>Cluster 522
+0	853aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_hptg0108_000064.1_CNL... *
+>Cluster 523
+0	853aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_ptg0002_000068.1_CNL... *
+1	853aa, >GOL_00000000019_Solanum_commersonii_Helixer_PG4049_atg0012_000120.1_CNL... at 99.88%
+>Cluster 524
+0	853aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_000085.1_CNL... *
+>Cluster 525
+0	852aa, >GCA_015076265.1_Solanum_tuberosum_Helixer_CP055237.1_000217.1_CNL... *
+1	837aa, >GOL_00000000014_Solanum_lignicaule_Helixer_PG4017_atg0091_000159.1_CNL... at 97.49%
+>Cluster 526
+0	852aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0007_000742.1_CNL... *
+>Cluster 527
+0	852aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_000203.1_CNL... *
+>Cluster 528
+0	852aa, >GOC_00000000012_Solanum_candolleanum_Helixer_C497_H2_chr4_2_000065.1_CNL... *
+>Cluster 529
+0	852aa, >GOL_00000000031_Solanum_tuberosum_Helixer_PG6090_atg0297_000076.1_CNL... *
+1	846aa, >GOC_00000000035_Solanum_tuberosum_Helixer_C093_H1_chr4_1_000067.1_CNL... at 99.88%
+2	834aa, >GOC_00000000038_Solanum_tuberosum_Helixer_C027_H2_chr4_2_000073.1_CNL... at 95.80%
+>Cluster 530
+0	851aa, >GCA_010127505.1_Solanum_tuberosum_Helixer_CM020972.1_000507.1_NL... *
+>Cluster 531
+0	851aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_ptg0068_000077.1_CNL... *
+1	850aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_ptg0007_000729.1_CNL... at 97.29%
+>Cluster 532
+0	851aa, >GOB_00000000010_Solanum_giganteum_Helixer_chr11_000693.1_CNL... *
+>Cluster 533
+0	831aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_hptg0064_000061.1_CNL... at 99.88%
+1	850aa, >GOC_00000000003_Solanum_tuberosum_Helixer_E8669_H1_chr4_1_000059.1_CNL... *
+>Cluster 534
+0	850aa, >GCA_000715095.1_Nicotiana_tabacum_Helixer_AWOK01S249544.1_000003.1_CNL... *
+>Cluster 535
+0	850aa, >GCA_009827175.1_Solanum_tuberosum_Helixer_CP046699.1_000059.1_CNL... *
+>Cluster 536
+0	850aa, >GCA_031232105.1_Capsicum_rhomboideum_Helixer_CP124709.1_001332.1_CNL... *
+>Cluster 537
+0	850aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_ptg0014_000073.1_CNL... *
+1	849aa, >GOL_00000000012_Solanum_piurae_Helixer_PG3023_atg0098_000212.1_CNL... at 99.41%
+>Cluster 538
+0	850aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_000082.1_CNL... *
+>Cluster 539
+0	850aa, >GOC_00000000024_Solanum_candolleanum_Helixer_C423_H2_chr4_2_000193.1_CNL... *
+>Cluster 540
+0	850aa, >GOL_00000000038_Solanum_cajamarquense_Helixer_PG6242_atg0303_000005.1_CNL... *
+>Cluster 541
+0	849aa, >GOZ_00000000002_Solanum_lycopersicum_Helixer_4_000130.1_CNL... *
+1	849aa, >GCA_014964335.1_Solanum_pimpinellifolium_Helixer_CM026538.1_000074.1_CNL... at 99.76%
+2	849aa, >GCA_025758835.1_Solanum_pimpinellifolium_Helixer_CM047084.1_000065.1_CNL... at 99.76%
+3	849aa, >GCA_027704765.1_Solanum_habrochaites_Helixer_JAKWJA010002492.1_000061.1_CNL... at 97.76%
+4	849aa, >GOZ_00000000027_Solanum_pimpinellifolium_Helixer_4_000100.1_CNL... at 99.76%
+5	849aa, >GOZ_00000000036_Solanum_pimpinellifolium_Helixer_4_000069.1_CNL... at 99.53%
+6	849aa, >GOZ_00000000040_Solanum_lycopersicum_Helixer_4_000175.1_CNL... at 99.88%
+7	849aa, >GOZ_00000000025_Solanum_lycopersicum_Helixer_4_000078.1_CNL... at 99.88%
+>Cluster 542
+0	849aa, >GCA_035578085.1_Solanum_pinnatisectum_Helixer_CM069079.1_002902.1_CNL... *
+>Cluster 543
+0	849aa, >GOL_00000000043_Solanum_tuberosum_Helixer_PG6247_ptg0023_001235.1_CNL... *
+>Cluster 544
+0	849aa, >GOZ_00000000014_Solanum_lycopersicum_Helixer_4_002486.1_CNL... *
+1	834aa, >GOZ_00000000028_Solanum_lycopersicum_Helixer_4_002641.1_CNL... at 100.00%
+>Cluster 545
+0	849aa, >GOB_00000000033_Solanum_torvum_Helixer_chr5_001009.1_CNL... *
+>Cluster 546
+0	848aa, >GCA_022817965.1_Solanum_lycopersicoides_Helixer_CM040621.1_003316.1_CNL... *
+>Cluster 547
+0	848aa, >GCA_022817965.1_Solanum_lycopersicoides_Helixer_CM040621.1_003313.1_CNL... *
+>Cluster 548
+0	848aa, >GCA_035048845.1_Solanum_bulbocastanum_Helixer_CM068597.1_001790.1_CNL... *
+>Cluster 549
+0	848aa, >GOL_00000000016_Solanum_vernei_Helixer_PG4036_atg0171_000068.1_CNL... *
+>Cluster 550
+0	847aa, >GOA_00000000012_Solanum_tuberosum_Helixer_chr04_hap16_v2_000070.1_CNL... *
+>Cluster 551
+0	847aa, >GCA_009827175.1_Solanum_tuberosum_Helixer_CP046699.1_000053.1_CNL... *
+>Cluster 552
+0	847aa, >GCA_031230405.1_Solanum_verrucosum_Helixer_CP133615.1_000061.1_CNL... *
+1	826aa, >GCA_045791845.1_Solanum_stoloniferum_Helixer_CM099216.1_000064.1_CNL... at 99.76%
+>Cluster 553
+0	847aa, >GOB_00000000018_Solanum_muricatum_Helixer_chr4_000057.1_CNL... *
+>Cluster 554
+0	846aa, >GCA_003996215.1_Jaltomata_sinuosa_Helixer_QJPP01000504.1_000061.1_CNL... *
+>Cluster 555
+0	846aa, >GCA_009827155.1_Solanum_tuberosum_Helixer_CP046685.1_000059.1_CNL... *
+>Cluster 556
+0	846aa, >GCA_022817965.1_Solanum_lycopersicoides_Helixer_CM040621.1_003314.1_CNL... *
+>Cluster 557
+0	846aa, >GCF_000715135.1_Nicotiana_tabacum_Helixer_NW_015918759.1_000002.1_NL... *
+>Cluster 558
+0	846aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NC_064283.1_001653.1_CNL... *
+>Cluster 559
+0	827aa, >GCA_041222595.1_Solanum_tuberosum_Helixer_CM083535.1_001544.1_CNL... at 98.79%
+1	846aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_ptg0001_000413.1_CNL... *
+2	821aa, >GOC_00000000008_Solanum_candolleanum_Helixer_C399_H2_chr4_2_000154.1_CNL... at 99.51%
+>Cluster 560
+0	846aa, >GOL_00000000031_Solanum_tuberosum_Helixer_PG6090_atg0297_000071.1_CNL... *
+>Cluster 561
+0	829aa, >GOA_00000000027_Solanum_tuberosum_Helixer_chr04_hap15_v2_000075.1_CNL... at 100.00%
+1	846aa, >GOL_00000000043_Solanum_tuberosum_Helixer_PG6247_ptg0023_000078.1_CNL... *
+>Cluster 562
+0	845aa, >GCA_010127505.1_Solanum_tuberosum_Helixer_CM020976.1_000169.1_CNL... *
+>Cluster 563
+0	845aa, >GCA_027705065.1_Solanum_peruvianum_Helixer_JAKWJD010001758.1_000053.1_CNL... *
+>Cluster 564
+0	845aa, >GCA_036553645.1_Solanum_okadae_Helixer_CM071693.1_002788.1_CNL... *
+>Cluster 565
+0	845aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_atg0923_000017.1_CNL... *
+>Cluster 566
+0	845aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_003186.1_CNL... *
+>Cluster 567
+0	845aa, >GOC_00000000012_Solanum_candolleanum_Helixer_C497_H2_chr4_2_000062.1_CNL... *
+>Cluster 568
+0	845aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0008_000171.1_CNL... *
+>Cluster 569
+0	844aa, >GCA_003996215.1_Jaltomata_sinuosa_Helixer_QJPP01001184.1_000003.1_CNL... *
+>Cluster 570
+0	844aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NC_064283.1_001579.1_CNL... *
+>Cluster 571
+0	844aa, >GOB_00000000001_Solanum_abutiloides_Helixer_chr4_002180.1_CNL... *
+1	844aa, >GOB_00000000001_Solanum_abutiloides_Helixer_chr4_002177.1_CNL... at 96.68%
+>Cluster 572
+0	843aa, >GOL_00000000023_Solanum_brevicaule_Helixer_PG5032_atg0998_000003.1_CNL... *
+>Cluster 573
+0	835aa, >GOC_00000000038_Solanum_tuberosum_Helixer_C027_H2_chr4_2_000068.1_CNL... at 100.00%
+1	833aa, >GOC_00000000045_Solanum_tuberosum_Helixer_C426_H1_chr4_1_000065.1_CNL... at 100.00%
+2	843aa, >GOL_00000000035_Solanum_tuberosum_Helixer_PG6216_ptg0026_000708.1_CNL... *
+3	832aa, >GOL_00000000040_Solanum_tuberosum_Helixer_PG6244_ptg0037_000770.1_CNL... at 100.00%
+>Cluster 574
+0	842aa, >GOL_00000000015_Solanum_sogarandinum_Helixer_PG4032_ptg0030_000017.1_CNL... *
+>Cluster 575
+0	842aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_ptg0040_000112.1_CNL... *
+>Cluster 576
+0	842aa, >GOB_00000000001_Solanum_abutiloides_Helixer_chr4_002181.1_CNL... *
+>Cluster 577
+0	842aa, >GOB_00000000033_Solanum_torvum_Helixer_chr4_002399.1_CNL... *
+>Cluster 578
+0	841aa, >GCA_030407365.1_Solanum_americanum_Helixer_CM059532.1_001126.1_CNL... *
+1	841aa, >GCA_030407385.1_Solanum_americanum_Helixer_CM059544.1_000964.1_CNL... at 99.29%
+2	841aa, >GCA_030463325.1_Solanum_americanum_Helixer_CM059889.1_000945.1_CNL... at 99.52%
+3	841aa, >GCA_035772555.1_Solanum_americanum_Helixer_CM069619.1_000959.1_CNL... at 99.05%
+4	841aa, >GCA_964243065.1_Solanum_nigrum_Helixer_OZ176017.1_002398.1_CNL... at 99.17%
+5	841aa, >GOL_00000000004_Solanum_americanum_Helixer_utg1245_000001.1_CNL... at 99.76%
+>Cluster 579
+0	841aa, >GCF_000226075.1_Solanum_tuberosum_Helixer_NW_006239629.1_000001.1_CNL... *
+>Cluster 580
+0	841aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_atg0076_000162.1_CNL... *
+>Cluster 581
+0	840aa, >GCA_041222595.1_Solanum_tuberosum_Helixer_CM083533.1_003033.1_CNL... *
+>Cluster 582
+0	840aa, >GOC_00000000011_Solanum_candolleanum_Helixer_C497_H1_chr3_1_000035.1_NL... *
+>Cluster 583
+0	840aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_atg0113_000164.1_CNL... *
+>Cluster 584
+0	827aa, >GOB_00000000003_Solanum_aethiopicum_Helixer_chr7_002695.1_CNL... at 99.03%
+1	839aa, >GOB_00000000019_Solanum_aethiopicum_Helixer_chr4_002316.1_CNL... *
+2	834aa, >GOB_00000000022_Solanum_aethiopicum_Helixer_chr4_002338.1_CNL... at 98.92%
+>Cluster 585
+0	837aa, >GOL_00000000003_Solanum_tuberosum_Helixer_E86-69_hptg0064_000060.1_CNL... *
+>Cluster 586
+0	837aa, >GOA_00000000014_Solanum_tuberosum_Helixer_chr04_hap14_v2_000070.1_CNL... *
+>Cluster 587
+0	836aa, >GCA_020169535.1_Solanum_tuberosum_Helixer_CM034991.1_000503.1_CNL... *
+1	826aa, >GOL_00000000043_Solanum_tuberosum_Helixer_PG6247_ptg0023_000511.1_CNL... at 98.18%
+>Cluster 588
+0	836aa, >GON_00000000002_Nicotiana_benthamiana_Helixer_NbQld183C00_001577.1_CNL... *
+>Cluster 589
+0	836aa, >GOL_00000000017_Solanum_buesii_Helixer_PG4041_ptg0007_000738.1_CNL... *
+>Cluster 590
+0	835aa, >GCA_041222595.1_Solanum_tuberosum_Helixer_CM083533.1_002184.1_CNL... *
+1	832aa, >GCA_041222595.1_Solanum_tuberosum_Helixer_CM083536.1_001499.1_CNL... at 97.96%
+>Cluster 591
+0	835aa, >GCF_001406875.1_Solanum_pennellii_Helixer_NC_028640.1_002502.1_CNL... *
+>Cluster 592
+0	835aa, >GOC_00000000028_Solanum_tuberosum_Helixer_C001_H2_chr4_2_000190.1_CNL... *
+1	833aa, >GOL_00000000032_Solanum_tuberosum_Helixer_PG6148_ptg0012_000846.1_CNL... at 100.00%
+>Cluster 593
+0	834aa, >GCA_022817965.1_Solanum_lycopersicoides_Helixer_CM040621.1_003318.1_CNL... *
+>Cluster 594
+0	834aa, >GOL_00000000032_Solanum_tuberosum_Helixer_PG6148_ptg0012_000593.1_CNL... *
+1	815aa, >GOC_00000000040_Solanum_tuberosum_Helixer_C098_H2_chr4_2_003167.1_CNL... at 99.14%
+>Cluster 595
+0	833aa, >GCA_014182985.2_Solanum_tuberosum_Helixer_CM024426.2_000067.1_CNL... *
+1	833aa, >GOL_00000000033_Solanum_tuberosum_Helixer_PG6163_hptg0045_000219.1_CNL... at 99.52%
+>Cluster 596
+0	833aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_000076.1_CNL... *
+>Cluster 597
+0	831aa, >GOC_00000000026_Solanum_tuberosum_Helixer_C056_H2_chr4_2_003130.1_CNL... at 96.03%
+1	833aa, >GOC_00000000036_Solanum_tuberosum_Helixer_C093_H2_chr4_2_003127.1_CNL... *
+>Cluster 598
+0	832aa, >GOB_00000000028_Solanum_prinophyllum_Helixer_chr4_002003.1_CNL... *
+>Cluster 599
+0	831aa, >GCF_019186545.1_Solanum_stenotomum_Helixer_NC_064283.1_001588.1_CNL... *
+>Cluster 600
+0	831aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_000095.1_CNL... *
+>Cluster 601
+0	831aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0058_000545.1_CNL... *
+>Cluster 602
+0	831aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_ptg0004_000177.1_CNL... *
+>Cluster 603
+0	830aa, >GCA_027704765.1_Solanum_habrochaites_Helixer_JAKWJA010002489.1_000766.1_CNL... *
+>Cluster 604
+0	830aa, >GOL_00000000027_Solanum_tuberosum_Helixer_PG6002_ptg0106_000082.1_CNL... *
+>Cluster 605
+0	829aa, >GCA_037074985.1_Solanum_bulbocastanum_Helixer_CM073600.1_000067.1_CNL... *
+>Cluster 606
+0	829aa, >GCF_029784015.1_Lycium_ferocissimum_Helixer_NC_081347.1_001693.1_NL... *
+>Cluster 607
+0	828aa, >GCA_035772555.1_Solanum_americanum_Helixer_CM069619.1_000963.1_CNL... *
+>Cluster 608
+0	828aa, >GOL_00000000011_Solanum_paucissectum_Helixer_PG3022_ptg0011_000064.1_CNL... *
+>Cluster 609
+0	827aa, >GCA_009827155.1_Solanum_tuberosum_Helixer_CP046685.1_000069.1_CNL... *
+1	827aa, >GCA_009827175.1_Solanum_tuberosum_Helixer_CP046699.1_000069.1_CNL... at 98.31%
+>Cluster 610
+0	827aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_atg0320_000071.1_CNL... *
+>Cluster 611
+0	826aa, >GOC_00000000041_Solanum_tuberosum_Helixer_C121_H1_chr4_1_000069.1_CNL... *
+>Cluster 612
+0	825aa, >GOB_00000000012_Solanum_insanum_Helixer_chr7_002659.1_CNL... *
+>Cluster 613
+0	821aa, >GCA_014182995.2_Solanum_tuberosum_Helixer_CM024414.2_000062.1_CNL... at 100.00%
+1	823aa, >GOC_00000000030_Solanum_tuberosum_Helixer_C005_H2_chr4_2_000064.1_CNL... *
+>Cluster 614
+0	822aa, >GCA_002210045.1_Nicotiana_tabacum_Helixer_NCAA01001196.1_000005.1_CNL... *
+>Cluster 615
+0	822aa, >GON_00000000002_Nicotiana_benthamiana_Helixer_NbQld183C08_000808.1_CNL... *
+>Cluster 616
+0	822aa, >GOA_00000000039_Solanum_tuberosum_Helixer_chr04_hap15_v2_000084.1_CNL... *
+>Cluster 617
+0	821aa, >GCA_030864215.1_Capsicum_pubescens_Helixer_CM061548.1_002859.1_CNL... *
+>Cluster 618
+0	821aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_atg0076_000081.1_CNL... *
+>Cluster 619
+0	820aa, >GCA_031230405.1_Solanum_verrucosum_Helixer_CP133615.1_000062.1_CNL... *
+>Cluster 620
+0	819aa, >GOA_00000000025_Solanum_tuberosum_Helixer_chr04_hap13_v2_000172.1_CNL... *
+>Cluster 621
+0	819aa, >GOA_00000000027_Solanum_tuberosum_Helixer_chr04_hap15_v2_000059.1_CNL... *
+1	815aa, >GOL_00000000043_Solanum_tuberosum_Helixer_PG6247_ptg0023_000062.1_CNL... at 99.75%
+>Cluster 622
+0	816aa, >GCA_041222595.1_Solanum_tuberosum_Helixer_CM083536.1_000739.1_CNL... *
+>Cluster 623
+0	804aa, >GOL_00000000022_Solanum_candolleanum_Helixer_PG5018_ptg0046_000246.1_NL... at 100.00%
+1	816aa, >GOC_00000000007_Solanum_candolleanum_Helixer_C399_H1_chr1_1_001282.1_NL... *
+>Cluster 624
+0	816aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_000079.1_CNL... *
+>Cluster 625
+0	816aa, >GOC_00000000021_Solanum_candolleanum_Helixer_C422_H1_chr4_1_000188.1_CNL... *
+>Cluster 626
+0	816aa, >GOB_00000000002_Physalis_grisea_Helixer_chr7_000917.1_CNL... *
+>Cluster 627
+0	815aa, >GOA_00000000014_Solanum_tuberosum_Helixer_chr04_hap14_v2_000069.1_CNL... *
+>Cluster 628
+0	814aa, >GOL_00000000018_Solanum_chacoense_Helixer_PG4042_atg0046_000189.1_CNL... *
+>Cluster 629
+0	813aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_atg0312_000010.1_CNL... *
+>Cluster 630
+0	813aa, >GOL_00000000020_Solanum_multiinterruptum_Helixer_PG4060_atg0248_000051.1_NL... *
+>Cluster 631
+0	806aa, >GOC_00000000009_Solanum_candolleanum_Helixer_C410_H1_chr4_1_003299.1_CNL... at 99.01%
+1	812aa, >GOC_00000000010_Solanum_candolleanum_Helixer_C410_H2_chr4_2_003389.1_CNL... *
+>Cluster 632
+0	812aa, >GOL_00000000026_Solanum_boliviense_Helixer_PG5076_ptg0001_000823.1_CNL... *
+>Cluster 633
+0	810aa, >GCA_030864225.1_Capsicum_baccatum_Helixer_CM061550.1_004357.1_CNL... *
+>Cluster 634
+0	808aa, >GOC_00000000007_Solanum_candolleanum_Helixer_C399_H1_chr4_1_000171.1_CNL... *
+>Cluster 635
+0	806aa, >GCA_036553645.1_Solanum_okadae_Helixer_CM071693.1_003237.1_CNL... *
+>Cluster 636
+0	806aa, >GOB_00000000022_Solanum_aethiopicum_Helixer_chr11_001439.1_CNL... *
+>Cluster 637
+0	805aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_atg0024_000082.1_CNL... *
+>Cluster 638
+0	804aa, >GOL_00000000010_Solanum_chomatophilum_Helixer_PG3005_ptg0014_000078.1_CNL... *
+>Cluster 639
+0	803aa, >GCA_020169555.1_Solanum_tuberosum_Helixer_CM035015.1_003604.1_CNL... *
+>Cluster 640
+0	802aa, >GOL_00000000039_Solanum_neorossii_Helixer_PG6243_atg0345_000009.1_CNL... *
+>Cluster 641
+0	801aa, >GCA_025759605.1_Solanum_pimpinellifolium_Helixer_CM047108.1_002532.1_CNL... *
