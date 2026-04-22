@@ -15,11 +15,18 @@ This repository contains the scripts, intermediate data, and detailed methods us
 ```
 .
 ├── SNI_methods_detailed.md         Full SNI methods with equations and software versions
+├── gcloud_homomer/                 AlphaFold 3 homomeric inference pipeline (Google Cloud)
+│   ├── README.md                   Pipeline usage and option reference
+│   ├── AF3_homomeric_submit.sh     Main entry point
+│   ├── AF3_homomeric_job.sh        SLURM job script
+│   ├── AF3_homomeric_controller.sh Controller for large runs (>1000 jobs)
+│   ├── generate_af3_homomeric.py   Generate AF3 input JSONs (n protomers, ligands, seeds)
+│   └── extract_af3_scores.py       Extract per-model and per-chain scores from AF3 output
 ├── resistosome_pipeline/           Python pipeline: per-structure SNI metrics
 │   ├── README.md                   Pipeline usage and command-line reference
 │   ├── requirements.txt            Pinned Python dependencies
 │   ├── run_pipeline.py             Command-line entry point
-│   ├── submit_slurm.sh             SLURM submission template (Kronos HPC)
+│   ├── submit_slurm.sh             SLURM submission template
 │   ├── test_pipeline.py            Smoke tests
 │   ├── get_ring_order.py           Helper: derive ring protomer order
 │   └── resistosome/                Pipeline modules (af3, contacts, geometry, helix, …)
@@ -130,7 +137,20 @@ BiocManager::install("ggtree")
 ## Description
 **Sequence selection and motif coordinate extraction** &mdash; `R/SolNRCH_foldome_v1.rmd` documents how the NRC-H clade was extracted from NLRtracker output, filtered for length and architecture, deduplicated at 95 % similarity, sliced to CC-NB-ARC domains for AlphaFold 3 input, and how the MHD/P-loop coordinates used downstream were exported from NLRexpress. The intermediate alignments and trees are deposited under `phylo/`.
 
-**Per-structure SNI metrics** &mdash; from a folder of unpacked AlphaFold 3 hexamer predictions (downloaded from the Zenodo deposit), compute the per-structure metric table:
+**AlphaFold 3 homomeric modelling** &mdash; the SLURM-based pipeline under `gcloud_homomer/` was used to predict hexameric resistosomes for every NRC-H entry on a Google Cloud A100 cluster. The pipeline generates AF3 input JSONs from a folder of single-protomer JSONs, expands seeds and (optional) ligand copies, submits one AF3 inference job per (protein, seed) pair, and extracts per-model and per-chain confidence scores from `summary_confidences.json`:
+
+   ```bash
+   cd gcloud_homomer
+   bash AF3_homomeric_submit.sh ./inference_input ./output \
+       --protomers 6 \
+       --seeds 1 2 \
+       --expand-seeds \
+       --batch NRCH_hexamers
+   ```
+
+   This produces a per-job tarball, `scores/*_scores.tsv` (overview metrics) and `scores/*_matrix.tsv` (per-chain pairwise matrices) under the chosen `output/` directory. Failed jobs are logged to `logs/failed_jobs.tsv` for re-submission. See `gcloud_homomer/README.md` for the full option reference, output naming convention, and memory considerations (the per-job token budget for an 80 GB A100). The unpacked tarballs from this step are deposited on Zenodo and are the input to the SNI metrics step below.
+
+**Per-structure SNI metrics** &mdash; from a folder of unpacked AlphaFold 3 hexamer predictions (downloaded from the Zenodo deposit, or produced by the AF3 step above), compute the per-structure metric table:
 
    ```bash
    cd resistosome_pipeline
