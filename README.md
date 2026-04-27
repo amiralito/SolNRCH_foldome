@@ -1,4 +1,4 @@
-# Supporting scripts and material for "Discovery of atypical NLR resistosomes"
+# Supporting scripts and material for "AI-guided discovery of atypical protein assemblies"
 
 [![DOI](https://img.shields.io/badge/Zenodo-10.5281/zenodo.XXXXXXX-blue.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) [![DOI](https://img.shields.io/badge/bioRxiv-doi.org/10.1101/2026.XX.XX.XXXXXX-BE2634.svg)](https://doi.org/10.1101/2026.XX.XX.XXXXXX)
 
