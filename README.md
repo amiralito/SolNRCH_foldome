@@ -2,7 +2,6 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19860918.svg)](https://doi.org/10.5281/zenodo.19860918)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19855163.svg)](https://doi.org/10.5281/zenodo.19855163)
-[(https://img.shields.io/badge/bioRxiv-doi.org/10.1101/2026.XX.XX.XXXXXX-BE2634.svg)](https://doi.org/10.1101/2026.XX.XX.XXXXXX)
 
 AmirAli Toghani<sup>†</sup>, Benjamin A. Seager<sup>†</sup>, Yu Sugihara, Lisa-Marie Roijen, Juan M. Azcue, Maián Garro, Maryam Sargolzaei, Ioanna Morianou, Adeline Harant, Sam Gallop, Jiorgos Kourelis, Dan MacLean, Mauricio P. Contreras, Sophien Kamoun\*, Daniel Lüdke\*
 
