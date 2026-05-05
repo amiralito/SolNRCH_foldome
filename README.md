@@ -1,6 +1,6 @@
 # Supporting scripts and material for "AI-guided discovery of atypical protein assemblies"
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19855163.svg)](https://doi.org/10.5281/zenodo.19855163)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19860918.svg)](https://doi.org/10.5281/zenodo.19860918)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19855163.svg)](https://doi.org/10.5281/zenodo.19855163)
 
 AmirAli Toghani<sup>†</sup>, Benjamin A. Seager<sup>†</sup>, Yu Sugihara, Lisa-Marie Roijen, Juan M. Azcue, Maián Garro, Maryam Sargolzaei, Ioanna Morianou, Adeline Harant, Sam Gallop, Jiorgos Kourelis, Dan MacLean, Mauricio P. Contreras, Sophien Kamoun\*, Daniel Lüdke\*
