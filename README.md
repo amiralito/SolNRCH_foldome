@@ -1,8 +1,6 @@
-# Supporting scripts and material for "AI-guided discovery of atypical protein assemblies"
+# Supporting scripts and material for "Discovery of atypical NLR resistosomes"
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19860918.svg)](https://doi.org/10.5281/zenodo.19860918)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19855163.svg)](https://doi.org/10.5281/zenodo.19855163)
-[![DOI](https://img.shields.io/badge/bioRxiv-doi.org/10.64898/2026.05.03.722499-BE2634.svg)](https://doi.org/10.64898/2026.05.03.722499)
+[![DOI](https://img.shields.io/badge/Zenodo-10.5281/zenodo.XXXXXXX-blue.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) [![DOI](https://img.shields.io/badge/bioRxiv-doi.org/10.64898/2026.05.03.722499-BE2634.svg)](https://doi.org/10.64898/2026.05.03.722499)
 
 AmirAli Toghani<sup>†</sup>, Benjamin A. Seager<sup>†</sup>, Yu Sugihara, Lisa-Marie Roijen, Juan M. Azcue, Maián Garro, Maryam Sargolzaei, Ioanna Morianou, Adeline Harant, Sam Gallop, Jiorgos Kourelis, Dan MacLean, Mauricio P. Contreras, Sophien Kamoun\*, Daniel Lüdke\*
 
@@ -12,10 +10,13 @@ AmirAli Toghani<sup>†</sup>, Benjamin A. Seager<sup>†</sup>, Yu Sugihara, Li
 
 This repository contains the scripts, intermediate data, and detailed methods used for the structural analysis of the Solanaceae NRCH (NRC-helper) clade and the calculation of the Structural Novelty Index (SNI) from AlphaFold 3 hexameric resistosome predictions.
 
+> **Version 2.0.0.** The SNI pipeline was corrected (geometric ring adjacency in the published main-set run, CC-domain helices truncated at the NB-ARC start, contact-cutoff handling) and both datasets were re-run. All tables, supplementary data and figures here are from v2.0.0. See [`CHANGELOG.md`](CHANGELOG.md) for the fixes and their effect on the results.
+
 ## Repository layout
 
 ```
 .
+├── CHANGELOG.md                    v1 → v2.0.0 fixes and their effect on the results
 ├── SNI_methods_detailed.md         Full SNI methods with equations and software versions
 ├── gcloud_homomer/                 AlphaFold 3 homomeric inference pipeline (Google Cloud)
 │   ├── README.md                   Pipeline usage and option reference
@@ -24,24 +25,26 @@ This repository contains the scripts, intermediate data, and detailed methods us
 │   ├── AF3_homomeric_controller.sh Controller for large runs (>1000 jobs)
 │   ├── generate_af3_homomeric.py   Generate AF3 input JSONs (n protomers, ligands, seeds)
 │   └── extract_af3_scores.py       Extract per-model and per-chain scores from AF3 output
-├── resistosome_pipeline/           Python pipeline: per-structure SNI metrics
+├── resistosome_pipeline/           Python pipeline (v2.0.0): per-structure SNI metrics
 │   ├── README.md                   Pipeline usage and command-line reference
 │   ├── requirements.txt            Pinned Python dependencies
 │   ├── run_pipeline.py             Command-line entry point
 │   ├── submit_slurm.sh             SLURM submission template (Kronos HPC)
 │   ├── test_pipeline.py            Smoke tests
 │   ├── get_ring_order.py           Helper: derive ring protomer order
-│   └── resistosome/                Pipeline modules (af3, contacts, geometry, helix, …)
-├── structural_analysis/            Pipeline inputs and per-structure outputs
-│   ├── main/                       NRCH dataset (407 hexamers across 18 clades)
+│   ├── resistosome/                Pipeline modules (af3, contacts, geometry, helix, …)
+│   └── tools/                      Slim AF3 inputs (model + PAE<10 Å masks) and JSON aggregation
+├── structural_analysis/            Pipeline inputs and outputs (v2.0.0)
+│   ├── main/                       NRCH dataset: 637 NLRs × 3 seeds = 1,911 hexamers (622 NLRs in 18 clades)
 │   │   ├── MADA.hmm                MADA HMM profile (used for α1 detection)
 │   │   ├── *_coords.csv            MHD / P-loop / NB-ARC reference coordinates
 │   │   └── output/
 │   │       ├── hmm/                HMMER 3.4 outputs (hmmsearch.out, domtbl, fasta)
-│   │       ├── pipeline.log
+│   │       ├── per_structure_json.zip
+│   │       ├── pipeline.log            Warnings from the 7 slim-input batches the main set was run in
 │   │       ├── resistosome_analysis_summary.csv
 │   │       └── resistosome_analysis_summary.xlsx
-│   └── test/                       Reference set (characterised NLRs)
+│   └── test/                       Benchmark set: 18 characterised NLRs (9 helpers, 9 sensors) × 3 seeds
 │       ├── MADA.hmm
 │       ├── ids.txt
 │       ├── merged_*_cooreds.csv
@@ -55,28 +58,24 @@ This repository contains the scripts, intermediate data, and detailed methods us
 │   │                                                 NB-ARC alignments and trees
 │   ├── *_rooted_itol.txt                             iTOL annotation file
 │   └── clades/                                       18 per-clade Newick subtrees
-├── R/                              Data preparation + heatmap analysis (R)
+├── R/                              Data preparation + SNI figures (R)
 │   ├── SolNRCH_foldome_v1.rmd      Sequence/metadata preparation pipeline (NLRtracker
 │   │                               -> NB-ARC filtering -> CC-NB-ARC extraction for AF3
 │   │                               -> 95 % similarity cut -> motif coordinate export)
-│   ├── NRC_heatmap_analysis.R      Per-clade SNI heatmaps + parameter-subset heatmaps
-│   ├── main/                       Main set: summary xlsx + heatmap outputs
-│   │   ├── resistosome_analysis_summary.xlsx
-│   │   ├── heatmaps/               main_clade_heatmap{,_zraw}.{pdf,png,svg}
-│   │   └── comparison/             main_{scientist,coscientist}_params.{pdf,png,svg}
-│   └── test/                       Test set: summary xlsx + heatmap outputs
-│       ├── resistosome_analysis_summary.xlsx
-│       ├── helpers.txt             Reference helper NLR IDs
-│       ├── sensors.txt             Reference sensor NLR IDs
-│       ├── heatmaps/
-│       └── comparison/
+│   ├── SNI_figures.R               All SNI figures, clade summaries and parameter clustering
+│   ├── figures/                    Fig 1A, 2A, 2B, S4, S6A/B, S7A/B (+ *_2way), ParamClust_*,
+│   │                               v1_vs_v2_*; each as PDF/PNG/SVG, every heatmap with
+│   │                               *_raw_values.csv and *_zscores.csv
+│   └── v1_reference/               v1 summary tables (input for the v1_vs_v2 diagnostics)
 └── supplementary/                  Manuscript supplementary data tables
-    ├── Data_S1.xlsx                NLRtracker-derived NLR metadata for the Solanaceae set
-    ├── Data_S2.xlsx                Domain-architecture summary
-    ├── Data_S3.csv                 Per-entry NB-ARC sequence table
-    ├── Data_S4.xlsx                NRCH clade assignments and per-entry annotations
-    ├── Data_S5.csv                 Reference NLR coordinates
-    └── Data_S6.zip                 Bundled per-clade alignments and trees
+    ├── Data_S1.xlsx                SNI metric definitions, calculations and aggregation rules
+    ├── Data_S2.xlsx                Benchmark set: per-NLR SNI summary (v2.0.0)
+    ├── Data_S3.csv                 NRC-H sequences and NLRtracker annotations (637 entries)
+    ├── Data_S4.xlsx                Main NRCH set: per-NLR SNI summary (v2.0.0)
+    ├── Data_S5.csv                 Clade means of the 11 SNI parameters (v2.0.0)
+    ├── Data_S6.zip                 AI co-scientist hypotheses and reports
+    ├── Data_extS1.xlsx             Solanaceae genome/proteome assemblies used (346 + 11 deprecated)
+    └── NRC_ref*.fasta(.clstr)      Reference NRC sequences and clusters
 ```
 
 The full set of unpacked AlphaFold 3 predictions and the per-structure JSON outputs that feed `resistosome_pipeline` are deposited separately (see [Supplementary Data](#supplementary-data)).
@@ -95,14 +94,14 @@ The full set of unpacked AlphaFold 3 predictions and the per-structure JSON outp
 | _openpyxl v3.1.5_ ([https://openpyxl.readthedocs.io/](https://openpyxl.readthedocs.io/)) |
 | _FreeSASA v2.2.1_ ([https://freesasa.github.io/](https://freesasa.github.io/)) |
 | _HMMER v3.4_ ([http://hmmer.org/](http://hmmer.org/)) |
-| _DSSP v4.5.8_ ([https://github.com/PDB-REDO/dssp](https://github.com/PDB-REDO/dssp)) |
+| _DSSP v4.5.8_ (v4.2.2 for the v2.0.0 rerun) ([https://github.com/PDB-REDO/dssp](https://github.com/PDB-REDO/dssp)) |
 | _AlphaFold 3 server_ ([https://alphafoldserver.com/](https://alphafoldserver.com/)) |
 | _NLRtracker_ ([https://github.com/slt666666/NLRtracker](https://github.com/slt666666/NLRtracker)) |
-| _NLRexpress_ ([https://github.com/eliza-m/NLRexpress](https://github.com/eliza-m/NLRexpress)) |
 | _FAMSA v2.2.2_ ([https://github.com/refresh-bio/FAMSA](https://github.com/refresh-bio/FAMSA)) |
 | _FastTree v2.1.10_ ([http://www.microbesonline.org/fasttree/](http://www.microbesonline.org/fasttree/)) |
 | _Dendroscope v3.8.8_ ([https://software-ab.cs.uni-tuebingen.de/download/dendroscope3/welcome.html](https://software-ab.cs.uni-tuebingen.de/download/dendroscope3/welcome.html)) |
-| _R v4.4.2_ ([https://cran.r-project.org/](https://cran.r-project.org/)) |
+| _R v4.4.2_ (data preparation); _R v4.3.3_ (SNI figures) ([https://cran.r-project.org/](https://cran.r-project.org/)) |
+| _pvclust v2.2_ ([https://github.com/shimo-lab/pvclust](https://github.com/shimo-lab/pvclust)) |
 
 ### Python packages
 
@@ -122,12 +121,11 @@ conda install -c bioconda hmmer     # or: brew install hmmer
 ### R packages
 
 ```r
-install.packages("tidyverse")
-install.packages("readxl")
-install.packages("ape")
-install.packages("pheatmap")
-install.packages("reshape2")
-install.packages("svglite")
+# SNI figures (R/SNI_figures.R)
+install.packages(c("tidyverse", "ape", "patchwork", "svglite", "pvclust"))
+
+# Data preparation (R/SolNRCH_foldome_v1.rmd)
+install.packages(c("readxl", "reshape2"))
 
 if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
@@ -168,9 +166,28 @@ BiocManager::install("ggtree")
    ```
 
    This produces `output/per_structure_json/*.json`, `output/hmm/*`, `pipeline.log`, and the aggregated `resistosome_analysis_summary.{csv,xlsx}`.
+   Contacts use a 4.0 Å heavy-atom cutoff (`--contact_cutoff`, default) and PAE < 10 Å. The run takes about 6–10 s per model per worker.
    See `resistosome_pipeline/README.md` for the full command-line reference and `SNI_methods_detailed.md` for the equations, residue-level thresholds, and contact-classification rules.
+   To save disk space, the AF3 tarballs can first be reduced to the model, summary confidences and PAE < 10 Å masks (about 0.6 MB per model) with `resistosome_pipeline/tools/`. This gives identical results. See the pipeline README.
+
+**SNI figures, clade summaries and parameter clustering** &mdash; from the repository root:
+
+   ```bash
+   Rscript R/SNI_figures.R --base . \
+       --main structural_analysis/main/output/resistosome_analysis_summary.csv \
+       --benchmark structural_analysis/test/output/resistosome_analysis_summary.csv \
+       --trees phylo \
+       --v1_main R/v1_reference/main_v1_summary.csv \
+       --v1_benchmark R/v1_reference/benchmark_v1_summary.csv \
+       --out R/figures --nboot 1000 \
+       --font /System/Library/Fonts/HelveticaNeue.ttc
+   ```
+
+   This produces the clade and benchmark heatmaps (Fig 1A, 2A, S6, S7, each also as a two-way clustered version), the tree-aligned contact and SNI panels (Fig 2B, S4), and the parameter correlation and bootstrapped parameter dendrograms (`ParamClust_*`). Each heatmap also gets its raw and z-scored values as CSV.
+   Clade membership comes from `phylo/clades/*.tree`. Penalised contact, BSA and ipTM bounds are set to max(x, 0) before clade means are taken. `--font` is optional; without it, PDFs reference Helvetica Neue by name.
 
 ## Supplementary Data
 
-- AlphaFold 3 hexameric predictions for the main NRCH set and the per-structure JSON outputs are deposited on Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19860918.svg)](https://doi.org/10.5281/zenodo.19860918)
+- AlphaFold 3 hexameric predictions for the main NRCH set and the per-structure JSON outputs (v2.0.0) are deposited on Zenodo: [DOI: 10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX).
+- Changes from the first preprint version: [`CHANGELOG.md`](CHANGELOG.md).
 - Detailed SNI methods: [`SNI_methods_detailed.md`](SNI_methods_detailed.md).
