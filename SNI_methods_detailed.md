@@ -2,6 +2,8 @@
 
 This document accompanies the *Discovery of atypical NLR resistosomes* manuscript and the associated code repository. It provides the full per-metric definitions, equations, thresholds, and aggregation rules summarised in the main Methods section. The implementation is distributed under `resistosome_pipeline/` in the project repository (<https://github.com/amiralito/SolNRCH_foldome>). File paths referenced below (e.g. `resistosome_pipeline/README.md`) are relative to the repository root.
 
+This version describes pipeline **v2.0.0** (see [`CHANGELOG.md`](CHANGELOG.md) for the differences from the version used for the first preprint).
+
 All metrics and scores were computed for each structure (i.e. each seed replicate) and then aggregated across replicates as described in *Cross-replicate aggregation* below.
 
 ## 1. Interface confidence
@@ -10,7 +12,7 @@ All metrics and scores were computed for each structure (i.e. each seed replicat
 
 ## 2. Inter-protomer contacts
 
-Contacts were enumerated between all pairs of ring-adjacent protomers (pairs (1,2), (2,3), …, (n,1) in the geometrically determined ring order). For each adjacent pair, a k-d tree spatial index (`scipy.spatial.cKDTree`) was constructed from heavy-atom coordinates of the second chain. Heavy-atom pairs within a search radius of 4.0 Å were identified, and each contact was classified into one of five types by the following priority rules:
+Contacts were enumerated between all pairs of ring-adjacent protomers (pairs (1,2), (2,3), …, (n,1) in the geometrically determined ring order). The ring order was obtained by fitting a plane to the protomer Cα centroids, projecting the centroids onto it and sorting them by polar angle, so that AlphaFold 3 chain letters, which are not necessarily ring-adjacent, are never used to define neighbours. For each adjacent pair, a k-d tree spatial index (`scipy.spatial.cKDTree`) was constructed from heavy-atom coordinates of the second chain. Heavy-atom pairs within the contact cutoff of 4.0 Å (`--contact_cutoff`; the search radius and the cutoff are the same value) were identified, and each contact was classified into one of five types by the following priority rules:
 
 - **Disulfide bond:** both atoms are Cys Sγ, distance < 2.5 Å.
 - **Salt bridge:** one atom carries a formal positive charge (Arg NH1/NH2/Nε, Lys Nζ, His Nδ1/Nε2) and the other a formal negative charge (Asp Oδ1/Oδ2, Glu Oε1/Oε2), distance < 4.0 Å.
@@ -22,11 +24,11 @@ When an AlphaFold 3 predicted aligned error (PAE) matrix was available, contacts
 
 ## 3. Buried surface area
 
-**BSA<sub>INTER-PROTO</sub>.** Buried surface area per inter-protomer interface was calculated as
+**BSA<sub>INTER-PROTO</sub>.** Buried surface area per ring-adjacent inter-protomer interface was calculated as
 
-$$\mathrm{BSA}_{ij} = \mathrm{SASA}(i) + \mathrm{SASA}(j) - \mathrm{SASA}(i \cup j)$$
+$$\mathrm{BSA}_{ij} = \tfrac{1}{2}\left[\mathrm{SASA}(i) + \mathrm{SASA}(j) - \mathrm{SASA}(i \cup j)\right]$$
 
-where SASA(*i*) denotes the solvent-accessible surface area of chain *i*, computed with FreeSASA using the Shrake–Rupley algorithm.
+where SASA(*i*) denotes the solvent-accessible surface area of the heavy atoms of chain *i*, computed with FreeSASA (Lee–Richards algorithm, the FreeSASA default) with element van der Waals radii (C 1.70, N 1.55, O 1.52, S 1.80 Å) and a 1.4 Å probe. BSA is purely geometric: unlike the contact counts, it is not filtered by PAE.
 
 ## 4. Rotational symmetry
 
@@ -48,7 +50,7 @@ where d<sub>i</sub> = ‖**c**<sub>i</sub> − **c̄**‖ is the Euclidean dista
 
 $$D_{\mathrm{APEX}} = \frac{2}{n(n-1)} \sum_{i \lt j} \lVert \mathbf{r}^{\mathrm{Nterm}}_i - \mathbf{r}^{\mathrm{Nterm}}_j \rVert$$
 
-where **r**<sub>i</sub><sup>Nterm</sup> is the Cα coordinate of the reference N-terminal residue of protomer *i*. The sum runs over the *n*(*n*−1)/2 unordered pairs of protomers, so the leading factor 2/[*n*(*n*−1)] is the reciprocal of the pair count and yields the arithmetic mean. As above, ‖·‖ denotes the Euclidean (L2) norm of the difference between two three-dimensional position vectors, computed with `scipy.spatial.distance.pdist`.
+where **r**<sub>i</sub><sup>Nterm</sup> is the Cα coordinate of the reference N-terminal residue of protomer *i*. The sum runs over the *n*(*n*−1)/2 unordered pairs of protomers, so the leading factor 2/[*n*(*n*−1)] is the reciprocal of the pair count and yields the arithmetic mean. As above, ‖·‖ denotes the Euclidean (L2) norm of the difference between two three-dimensional position vectors, computed with `scipy.spatial.distance.pdist`. If no N-terminal coordinate can be found, D<sub>APEX</sub> is reported as NA (never as 0).
 
 ## 6. CC-domain helix metrics
 
@@ -66,7 +68,7 @@ where **ĥ** is the unit helix axis vector and **p̂** is the unit pore axis vec
 
 $$H_{\mathrm{ABS}} = \frac{1}{N}\sum_{i=1}^{N} H_{\mathrm{KD}}(a_i)$$
 
-where H<sub>KD</sub>(a<sub>i</sub>) is the Kyte–Doolittle hydrophobicity of amino acid a<sub>i</sub> and *N* is the total number of residues in the first four CC-domain helices. With NB-ARC domain boundaries annotated, helices with start positions before the NB-ARC start coordinate were included.
+where H<sub>KD</sub>(a<sub>i</sub>) is the Kyte–Doolittle hydrophobicity of amino acid a<sub>i</sub> and *N* is the total number of residues in the first four CC-domain helices. With NB-ARC domain boundaries annotated, helices with start positions before the NB-ARC start coordinate were included, and each was truncated at the NB-ARC start so that a DSSP helix running on into the NB-ARC domain contributes only its CC-domain residues.
 
 **μ<sub>H</sub>.** Eisenberg amphipathic moment of the α1 helix:
 
@@ -89,7 +91,7 @@ where $\bar{\mathbf{r}}_{\mathrm{MHD}}$ and $\bar{\mathbf{r}}_{\mathrm{Ploop}}$ 
 **α1-helix boundary definition.** The boundary of the first α-helix (α1) in the CC domain was defined in two steps:
 
 1. **HMM-based definition.** `hmmsearch` was run against a bespoke database of chain A sequences using the MADA HMM with an E-value threshold of 0.01; the α1-helix was defined from the corrected N-terminal methionine to the alignment end coordinate (`ali_to`). The threshold was chosen empirically: because the MADA HMM was searched against a small, bespoke database rather than a large reference proteome, the effective E-value scale is set by this small search space, and more permissive thresholds did not recover additional true-positive α1 segments in reference NRC sequences with experimentally resolved structures. In practice, hits above this threshold were absent from our NRC dataset, so the specific cutoff does not affect any of the reported results. Proteins returning no hit were handled as described below.
-2. **No α1 assignment.** When the MADA HMM was provided but yielded no hit, α1-dependent metrics (φ<sub>APEX</sub>, L<sub>APEX</sub>, μ<sub>H</sub>) were reported as NA. A DSSP-based fallback is available via the `--hmm_fallback_dssp` flag of `run_pipeline.py` (see `scripts/resistosome_pipeline/README.md`) but was not used for the primary analysis.
+2. **No α1 assignment.** When the MADA HMM was provided but yielded no hit, α1-dependent metrics (φ<sub>APEX</sub>, L<sub>APEX</sub>, μ<sub>H</sub>) were reported as NA. A DSSP-based fallback is available via the `--hmm_fallback_dssp` flag of `run_pipeline.py` (see `resistosome_pipeline/README.md`) but was not used for the primary analysis.
 
 **α1-helix linearity (f<sub>PC1</sub>).** The fraction of variance in Cα positions explained by the first principal component, computed per protomer over the α1 segment (equivalent to the quantity sometimes reported as R² for a PCA fit). Concretely, the *k* × 3 matrix of mean-centred Cα coordinates for the *k* residues of the α1 segment was decomposed with `numpy.linalg.svd`, yielding singular values σ<sub>1</sub> ≥ σ<sub>2</sub> ≥ σ<sub>3</sub>, and
 
@@ -117,13 +119,25 @@ where x̄ is the mean across *n* replicates (*n* = 3 in this study), *s* is the 
 
 Non-penalised metrics (φ<sub>APEX</sub>, L<sub>APEX</sub>, H<sub>ABS</sub>, μ<sub>H</sub>, D<sub>MHD–P</sub>) were reported as mean ± standard deviation across replicates.
 
-## 10. Software and dependencies
+## 10. Clade-level summaries and clustering
 
-Analyses were run under Python 3.12 with BioPython 1.84, SciPy 1.15.2, NumPy 1.26.3, pandas 2.3.3, openpyxl 3.1.5, FreeSASA 2.2.1, HMMER 3.4 (August 2023 release) and DSSP 4.5.8. Minimum dependency versions are defined in `scripts/resistosome_pipeline/requirements.txt`.
+These steps are implemented in `R/SNI_figures.R`.
+
+**Clade membership.** Each NLR was assigned to the clade whose subtree (`phylo/clades/*.tree`) contains it. Identifiers were matched after lower-casing and replacing every non-alphanumeric character with "_" (AlphaFold 3 job names convert "." and "-" to "_"). 622 of the 637 NLRs fall in one of the 18 clades.
+
+**Clade means.** Penalised lower bounds can fall below zero for NLRs with few or variable interfaces. Before averaging, ipTM<sub>LCB</sub>, Σ<sub>CONTACTS</sub>, BSA<sub>INTER-PROTO</sub> and the per-type contact counts were therefore set to max(*x*, 0). No other parameter was clamped. Clade means were computed with missing values removed (`supplementary/Data_S5.csv`).
+
+**Clustering of clades and NLRs.** Each parameter was z-scored across clades (or across benchmark NLRs), and clades were clustered by Euclidean distance with Ward's criterion (`hclust`, method `ward.D2`).
+
+**Clustering of parameters.** Parameters were clustered on the per-NLR values of the 622 clade-assigned NLRs, after the same clamping, using pairwise-complete observations. The distance was 1 − Pearson *r*, with Ward's criterion. Support was estimated with pvclust (1,000 bootstrap resamples of NLRs, seed 20260503), giving approximately unbiased (AU) and bootstrap probability (BP) values for every node.
+
+## 11. Software and dependencies
+
+Analyses were run under Python 3.12 with BioPython 1.84, SciPy 1.15.2, NumPy 1.26.3, pandas 2.3.3, openpyxl 3.1.5, FreeSASA 2.2.1, HMMER 3.4 (August 2023 release) and DSSP 4.5.8. The v2.0.0 rerun used DSSP 4.2.2. Every metric that v2.0.0 does not change was bit-identical to the DSSP 4.5.8 run. Pinned dependency versions are listed in `resistosome_pipeline/requirements.txt`. Figures and clustering used R 4.3 with ggplot2 3.4, patchwork 1.2, ape 5.7, pvclust 2.2 and svglite 2.1.
 
 Key references for the external tools used:
 
-- Shrake & Rupley, *J. Mol. Biol.* **79**, 351–371 (1973) — SASA algorithm.
+- Lee & Richards, *J. Mol. Biol.* **55**, 379–400 (1971) — SASA algorithm.
 - Mitternacht, *F1000Research* (2016), <https://doi.org/10.12688/f1000research.7931.1> — FreeSASA.
 - Kabsch & Sander, *Biopolymers* **22**, 2577–2637 (1983) — DSSP.
 - Eddy, *PLOS Comput. Biol.* **7**, e1002195 (2011) — HMMER.
@@ -132,5 +146,6 @@ Key references for the external tools used:
 - Harris et al., *Nature* **585**, 357–362 (2020) — NumPy.
 - Kyte & Doolittle, *J. Mol. Biol.* **157**, 105–132 (1982) — Kyte–Doolittle hydrophobicity.
 - Eisenberg, Weiss & Terwilliger, *Proc. Natl. Acad. Sci.* **81**, 140–144 (1984) — hydrophobic moment.
+- Suzuki & Shimodaira, *Bioinformatics* **22**, 1540–1542 (2006) — pvclust.
 - Abramson et al., *Nature* (2024) — AlphaFold 3.
 - Adachi et al., *eLife* **8** (2019) — MADA motif.

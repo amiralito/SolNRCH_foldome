@@ -2,8 +2,12 @@
 Configuration constants for the resistosome analysis pipeline.
 """
 
+PIPELINE_VERSION = "2.0.0"
+
 # ── Contact & distance thresholds ──
-CONTACT_CUTOFF_A = 3.5       # Angstroms for inter-chain contacts
+CONTACT_CUTOFF_A = 4.0       # Angstroms: heavy-atom search radius for inter-chain contacts
+                             # (type-specific cutoffs: SS 2.5, H-bond 3.5, salt bridge / hydrophobic 4.0;
+                             #  every other pair within this radius is counted as vdW)
 PAE_CUTOFF_A = 10.0          # Angstroms, PAE filter for AF3 contacts
 
 # ── Penalty parameters ──

@@ -1,12 +1,12 @@
-# Resistosome Structure Analysis Pipeline
+# Resistosome Structure Analysis Pipeline (v2.0.0)
 
 Batch analysis of predicted (AlphaFold 3) or empirical resistosome protein structures. Computes structural quality metrics for oligomeric NLR assemblies and applies statistical penalties (LCB/UCB) to handle variability across replicates and interfaces.
 
 ## Installation
 
 ```bash
-# Python dependencies
-pip install biopython freesasa numpy pandas openpyxl
+# Python dependencies (pinned versions used for the paper)
+pip install -r requirements.txt
 
 # DSSP (system package)
 sudo apt-get install dssp          # Ubuntu/Debian
@@ -60,9 +60,9 @@ python run_pipeline.py \
 | `--hmm_domtbl` | None | Pre-computed hmmsearch `--domtblout` file (alternative to `--hmm`) |
 | `--hmm_fallback_dssp` | off | When HMM has no hit for a protein, fall back to DSSP-based α1 instead of reporting NA |
 | `--workers` | auto (min(CPUs, 8)) | Number of parallel workers. Use `--workers 1` for serial/debug mode |
-| `--contact_cutoff` | 3.5 | Inter-atom contact distance cutoff (Å) |
+| `--contact_cutoff` | 4.0 | Heavy-atom contact cutoff (Å). This is also the search radius: pairs within it that match no specific contact type are counted as vdW |
 | `--pae_cutoff` | 10.0 | PAE threshold for contact filtering (Å) |
-| `--k` | 1.96 | Confidence bound k-value (95% CI) |
+| `--k` | 1.96 | Penalty weight k in LCB/UCB = mean ∓ k·SD/√n |
 | `--work_dir` | `output_dir/tmp` | Temporary working directory |
 | `--log_level` | INFO | Logging verbosity (DEBUG, INFO, WARNING, ERROR) |
 
@@ -115,16 +115,16 @@ These metrics use confidence bounds to reward consistency across interfaces and 
 | Metric | Description | Penalty | Units |
 |--------|-------------|---------|-------|
 | **ipTM_LCB** | AlphaFold 3 interface predicted TM-score. Measures predicted quality of inter-chain contacts. Higher = better predicted interface. | LCB across replicates | Score (0–1) |
-| **Sum_CONTACTS** | Total inter-protomer atomic contacts (≤3.5 Å, PAE<10 Å if available). Counted per adjacent interface, LCB within structure, then LCB across replicates. Higher = more inter-protomer interactions. | LCB within + LCB across | Count |
+| **Sum_CONTACTS** | Total inter-protomer heavy-atom contacts (< 4.0 Å, PAE < 10 Å if available) between ring-adjacent protomers. Counted per adjacent interface, LCB within structure, then LCB across replicates. Higher = more inter-protomer interactions. | LCB within + LCB across | Count |
 | **CONTACTS_HBOND** | Hydrogen bond contacts (N/O donor–acceptor, <3.5 Å heavy-atom proxy). Same penalization as Sum_CONTACTS. | LCB within + LCB across | Count |
 | **CONTACTS_SALT_BRIDGE** | Salt bridge contacts (charged atom pairs: Asp/Glu COO⁻ ↔ Arg/Lys/His NH₃⁺, <4.0 Å). | LCB within + LCB across | Count |
 | **CONTACTS_HYDROPHOBIC** | Hydrophobic contacts (apolar C–C pairs, <4.0 Å). | LCB within + LCB across | Count |
 | **CONTACTS_DISULFIDE** | Disulfide bonds (Cys SG–SG, <2.5 Å). | LCB within + LCB across | Count |
 | **CONTACTS_VDW** | Van der Waals contacts (all other atom pairs, <4.0 Å). | LCB within + LCB across | Count |
-| **BSA_INT_PROTO** | Buried surface area between adjacent protomers (FreeSASA, Richards radii). LCB within structure interfaces, LCB across replicates. Higher = larger interface. | LCB within + LCB across | Å² |
+| **BSA_INT_PROTO** | Buried surface area between ring-adjacent protomers, (SASA₁ + SASA₂ − SASA₁₂)/2 (FreeSASA, Lee–Richards, element radii, 1.4 Å probe). Geometric only: not PAE-filtered. LCB within structure interfaces, LCB across replicates. Higher = larger interface. | LCB within + LCB across | Å² |
 | **SD_THETA_ROT** | Standard deviation of inter-protomer rotational angles. Measures rotational symmetry: 0° = perfectly symmetric. | UCB across replicates | Degrees |
 | **S_PROTO** | Symmetry RMSD of protomer centroids relative to a regular polygon. Measures spatial symmetry: 0 Å = perfectly symmetric. | UCB across replicates | Å |
-| **D_APEX** | Mean pairwise N-terminal Cα distance across all protomers. Indicates pore aperture size at the funnel entrance. When a MADA HMM hit is available, uses the Met at (or closest upstream of) the MADA alignment start as the reference residue, correcting for spurious N-terminal gene model extensions. | UCB across replicates | Å |
+| **D_APEX** | Mean pairwise N-terminal Cα distance across all protomers. Indicates pore aperture size at the funnel entrance. When a MADA HMM hit is available, uses the Met at (or closest upstream of) the MADA alignment start as the reference residue, correcting for spurious N-terminal gene model extensions. NA if no N-terminal coordinate is found. | UCB across replicates | Å |
 
 ### Non-Penalized Metrics (Mean ± SD)
 
@@ -134,7 +134,7 @@ These metrics are averaged across protomers within each structure, then across r
 |--------|-------------|-------|
 | **THETA_APEX** | Tilt angle of the α1-helix relative to the central pore axis. 0° = parallel to pore (tight funnel), 90° = perpendicular (splayed). Filtered by α1 linearity (R² ≥ 0.9); reports NA for disordered/kinked α1. | Degrees |
 | **L_APEX** | Length of the α1-helix in residue count. | Residues |
-| **H_ABS** | Mean Kyte-Doolittle hydrophobicity of all CC-domain helix residues, normalized by helix count. Indicates hydrophobic core packing quality. | Hydrophobicity index |
+| **H_ABS** | Mean Kyte–Doolittle hydrophobicity over all residues of the CC-domain helices (DSSP helices starting before the NB-ARC start, each truncated at the NB-ARC start). Indicates hydrophobic core packing quality. | Hydrophobicity index |
 | **MU_H** | Amphipathic moment of the α1-helix (Eisenberg consensus hydrophobicity scale, 100° angular offset). Higher = more amphipathic (one hydrophobic face, one hydrophilic). | Moment (a.u.) |
 | **D_MHD_P** | Spatial distance between MHD motif centroid and P-loop centroid (Cα atoms). Measures NB-ARC domain compactness. Requires MHD and P-loop annotation CSVs. | Å |
 | **D_CC_NB_LINKER** | Spatial distance between last CC-domain helix end and NB-ARC domain start (Cα). Measures CC-to-NB-ARC linker extension. | Å |
@@ -163,7 +163,7 @@ Reported for monitoring but not used as primary scoring metrics.
 1. Within each structure: LCB across all adjacent interfaces
 2. Across replicates: LCB of the within-structure LCBs
 
-Default k = 1.96 (95% confidence interval). Single replicate → no penalty applied.
+Default k = 1.96. With n = 3 seeds this is a variance penalty, not a 95 % confidence interval. Single replicate → no penalty applied.
 
 ### Contact Type Classification
 
@@ -175,7 +175,7 @@ Contact types are assigned based on heavy-atom distance proxies (suitable for AF
 | Salt bridge | Charged pairs (Asp/Glu O ↔ Arg/Lys/His N) | <4.0 Å | |
 | Hydrogen bond | N/O ↔ N/O/S | <3.5 Å | Heavy-atom proxy |
 | Hydrophobic | Apolar C ↔ C | <4.0 Å | Excludes backbone Cα, C, O, N |
-| VdW | Everything else | <4.0 Å | Default category |
+| VdW | Everything else | < `--contact_cutoff` (4.0 Å) | Default category |
 
 ## Chain Ring Order
 
@@ -187,7 +187,7 @@ The pipeline determines true spatial adjacency by computing the angular position
 - `ring_adjacency_distances`: centroid-to-centroid distances for each adjacent pair (should be uniform)
 - `ring_adjacency_cv`: coefficient of variation of adjacent distances (>0.15 warns of unreliable ring detection)
 
-For AlphaFold 3 outputs (chains A–F), the geometric order typically matches alphabetical. For experimental structures, it often differs.
+For AlphaFold 3 outputs (chains A–F) the geometric order often, but not always, matches alphabetical order: in the main NRCH set, 138 of the 1,911 models are regular hexamers whose chain letters are not ring-adjacent. For experimental structures it often differs. Each summary row reports `RING_ADJ_CV_max`, the largest `ring_adjacency_cv` across seeds.
 
 ## α1-Helix Detection
 
@@ -217,7 +217,7 @@ When HMM is provided but has no hit and `--hmm_fallback_dssp` is off, α1-depend
 
 ```
 output_dir/
-├── resistosome_analysis_summary.xlsx   # Main summary table (all metrics)
+├── resistosome_analysis_summary.xlsx   # Main summary table (all metrics; also RING_ADJ_CV_max, PIPELINE_VERSION, GIT_COMMIT)
 ├── resistosome_analysis_summary.csv    # Same in CSV format
 ├── pipeline.log                        # Full processing log
 ├── hmm/                                # HMM analysis (if --hmm used)
@@ -234,6 +234,7 @@ output_dir/
 ### Per-Structure JSON Fields
 
 Each JSON includes:
+- `pipeline_version`, `git_commit` and `parameters` (contact cutoff, PAE cutoff, k) used for the run
 - `alpha1_source`: "hmm", "dssp", or "none"
 - Per-interface: contact counts (total and by type), BSA, PAE statistics
 - Per-protomer: THETA_APEX, L_APEX, MU_H, H_ABS, α1 linearity/pLDDT, linker metrics
@@ -270,6 +271,19 @@ Per-structure processing time: ~8–12s (6-protomer, dominated by DSSP and FreeS
 
 See `submit_slurm.sh` for an HPC submission template.
 
+## Slim AF3 inputs (`tools/`)
+
+Full AF3 outputs are large because of the PAE matrix in `*_confidences.json`. The pipeline only uses the PAE to filter contacts at `--pae_cutoff`, so the per-model inputs can be reduced to about 0.6 MB without changing any result. The v2.0.0 main-set run was done this way.
+
+| Script | Purpose |
+|---|---|
+| `tools/slim_af3.py OUT.tar 10.0 *.tar.gz` | Keep `model.cif` (gzipped), `summary_confidences.json` and, for every protein-chain pair, a packed boolean mask of min(PAE<sub>ij</sub>, PAE<sub>ji</sub>ᵀ) < cutoff. Needs NumPy only. |
+| `tools/unpack_slim.py SLIM_DIR UNPACKED_DIR` | Unpack slim tars into AF3-like folders. |
+| `tools/run_pipeline_slim.py <pipeline_dir> <run_pipeline.py args>` | Run the pipeline on unpacked slim folders. It rebuilds the PAE filter from the masks. |
+| `tools/aggregate_v2_json.py --pipeline_dir . --out OUT json_dir1 [json_dir2 …]` | Merge per-structure JSONs from several partial runs into one summary, using the pipeline's own aggregation. |
+
+The slim and full inputs gave identical values for every metric and every per-interface contact and BSA value (tested on 3 models). Slim inputs are valid only for the PAE cutoff used when slimming.
+
 ## Notes
 
 - **Chain adjacency** is determined geometrically (angular sorting of centroids), not alphabetically — safe for both AF3 and PDB/RCSB structures
@@ -277,5 +291,6 @@ See `submit_slurm.sh` for an HPC submission template.
 - Missing annotations → affected metrics are NA (pipeline continues normally)
 - Annotation files may contain more entries than structures — only matching IDs are used
 - Single replicate → no confidence penalty applied (LCB = UCB = raw value)
+- `--contact_cutoff`, `--pae_cutoff` and `--k` are passed explicitly to every worker process (in v1 they did not reach spawned workers)
 - The pipeline handles both compressed (.tar.gz) and uncompressed AF3 output directories
 - Standalone ring order tool: `python get_ring_order.py structure.cif` (requires gemmi)

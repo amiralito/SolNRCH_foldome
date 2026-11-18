@@ -69,7 +69,7 @@ def compute_symmetry_rmsd(chains: List[Chain]) -> float:
 
 def compute_nterm_distances_allpairs(chains: List[Chain],
                                       nterm_resnum: Optional[int] = None
-                                      ) -> Tuple[Dict[str, float], float]:
+                                      ) -> Tuple[Dict[str, float], Optional[float]]:
     """
     Compute all pairwise N-terminal distances between chains.
 
@@ -102,8 +102,11 @@ def compute_nterm_distances_allpairs(chains: List[Chain],
                 distances[f"{ci}-{cj}"] = round(d, 2)
                 dist_values.append(d)
 
-    mean_dist = float(np.mean(dist_values)) if dist_values else 0.0
-    return distances, round(mean_dist, 2)
+    # v2: return None (not 0.0) when no N-terminal coordinates are found, so a
+    # failure can never masquerade as the "best" (smallest) pore aperture.
+    if not dist_values:
+        return distances, None
+    return distances, round(float(np.mean(dist_values)), 2)
 
 
 def compute_adjacent_nterm_distances(chains: List[Chain]) -> List[float]:

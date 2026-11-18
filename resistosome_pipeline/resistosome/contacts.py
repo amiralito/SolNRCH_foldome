@@ -144,8 +144,10 @@ def extract_contact_details(chain1: Chain, chain2: Chain,
     coords1 = np.array([a['coord'] for a in atoms1])
     coords2 = np.array([a['coord'] for a in atoms2])
 
-    # Use max of cutoff and 4.0 Å to catch salt bridges and hydrophobic contacts
-    search_cutoff = max(cutoff, 4.0)
+    # v2: the search radius IS the contact cutoff (default 4.0 Å). Type-specific
+    # cutoffs (SS 2.5, H-bond 3.5, salt bridge / hydrophobic 4.0 Å) are applied
+    # inside _classify_contact; every remaining pair within `cutoff` is vdW.
+    search_cutoff = cutoff
     tree2 = cKDTree(coords2)
     neighbor_lists = tree2.query_ball_point(coords1, search_cutoff)
 
@@ -167,7 +169,7 @@ def extract_contact_details(chain1: Chain, chain2: Chain,
             dist = float(np.linalg.norm(coords1[i] - coords2[j]))
 
             # Classify the contact type
-            ctype = _classify_contact(a1, a2, dist)
+            ctype = _classify_contact(a1, a2, dist, vdw_cutoff=cutoff)
             if ctype is None:
                 continue  # outside all type-specific cutoffs
 
@@ -223,7 +225,8 @@ _DISULFIDE_CUTOFF = 2.5
 _HYDROPHOBIC_CUTOFF = 4.0
 
 
-def _classify_contact(a1: Dict, a2: Dict, dist: float) -> Optional[str]:
+def _classify_contact(a1: Dict, a2: Dict, dist: float,
+                      vdw_cutoff: float = CONTACT_CUTOFF_A) -> Optional[str]:
     """
     Classify a single atomic contact.
     Returns contact type string, or None if outside all cutoffs.
@@ -270,8 +273,8 @@ def _classify_contact(a1: Dict, a2: Dict, dist: float) -> Optional[str]:
             if at1 not in backbone_c and at2 not in backbone_c:
                 return 'hydrophobic'
 
-    # General van der Waals — catch-all within the original cutoff
-    if dist < _SALT_BRIDGE_CUTOFF:  # use widest cutoff for vdw
+    # General van der Waals — catch-all within the contact cutoff
+    if dist < vdw_cutoff:
         return 'vdw'
 
     return None  # outside all cutoffs

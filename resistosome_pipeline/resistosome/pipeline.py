@@ -11,18 +11,19 @@ import pandas as pd
 from datetime import datetime
 from typing import Dict, List, Optional, Any, Tuple
 
-from .config import CONTACT_CUTOFF_A, PAE_CUTOFF_A, K_CONFIDENCE
+from . import config
+from .config import CONTACT_CUTOFF_A, PAE_CUTOFF_A, K_CONFIDENCE, PIPELINE_VERSION
 from .io_utils import (StructureInput, discover_inputs,
                        normalize_id_from_filename, load_protein_names)
 from .structure import (load_structure, get_protein_chains, get_ca_coords,
                         get_sequence, chain_centroid, get_nterm_coord)
 from .af3 import (load_summary_confidences, get_iptm, load_full_confidences,
                    get_pae_matrix, get_chain_residue_ranges, get_pae_for_chain_pair)
-from .contacts import count_contacts, extract_contact_details, compute_bsa_freesasa
+from .contacts import extract_contact_details, compute_bsa_freesasa
 from .geometry import (compute_interface_angles, compute_symmetry_rmsd,
                        compute_nterm_distances_allpairs, compute_pore_axis,
                        determine_ring_order, validate_ring_adjacency)
-from .helix import (run_dssp, identify_helices, compute_helix_angle,
+from .helix import (run_dssp, identify_helices, compute_helix_angle, HelixSegment,
                      compute_helix_pore_angle, helix_linearity,
                      compute_helix_length_angstrom, get_cc_helices,
                      split_helix_at_kinks)
@@ -51,6 +52,48 @@ def _mean_plddt_for_segment(chain, start_resnum: int, end_resnum: int) -> Option
     if not plddt_vals:
         return None
     return round(float(np.mean(plddt_vals)), 2)
+
+
+def clip_helix_before(chain, helix, nbarc_start: Optional[int]):
+    """
+    v2: truncate a CC-domain helix so that it ends before the NB-ARC start.
+    Helices are selected as "CC-domain" when they START before the NB-ARC
+    boundary; in v1 such a helix could run on into the NB-ARC domain, so
+    H_ABS / linker metrics included NB-ARC residues. Returns None if nothing
+    of the helix remains N-terminal to the boundary.
+    """
+    if nbarc_start is None or helix.end_resnum < nbarc_start:
+        return helix
+    keep_resnums, keep_seq = [], []
+    for residue in chain.get_residues():
+        if residue.id[0] != ' ':
+            continue
+        rn = residue.id[1]
+        if helix.start_resnum <= rn < nbarc_start:
+            from .structure import THREE_TO_ONE, STANDARD_AA
+            if residue.get_resname() not in STANDARD_AA:
+                continue
+            keep_resnums.append(rn)
+            keep_seq.append(THREE_TO_ONE.get(residue.get_resname(), 'X'))
+    if not keep_resnums:
+        return None
+    # helix residues are contiguous, so the retained indices are a prefix
+    idx = list(helix.residue_indices[:len(keep_resnums)])
+    return HelixSegment(start_resnum=keep_resnums[0], end_resnum=keep_resnums[-1],
+                        residue_indices=idx, sequence=''.join(keep_seq))
+
+
+def provenance() -> Dict[str, Any]:
+    """Pipeline version, git commit (if available) and active parameters."""
+    commit = None
+    try:
+        import subprocess
+        here = os.path.dirname(os.path.abspath(__file__))
+        commit = subprocess.run(['git', '-C', here, 'rev-parse', '--short', 'HEAD'],
+                                capture_output=True, text=True, timeout=5).stdout.strip() or None
+    except Exception:
+        pass
+    return {'pipeline_version': PIPELINE_VERSION, 'git_commit': commit}
 
 
 def load_annotations(mhd_csv: Optional[str], ploop_csv: Optional[str],
@@ -126,9 +169,15 @@ def analyze_single_structure(si: StructureInput, work_dir: str,
                               alpha1_map: Optional[Dict] = None,
                               protein_names: Optional[List[str]] = None,
                               hmm_fallback_dssp: bool = False,
-                              hmm_requested: bool = False) -> Optional[Dict]:
+                              hmm_requested: bool = False,
+                              contact_cutoff: float = CONTACT_CUTOFF_A,
+                              pae_cutoff: float = PAE_CUTOFF_A,
+                              k: float = K_CONFIDENCE) -> Optional[Dict]:
     """
     Analyze a single structure (one replicate) and return raw per-structure metrics.
+
+    v2: contact_cutoff / pae_cutoff / k are passed explicitly (v1 relied on
+    mutating the config module, which does not propagate to spawned workers).
     """
     logger.info(f"Analyzing: {os.path.basename(si.source_path)} (seed={si.seed})")
 
@@ -207,21 +256,13 @@ def analyze_single_structure(si: StructureInput, work_dir: str,
             _, c1_resnums, _ = get_ca_coords(c1)
             _, c2_resnums, _ = get_ca_coords(c2)
 
-        n_contacts = count_contacts(c1, c2, cutoff=CONTACT_CUTOFF_A,
-                                     pae_block=pae_block, pae_cutoff=PAE_CUTOFF_A,
-                                     chain1_resnums=c1_resnums,
-                                     chain2_resnums=c2_resnums)
-        contact_counts.append(n_contacts)
-
-        # Detailed contacts
-        details = extract_contact_details(c1, c2, cutoff=CONTACT_CUTOFF_A,
-                                           pae_block=pae_block, pae_cutoff=PAE_CUTOFF_A,
+        # Classified contacts (v2: single pass; total = number of classified contacts)
+        details = extract_contact_details(c1, c2, cutoff=contact_cutoff,
+                                           pae_block=pae_block, pae_cutoff=pae_cutoff,
                                            chain1_resnums=c1_resnums,
                                            chain2_resnums=c2_resnums)
         contact_details[pair_label] = details
-
-        # Update total contact count from classified contacts
-        contact_counts[-1] = len(details)
+        contact_counts.append(len(details))
 
         # BSA
         bsa = compute_bsa_freesasa(model, c1.id, c2.id)
@@ -321,7 +362,9 @@ def analyze_single_structure(si: StructureInput, work_dir: str,
             # Fall back to DSSP first helix, with kink splitting
             if dssp_data is not None:
                 all_helices_tmp = identify_helices(chain, dssp_data)
-                cc_helices_tmp = get_cc_helices(all_helices_tmp, nbarc_start=nbarc_start)
+                cc_helices_tmp = [hh for hh in (clip_helix_before(chain, h, nbarc_start)
+                                                for h in get_cc_helices(all_helices_tmp, nbarc_start=nbarc_start))
+                                  if hh is not None]
                 if len(cc_helices_tmp) >= 1:
                     # Split first helix at kinks to separate α1 from α2
                     sub_helices = split_helix_at_kinks(chain, cc_helices_tmp[0])
@@ -335,7 +378,9 @@ def analyze_single_structure(si: StructureInput, work_dir: str,
             all_helices = identify_helices(chain, dssp_data)
             raw_cc = get_cc_helices(all_helices, nbarc_start=nbarc_start)
             for h in raw_cc:
-                cc_helices.extend(split_helix_at_kinks(chain, h))
+                h = clip_helix_before(chain, h, nbarc_start)   # v2: stop at NB-ARC start
+                if h is not None:
+                    cc_helices.extend(split_helix_at_kinks(chain, h))
 
         # ── α1-based metrics ──
         if alpha1 is not None:
@@ -452,15 +497,15 @@ def analyze_single_structure(si: StructureInput, work_dir: str,
 
     # ── Assemble per-structure results ──
     # Within-structure summaries
-    contacts_lcb_within = lcb([float(c) for c in contact_counts])
-    bsa_lcb_within = lcb([b for b in bsa_values if b is not None])
+    contacts_lcb_within = lcb([float(c) for c in contact_counts], k=k)
+    bsa_lcb_within = lcb([b for b in bsa_values if b is not None], k=k)
 
     # Per-type contact LCBs within structure
     per_type_lcb = {}
     per_type_raw = {}
     for ct in CONTACT_TYPES:
         counts = [float(c) for c in per_type_counts[ct]]
-        per_type_lcb[ct] = lcb(counts)
+        per_type_lcb[ct] = lcb(counts, k=k)
         per_type_raw[ct] = dict(zip(adjacent_pairs, per_type_counts[ct]))
 
     def safe_mean(vals):
@@ -472,6 +517,8 @@ def analyze_single_structure(si: StructureInput, work_dir: str,
         return round(float(np.std(clean, ddof=0)), 4) if len(clean) >= 2 else None
 
     results = {
+        **provenance(),
+        'parameters': {'contact_cutoff_A': contact_cutoff, 'pae_cutoff_A': pae_cutoff, 'k': k},
         'model_name': os.path.basename(si.source_path),
         'base_id': si.base_id,
         'seed': si.seed,
@@ -554,10 +601,15 @@ def analyze_single_structure(si: StructureInput, work_dir: str,
     return results
 
 
-def aggregate_replicates(rep_results: List[Dict]) -> Dict:
+def aggregate_replicates(rep_results: List[Dict], k: Optional[float] = None) -> Dict:
     """
     Aggregate metrics across replicates with LCB/UCB penalties.
     """
+    if k is None:
+        k = config.K_CONFIDENCE
+    _lcb, _ucb = lcb, ucb
+    lcb_k = lambda v: _lcb(v, k=k)
+    ucb_k = lambda v: _ucb(v, k=k)
     base_id = rep_results[0]['base_id']
     n_reps = len(rep_results)
     seeds = [r['seed'] for r in rep_results]
@@ -571,7 +623,7 @@ def aggregate_replicates(rep_results: List[Dict]) -> Dict:
 
     # ── ipTM_LCB: LCB across replicates ──
     iptm_vals = [r['iptm'] for r in rep_results if r['iptm'] is not None]
-    out['ipTM_LCB'] = lcb(iptm_vals) if iptm_vals else None
+    out['ipTM_LCB'] = lcb_k(iptm_vals) if iptm_vals else None
     m, s = mean_sd(iptm_vals)
     out['ipTM_mean'] = m
     out['ipTM_sd'] = s
@@ -579,7 +631,7 @@ def aggregate_replicates(rep_results: List[Dict]) -> Dict:
     # ── Sum_CONTACTS: LCB of within-structure LCBs ──
     contacts_vals = [r['contacts_lcb_within'] for r in rep_results
                      if r['contacts_lcb_within'] is not None]
-    out['Sum_CONTACTS'] = lcb(contacts_vals) if contacts_vals else None
+    out['Sum_CONTACTS'] = lcb_k(contacts_vals) if contacts_vals else None
     m, s = mean_sd(contacts_vals)
     out['Sum_CONTACTS_mean'] = m
     out['Sum_CONTACTS_sd'] = s
@@ -594,7 +646,7 @@ def aggregate_replicates(rep_results: List[Dict]) -> Dict:
     ]
     for src_key, out_prefix in _TYPE_KEYS:
         vals = [r[src_key] for r in rep_results if r.get(src_key) is not None]
-        out[out_prefix] = lcb(vals) if vals else None
+        out[out_prefix] = lcb_k(vals) if vals else None
         m, s = mean_sd(vals)
         out[f'{out_prefix}_mean'] = m
         out[f'{out_prefix}_sd'] = s
@@ -602,15 +654,19 @@ def aggregate_replicates(rep_results: List[Dict]) -> Dict:
     # ── BSA_INT_PROTO: LCB of within-structure LCBs ──
     bsa_vals = [r['bsa_lcb_within'] for r in rep_results
                 if r['bsa_lcb_within'] is not None]
-    out['BSA_INT_PROTO'] = lcb(bsa_vals) if bsa_vals else None
+    out['BSA_INT_PROTO'] = lcb_k(bsa_vals) if bsa_vals else None
     m, s = mean_sd(bsa_vals)
     out['BSA_INT_PROTO_mean'] = m
     out['BSA_INT_PROTO_sd'] = s
 
+    # ── Ring-order QC (v2) ──
+    cvs = [r.get('ring_adjacency_cv') for r in rep_results if r.get('ring_adjacency_cv') is not None]
+    out['RING_ADJ_CV_max'] = max(cvs) if cvs else None
+
     # ── SD_THETA_ROT: UCB across replicates ──
     theta_sd_vals = [r['sd_theta_rot'] for r in rep_results
                      if r['sd_theta_rot'] is not None]
-    out['SD_THETA_ROT'] = ucb(theta_sd_vals) if theta_sd_vals else None
+    out['SD_THETA_ROT'] = ucb_k(theta_sd_vals) if theta_sd_vals else None
     m, s = mean_sd(theta_sd_vals)
     out['SD_THETA_ROT_mean'] = m
     out['SD_THETA_ROT_sd'] = s
@@ -618,7 +674,7 @@ def aggregate_replicates(rep_results: List[Dict]) -> Dict:
     # ── S_PROTO: UCB across replicates ──
     sym_vals = [r['symmetry_rmsd'] for r in rep_results
                 if r['symmetry_rmsd'] is not None]
-    out['S_PROTO'] = ucb(sym_vals) if sym_vals else None
+    out['S_PROTO'] = ucb_k(sym_vals) if sym_vals else None
     m, s = mean_sd(sym_vals)
     out['S_PROTO_mean'] = m
     out['S_PROTO_sd'] = s
@@ -626,7 +682,7 @@ def aggregate_replicates(rep_results: List[Dict]) -> Dict:
     # ── D_APEX: UCB across replicates ──
     dapex_vals = [r['d_apex_mean'] for r in rep_results
                   if r['d_apex_mean'] is not None]
-    out['D_APEX'] = ucb(dapex_vals) if dapex_vals else None
+    out['D_APEX'] = ucb_k(dapex_vals) if dapex_vals else None
     m, s = mean_sd(dapex_vals)
     out['D_APEX_mean'] = m
     out['D_APEX_sd'] = s
@@ -634,7 +690,7 @@ def aggregate_replicates(rep_results: List[Dict]) -> Dict:
     # ── SD_THETA_APEX: UCB across replicates (variability penalty) ──
     sd_theta_apex_vals = [r['sd_theta_apex'] for r in rep_results
                           if r['sd_theta_apex'] is not None]
-    out['SD_THETA_APEX'] = ucb(sd_theta_apex_vals) if sd_theta_apex_vals else None
+    out['SD_THETA_APEX'] = ucb_k(sd_theta_apex_vals) if sd_theta_apex_vals else None
     m, s = mean_sd(sd_theta_apex_vals)
     out['SD_THETA_APEX_mean'] = m
     out['SD_THETA_APEX_sd'] = s
@@ -728,7 +784,10 @@ def run_pipeline(input_dir: str, output_dir: str,
                  hmm_domtbl: Optional[str] = None,
                  hmm_fallback_dssp: bool = False,
                  workers: Optional[int] = None,
-                 work_dir: Optional[str] = None) -> str:
+                 work_dir: Optional[str] = None,
+                 contact_cutoff: float = CONTACT_CUTOFF_A,
+                 pae_cutoff: float = PAE_CUTOFF_A,
+                 k: float = K_CONFIDENCE) -> str:
     """
     Run the full resistosome analysis pipeline.
 
@@ -877,7 +936,13 @@ def run_pipeline(input_dir: str, output_dir: str,
         protein_names=protein_names,
         hmm_fallback_dssp=hmm_fallback_dssp,
         hmm_requested=hmm_requested,
+        contact_cutoff=contact_cutoff,
+        pae_cutoff=pae_cutoff,
+        k=k,
     )
+    prov = provenance()
+    logger.info(f"Pipeline version {prov['pipeline_version']} (git {prov['git_commit']}); "
+                f"contact cutoff {contact_cutoff} Å, PAE cutoff {pae_cutoff} Å, k = {k}")
 
     # Collect results keyed by base_id
     results_by_group: Dict[str, List[Tuple[int, Dict]]] = {}
@@ -941,7 +1006,8 @@ def run_pipeline(input_dir: str, output_dir: str,
                 json.dump(result, f, indent=2, default=_json_default)
 
         # Aggregate replicates
-        aggregated = aggregate_replicates(rep_results)
+        aggregated = aggregate_replicates(rep_results, k=k)
+        aggregated.update(provenance())
         all_aggregated.append(aggregated)
 
         # Save aggregated JSON
@@ -1031,6 +1097,9 @@ def build_summary_table(aggregated_results: List[Dict], output_dir: str) -> str:
             'S_PROTO_sd': agg.get('S_PROTO_sd'),
             'D_APEX_mean': agg.get('D_APEX_mean'),
             'D_APEX_sd': agg.get('D_APEX_sd'),
+            'RING_ADJ_CV_max': agg.get('RING_ADJ_CV_max'),
+            'PIPELINE_VERSION': agg.get('pipeline_version'),
+            'GIT_COMMIT': agg.get('git_commit'),
         }
         rows.append(row)
 

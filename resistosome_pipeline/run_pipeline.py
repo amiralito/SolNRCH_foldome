@@ -20,7 +20,7 @@ Usage:
         --output_dir /path/to/output \\
         --mhd_csv /path/to/NRCH_MHD_nlrexp_coords.csv \\
         --ploop_csv /path/to/NRCH_ploop_nlrexp_coords.csv \\
-        [--contact_cutoff 3.5] \\
+        [--contact_cutoff 4.0] \\
         [--pae_cutoff 10.0] \\
         [--k 1.96] \\
         [--log_level INFO]
@@ -64,8 +64,8 @@ def main():
     parser.add_argument('--workers', type=int, default=None,
                         help='Number of parallel workers for structure analysis. '
                              'Default: min(CPU count, 8). Use 1 for serial mode.')
-    parser.add_argument('--contact_cutoff', type=float, default=3.5,
-                        help='Contact distance cutoff in Å (default: 3.5)')
+    parser.add_argument('--contact_cutoff', type=float, default=4.0,
+                        help='Heavy-atom contact search radius in Å; pairs within it that match no specific type are vdW (default: 4.0)')
     parser.add_argument('--pae_cutoff', type=float, default=10.0,
                         help='PAE threshold for contact filtering (default: 10.0)')
     parser.add_argument('--k', type=float, default=1.96,
@@ -77,6 +77,9 @@ def main():
                         help='Logging level (default: INFO)')
 
     args = parser.parse_args()
+
+    # v2: create the output directory first so pipeline.log always lands in it
+    os.makedirs(args.output_dir, exist_ok=True)
 
     # Setup logging
     logging.basicConfig(
@@ -104,7 +107,8 @@ def main():
 
     logger = logging.getLogger(__name__)
     logger.info("=" * 70)
-    logger.info("Resistosome Structure Analysis Pipeline")
+    from resistosome.config import PIPELINE_VERSION
+    logger.info(f"Resistosome Structure Analysis Pipeline v{PIPELINE_VERSION}")
     logger.info("=" * 70)
     logger.info(f"Input directory : {args.input_dir}")
     logger.info(f"Output directory: {args.output_dir}")
@@ -132,6 +136,9 @@ def main():
         hmm_fallback_dssp=args.hmm_fallback_dssp,
         workers=args.workers,
         work_dir=args.work_dir,
+        contact_cutoff=args.contact_cutoff,
+        pae_cutoff=args.pae_cutoff,
+        k=args.k,
     )
 
     if summary_path:

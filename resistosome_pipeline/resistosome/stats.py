@@ -6,15 +6,17 @@ import math
 import numpy as np
 from typing import List, Optional, Tuple
 
-from .config import K_CONFIDENCE
+from . import config
 
 
-def lcb(values: List[float], k: float = K_CONFIDENCE) -> Optional[float]:
+def lcb(values: List[float], k: Optional[float] = None) -> Optional[float]:
     """
     Lower Confidence Bound: LCB = mean - k * SE
     where SE = SD / sqrt(n).
     Used for metrics where higher is better (penalizes noisy high values).
     """
+    if k is None:
+        k = config.K_CONFIDENCE
     clean = [v for v in values if v is not None and not math.isnan(v)]
     if not clean:
         return None
@@ -27,11 +29,13 @@ def lcb(values: List[float], k: float = K_CONFIDENCE) -> Optional[float]:
     return round(mean - k * se, 6)
 
 
-def ucb(values: List[float], k: float = K_CONFIDENCE) -> Optional[float]:
+def ucb(values: List[float], k: Optional[float] = None) -> Optional[float]:
     """
     Upper Confidence Bound: UCB = mean + k * SE
     Used for metrics where lower is better (penalizes noisy low values).
     """
+    if k is None:
+        k = config.K_CONFIDENCE
     clean = [v for v in values if v is not None and not math.isnan(v)]
     if not clean:
         return None
