@@ -1,0 +1,10 @@
+param,n,n_changed,max_abs_change
+BSA_INT_PROTO,18,0,0
+D_APEX,18,0,0
+D_MHD_P_mean,18,0,0
+H_ABS_mean,18,9,0.066131
+SD_THETA_ROT,18,0,0
+S_PROTO,18,0,0
+Sum_CONTACTS,18,0,0
+THETA_APEX_mean,8,0,0
+ipTM_LCB,18,0,0

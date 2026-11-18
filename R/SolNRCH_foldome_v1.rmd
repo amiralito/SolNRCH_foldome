@@ -1,0 +1,272 @@
+---
+title: "SolNRCH_foldome_v1"
+author: "AmirAli Toghani"
+date: "2025-12-11"
+output: html_document
+editor_options:
+  chunk_output_type: console
+---
+
+<!--
+File-path conventions used in this document:
+  ../supplementary/       paper supplementary data (Data_S1.xlsx etc.)
+  ../phylo/               phylogenetic analysis inputs/outputs
+  ../structural_analysis/ motif coordinate tables consumed by resistosome_pipeline
+  /path/to/...            external inputs/outputs that live outside this repository
+                          (NLRtracker output, NLRexpress output, CD-HIT output,
+                          reference FASTA files, AlphaFold 3 input/output). Replace
+                          these placeholders with local paths before running.
+-->
+
+```{r}
+library(tidyverse)
+library(readxl)
+library(Biostrings)
+library(ggtree)
+library(pheatmap)
+library(reshape2)
+library(svglite)
+```
+
+## 1. import the species/genome metadata and reference sequences from Solanaceae genomes:
+```{r}
+metadata <- read_xlsx("../supplementary/Data_extS1.xlsx")
+
+species_meta <- metadata[,c(2,3,4,5,6,14,20)]
+
+NRC_ref <- readAAStringSet("../supplementary/NRC_ref_clu.fasta")
+NRC_ref_NBARC <- readAAStringSet("../supplementary/NRC_ref_clu_NBARC.fasta")
+
+MHD <- NLRtracker[NLRtracker$description == "MHD",]
+Ploop <- NLRtracker[NLRtracker$description == "P-loop",]
+
+species_freq <- table(species_meta$Species) %>% as.data.frame()
+```
+
+
+## 2. Import sequences and metadata:
+```{r}
+setwd("/path/to/nlrtracker")
+
+nlrtracker_files <- list.files(pattern = "_Domains.tsv", recursive = T)
+
+nlrtracker_list <- list()
+
+# Loop through each file
+for (i in seq_along(nlrtracker_files)) {
+  # Read the Excel file
+  nlrtracker_list[[i]] <- read_delim(nlrtracker_files[i])
+
+  # Extract the specific part of the file name and add it as a new column
+  nlrtracker_list[[i]] <- nlrtracker_list[[i]] %>%
+    mutate('Proteome File Name' = sub("_Domains\\.tsv$", ".gz", sub("^nlrtracker_", "", basename(nlrtracker_files[i]))))
+
+  # Print a message for each file (optional)
+  cat("Read file:", nlrtracker_files[i], "and added formatted filename column\n")
+}
+
+
+# merge all and add the metadata
+NLRtracker <- do.call(rbind,nlrtracker_list) %>% inner_join(species_meta, by = "Proteome File Name")
+
+
+NLRtracker <- NLRtracker %>%
+  mutate(ID = paste(`Assembly Accession`, Species, seqname, Simple, sep = "_")) %>%
+  # Replace spaces in the "Species" column with underscores for the "ID" column
+  mutate(ID = gsub(" ", "_", ID))
+
+```
+
+## 3. Prepare the domain prerequisites:
+```{r}
+
+domains <- c("CNL","CNLO","CN","OCNL","CONL",
+             "NL","NLO","ONL",
+             "BCNL","BCNLO","BNL","BBNL","BCN","BCCNL","BBCNL","BNLO","BOCNL","BBCNLO",
+             "RNL",
+             "TN","TNL","TNLO","TNLJ")
+
+```
+
+
+## 4. Extract the NLRs and NBARCs:
+```{r}
+NLR <- filter(NLRtracker, NLRtracker$type == "CHAIN" & NLRtracker$Status == "NLR")
+
+# only keep the ones with desired domain architechture
+NLR_filtered <- NLR[NLR$Simple %in% domains,]
+
+NLR_filtered_seq <- AAStringSet(NLR_filtered$sequence)
+NLR_filtered_seq@ranges@NAMES <- NLR_filtered$ID
+
+# remove duplicate sequences
+NLR_filtered_deduplicated_seq <- readAAStringSet("/path/to/NLR_filtered_seq_clu.fasta")
+
+NLR_filtered_deduplicated <- NLR_filtered[NLR_filtered$ID %in% NLR_filtered_deduplicated_seq@ranges@NAMES,]
+
+# extract the NBARC domains
+NBARC <- NLRtracker[NLRtracker$description == "NBARC",]
+write_csv(NBARC, "/path/to/NBARC.csv")
+
+NBARC_filtered <- NBARC[NBARC$ID %in% NLR_filtered$ID,]
+NBARC_filtered_seq <- AAStringSet(NBARC_filtered$sequence)
+NBARC_filtered_seq@ranges@NAMES <- NBARC_filtered$ID
+
+NBARC_filtered_deduplicated <- NBARC[NBARC$ID %in% NLR_filtered_deduplicated$ID,]
+
+# filter out NLRs with truncated NBARC domain
+NBARC_filtered_deduplicated_len <- filter(NBARC_filtered_deduplicated,
+                                                        NBARC_filtered_deduplicated$end -
+                                                        NBARC_filtered_deduplicated$start > 250 &
+                                                          NBARC_filtered_deduplicated$end -
+                                                          NBARC_filtered_deduplicated$start < 400) # NBARCs
+
+
+
+NLR_filtered_deduplicated_len <- NLR_filtered_deduplicated[NLR_filtered_deduplicated$ID %in% NBARC_filtered_deduplicated_len$ID,] # NLRs
+
+
+# convert the final data to biostring objects
+NLR_filtered_deduplicated_len_seq <- AAStringSet(NLR_filtered_deduplicated_len$sequence)
+NLR_filtered_deduplicated_len_seq@ranges@NAMES <- NLR_filtered_deduplicated_len$ID
+
+NBARC_filtered_deduplicated_len_seq <- AAStringSet(NBARC_filtered_deduplicated_len$sequence)
+NBARC_filtered_deduplicated_len_seq@ranges@NAMES <- NBARC_filtered_deduplicated_len$ID
+
+```
+
+### 5. Import the NRC-H clade and extract the sequences for phylogenetic analysis:
+```{r}
+NRCH_clade_tree <- read.tree("../phylo/NRCH_clade.tree")
+
+NRCH_clade <- NLR_filtered_deduplicated_len[NLR_filtered_deduplicated_len$ID %in% NRCH_clade_tree$tip.label,]
+NRCH_clade_NBARC <- NBARC_filtered_deduplicated_len[NBARC_filtered_deduplicated_len$ID %in% NRCH_clade_tree$tip.label,]
+NRCH_clade_NBARC_withCC <- NRCH_clade_NBARC[NRCH_clade_NBARC$start > 100,] # make sure there's a CC domain
+
+
+NRCH_clade_filtered <- NRCH_clade[NRCH_clade$Simple %in% c("CNL","CONL","NL","NLO"),] # get rid of IDs and potential misanotations
+NRCH_clade_filtered <- NRCH_clade_filtered[NRCH_clade_filtered$ID %in% NRCH_clade_NBARC_withCC$ID,]
+
+
+
+NRCH_clade_filtered_len <- NRCH_clade_filtered[NRCH_clade_filtered$end > 800,] # length filter
+NRCH_clade_filtered_len_NBARC <- NRCH_clade_NBARC_withCC[match(NRCH_clade_filtered_len$ID, NRCH_clade_NBARC_withCC$ID),]
+
+
+
+# convert into biostring format
+NRCH_clade_filtered_len_seq <- AAStringSet(NRCH_clade_filtered_len$sequence)
+NRCH_clade_filtered_len_seq@ranges@NAMES <- NRCH_clade_filtered_len$ID
+writeXStringSet(NRCH_clade_filtered_len_seq, "../phylo/NRCH_clade_filtered_len_seq.fasta")
+
+
+NRCH_clade_filtered_len_NBARC_seq <- AAStringSet(NRCH_clade_filtered_len_NBARC$sequence)
+NRCH_clade_filtered_len_NBARC_seq@ranges@NAMES <- NRCH_clade_filtered_len_NBARC$ID
+
+
+```
+
+### 6. Extract the CC-NBARC portion and prepare for AF3:
+```{r}
+
+NRCH_clade_filtered_len_seq_CCNBARC <- subseq(NRCH_clade_filtered_len_seq, start = 1, end = NRCH_clade_filtered_len_NBARC$end)
+
+NRCH_clade_filtered_len_seq_CCNBARC_filtered <- NRCH_clade_filtered_len_seq_CCNBARC[NRCH_clade_filtered_len_seq_CCNBARC@ranges@width < 600]
+
+writeXStringSet(NRCH_clade_filtered_len_seq_CCNBARC_filtered, "/path/to/AF3/NRCH_clade_filtered_len_seq_CCNBARC_filtered.fasta")
+
+
+NRCH_clade_filtered_len_seq_CCNBARC_filtered_NBARC <- NRCH_clade_filtered_len_NBARC_seq[NRCH_clade_filtered_len_seq_CCNBARC_filtered@ranges@NAMES]
+NRCH_clade_filtered_len_seq_CCNBARC_filtered_NBARC_ref <- c(NRCH_clade_filtered_len_seq_CCNBARC_filtered_NBARC, NRC_ref_NBARC)
+writeXStringSet(NRCH_clade_filtered_len_seq_CCNBARC_filtered_NBARC_ref, "../phylo/NRCH_clade_filtered_len_seq_CCNBARC_filtered_NBARC.fasta")
+
+```
+
+
+### 7. Additional filtering step to keep sequences with 95% similarity threshold:
+```{r}
+
+NRCH_clade_filtered_len_seq_filtered_95 <- readAAStringSet("../phylo/NRCH_clade_filtered_len_seq_95.fasta")
+
+NRCH_clade_filtered_len_filtered_95 <- NRCH_clade_filtered_len[NRCH_clade_filtered_len$ID %in% NRCH_clade_filtered_len_seq_filtered_95@ranges@NAMES,]
+
+write(NRCH_clade_filtered_len_filtered_95$ID, "../phylo/NRCH_clade_filtered_len_seq_95_ids.txt")
+
+
+NRCH_clade_filtered_len_seq_CCNBARC_filtered_95 <- NRCH_clade_filtered_len_seq_CCNBARC_filtered[NRCH_clade_filtered_len_seq_CCNBARC_filtered@ranges@NAMES %in% NRCH_clade_filtered_len_seq_filtered_95@ranges@NAMES]
+
+
+NRCH_clade_filtered_len_seq_CCNBARC_filtered_95_NBARC <- NRCH_clade_filtered_len_seq_CCNBARC_filtered_NBARC[NRCH_clade_filtered_len_seq_CCNBARC_filtered_NBARC@ranges@NAMES %in% NRCH_clade_filtered_len_seq_filtered_95@ranges@NAMES]
+writeXStringSet(NRCH_clade_filtered_len_seq_CCNBARC_filtered_95_NBARC, "../phylo/NRCH_clade_filtered_len_seq_CCNBARC_filtered_95_NBARC.fasta")
+
+NRCH_clade_filtered_len_seq_CCNBARC_filtered_95_NBARC_ref <- c(NRCH_clade_filtered_len_seq_CCNBARC_filtered_95_NBARC, NRC_ref_NBARC)
+writeXStringSet(NRNRCH_clade_filtered_len_seq_CCNBARC_filtered_95_NBARC_ref, "../phylo/NRCH_clade_filtered_len_seq_CCNBARC_filtered_95_NBARC_ref.fasta")
+
+# full length NLRs from the final 637 set
+NRCH_clade_filtered_len_seq_filtered_95_full <- NRCH_clade_filtered_len_seq[NRCH_clade_filtered_len_seq_CCNBARC_filtered_95@ranges@NAMES]
+writeXStringSet(NRCH_clade_filtered_len_seq_filtered_95_full, "../phylo/NRCH_clade_filtered_len_seq_filtered_95_full.fasta")
+
+NRCH_clade_filtered_len_filtered_95_final <- NRCH_clade_filtered_len_filtered_95[NRCH_clade_filtered_len_filtered_95$ID %in% NRCH_clade_filtered_len_seq_filtered_95_full@ranges@NAMES,]
+write_csv(NRCH_clade_filtered_len_filtered_95_final, "../supplementary/Data_S3.csv")
+
+
+
+# extract the NB-ARC domain metadata for the final set
+NRCH_clade_filtered_len_NBARC_filtered_95 <- NRCH_clade_filtered_len_NBARC[NRCH_clade_filtered_len_NBARC$ID %in% NRCH_clade_filtered_len_seq_CCNBARC_filtered_95@ranges@NAMES,]
+write_csv(NRCH_clade_filtered_len_NBARC_filtered_95, "../supplementary/Data_S3.csv")
+
+NRCH_clade_filtered_len_NBARC_filtered_95_coords <- NRCH_clade_filtered_len_NBARC_filtered_95[,c(18,4,5)] %>% left_join(NRCH_ids_filtered, by = "ID")
+write_csv(NRCH_clade_filtered_len_NBARC_filtered_95_coords, "../structural_analysis/main/NRCH_clade_filtered_len_NBARC_filtered_95_coords.csv")
+
+
+```
+
+
+## Extract the MHD and P-loop information:
+```{r}
+MHD_filtered <- MHD[MHD$ID %in% NRCH_ids_filtered$ID,]
+
+Ploop_filtered <- Ploop[Ploop$ID %in% NRCH_ids_filtered$ID,]
+
+```
+
+## Since many MHD and P-loop annotations was missing, import NLRexpress output:
+```{r}
+# For reference sequences
+reference_ids <- tibble(ID = c("M","NbNRC2a","NbNRC4c","NRC3","RPP1-WsA","Sr35","Wai3","ZAR1"),
+                        ID_normalized = c("m","nbnrc2a","nbnrc4c","nrc3","rpp1_wsa","sr35","wai3","zar1"))
+
+
+references_nlrexp <- read_tsv("/path/to/NLRexpress/references/compiled_motifs_top_per_motif.tsv") %>% left_join(reference_ids, join_by("ProtName" == "ID"))
+
+references_MHD_nlrexp <- references_nlrexp[references_nlrexp$Motif == "MHD",]
+references_MHD_nlrexp_cooreds <- references_MHD_nlrexp[,c(11,8,9)]
+write_csv(references_MHD_nlrexp_cooreds, "/path/to/references_MHD_nlrexp_cooreds.csv")
+
+references_ploop_nlrexp <- references_nlrexp[references_nlrexp$Motif == "P-loop",]
+references_ploop_nlrexp_cooreds <- references_ploop_nlrexp[,c(11,8,9)]
+write_csv(references_ploop_nlrexp_cooreds, "/path/to/references_ploop_nlrexp_cooreds.csv")
+
+
+# For NRC helpers
+NRCH_nlrexp <- read_tsv("/path/to/NLRexpress/NRCH_clade_filtered_len_seq_filtered_95_full/compiled_motifs_top_per_motif.tsv")
+
+NRCH_MHD_nlrexp <- NRCH_nlrexp[NRCH_nlrexp$Motif == "MHD",] %>% left_join(NRCH_ids_filtered, join_by("ProtName" == "ID"))
+
+NRCH_MHD_nlrexp_coords <- NRCH_MHD_nlrexp[,c(11,8,9)]
+write_csv(NRCH_MHD_nlrexp_coords, "../structural_analysis/main/NRCH_MHD_nlrexp_coords.csv")
+
+NRCH_ploop_nlrexp <- NRCH_nlrexp[NRCH_nlrexp$Motif == "P-loop",] %>% left_join(NRCH_ids_filtered, join_by("ProtName" == "ID"))
+
+NRCH_ploop_nlrexp_coords <- NRCH_ploop_nlrexp[,c(11,8,9)]
+write_csv(NRCH_ploop_nlrexp_coords, "../structural_analysis/main/NRCH_ploop_nlrexp_coords.csv")
+
+
+
+# check how many are missing and if they can be recovered fro NLRtracker output
+NRCH_ploop_nlrexp_missing <- NRCH_nlrexp[!NRCH_nlrexp$ProtName %in% NRCH_ploop_nlrexp$ProtName,]
+
+NRCH_ploop_complement <- Ploop_filtered[Ploop_filtered$ID %in% NRCH_ploop_nlrexp_missing$ProtName,]
+```
+
+
