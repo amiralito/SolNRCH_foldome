@@ -1,39 +1,41 @@
-2026-04-22 00:21:26 [INFO] numexpr.utils: NumExpr defaulting to 14 threads.
-2026-04-22 00:21:26 [INFO] __main__: ======================================================================
-2026-04-22 00:21:26 [INFO] __main__: Resistosome Structure Analysis Pipeline
-2026-04-22 00:21:26 [INFO] __main__: ======================================================================
-2026-04-22 00:21:26 [INFO] __main__: Input directory : /Users/toghani/Desktop/projects/Deepmind/Foldome/SolNRCH/structures/output/test_set_v2
-2026-04-22 00:21:26 [INFO] __main__: Output directory: output
-2026-04-22 00:21:26 [INFO] __main__: MHD annotations : merged_MHD_cooreds.csv
-2026-04-22 00:21:26 [INFO] __main__: P-loop annot.   : merged_ploop_cooreds.csv
-2026-04-22 00:21:26 [INFO] __main__: NB-ARC annot.   : merged_nbarc_cooreds.csv
-2026-04-22 00:21:26 [INFO] __main__: Protein names   : ids.txt
-2026-04-22 00:21:26 [INFO] __main__: HMM model       : MADA.hmm
-2026-04-22 00:21:26 [INFO] __main__: HMM domtbl      : None
-2026-04-22 00:21:26 [INFO] __main__: Workers         : auto
-2026-04-22 00:21:26 [INFO] __main__: Contact cutoff  : 3.5 Å
-2026-04-22 00:21:26 [INFO] __main__: PAE cutoff      : 10.0 Å
-2026-04-22 00:21:26 [INFO] __main__: k (CI)          : 1.96
-2026-04-22 00:21:26 [INFO] __main__: ======================================================================
-2026-04-22 00:21:26 [INFO] resistosome.io_utils: Loaded 18 protein names from ids.txt
-2026-04-22 00:21:26 [INFO] resistosome.pipeline: Loaded annotations: 18 MHD, 18 P-loop, 18 NB-ARC entries
-2026-04-22 00:21:26 [INFO] resistosome.io_utils: Discovered 54 structures in 18 groups from /Users/toghani/Desktop/projects/Deepmind/Foldome/SolNRCH/structures/output/test_set_v2
-2026-04-22 00:21:26 [INFO] resistosome.pipeline: Running HMM-based α1 detection with: MADA.hmm
-2026-04-22 00:21:26 [INFO] resistosome.pipeline:   Extracting sequences from 18 structures...
-2026-04-22 00:22:14 [INFO] resistosome.pipeline:   Extracted 18 sequences
-2026-04-22 00:22:14 [INFO] resistosome.hmm: Running hmmsearch: hmmsearch --domtblout output/hmm/hmmsearch_domtbl.out -E 0.01 --noali MADA.hmm output/hmm/sequences.fasta
-2026-04-22 00:22:14 [INFO] resistosome.hmm: hmmsearch completed: 10 domain hits in output/hmm/hmmsearch_domtbl.out
-2026-04-22 00:22:14 [INFO] resistosome.hmm: Parsed 8 α1-helix boundaries from output/hmm/hmmsearch_domtbl.out
-2026-04-22 00:22:14 [INFO] resistosome.hmm:   α1 start range: 1-6, end range: 21-25
-2026-04-22 00:22:14 [INFO] resistosome.pipeline: α1-helix boundaries available for 8 proteins (HMM-based)
-2026-04-22 00:22:14 [INFO] resistosome.pipeline: Processing 54 structures across 18 groups with 8 worker(s)
-2026-04-22 00:22:34 [INFO] resistosome.pipeline:   Progress: 10/54
-2026-04-22 00:22:43 [INFO] resistosome.pipeline:   Progress: 20/54
-2026-04-22 00:22:54 [INFO] resistosome.pipeline:   Progress: 30/54
-2026-04-22 00:23:05 [INFO] resistosome.pipeline:   Progress: 40/54
-2026-04-22 00:23:20 [INFO] resistosome.pipeline:   Progress: 50/54
-2026-04-22 00:23:22 [INFO] resistosome.pipeline:   Progress: 54/54
-2026-04-22 00:23:22 [INFO] resistosome.pipeline: 
-Summary table saved to: output/resistosome_analysis_summary.xlsx
-2026-04-22 00:23:22 [INFO] __main__: 
-✓ Pipeline complete. Summary: output/resistosome_analysis_summary.xlsx
+2026-10-14 12:41:38 [WARNING] resistosome.pipeline:   High adjacency distance CV (0.22) — ring order may be unreliable
+2026-10-14 12:41:43 [WARNING] resistosome.pipeline:   No HMM hit for bs2, α1 metrics will be NA
+2026-10-14 12:41:50 [WARNING] resistosome.pipeline:   High adjacency distance CV (0.21) — ring order may be unreliable
+2026-10-14 12:41:54 [WARNING] resistosome.pipeline:   No HMM hit for bs2, α1 metrics will be NA
+2026-10-14 12:42:01 [WARNING] resistosome.pipeline:   High adjacency distance CV (0.29) — ring order may be unreliable
+2026-10-14 12:42:05 [WARNING] resistosome.pipeline:   No HMM hit for bs2, α1 metrics will be NA
+2026-10-14 12:42:17 [WARNING] resistosome.pipeline:   No HMM hit for cnl_11990, α1 metrics will be NA
+2026-10-14 12:42:24 [WARNING] resistosome.pipeline:   High adjacency distance CV (0.38) — ring order may be unreliable
+2026-10-14 12:42:28 [WARNING] resistosome.pipeline:   No HMM hit for cnl_11990, α1 metrics will be NA
+2026-10-14 12:42:34 [WARNING] resistosome.pipeline:   High adjacency distance CV (0.18) — ring order may be unreliable
+2026-10-14 12:42:39 [WARNING] resistosome.pipeline:   No HMM hit for cnl_11990, α1 metrics will be NA
+2026-10-14 12:43:51 [WARNING] resistosome.pipeline:   No HMM hit for gcf_019175385_1_lycium_barbarum_helixer_nc_083346_1_002027_1, α1 metrics will be NA
+2026-10-14 12:44:01 [WARNING] resistosome.pipeline:   No HMM hit for gcf_019175385_1_lycium_barbarum_helixer_nc_083346_1_002027_1, α1 metrics will be NA
+2026-10-14 12:44:12 [WARNING] resistosome.pipeline:   No HMM hit for gcf_019175385_1_lycium_barbarum_helixer_nc_083346_1_002027_1, α1 metrics will be NA
+2026-10-14 12:44:56 [WARNING] resistosome.pipeline:   No HMM hit for gpa2, α1 metrics will be NA
+2026-10-14 12:45:07 [WARNING] resistosome.pipeline:   No HMM hit for gpa2, α1 metrics will be NA
+2026-10-14 12:45:18 [WARNING] resistosome.pipeline:   No HMM hit for gpa2, α1 metrics will be NA
+2026-10-14 12:48:19 [WARNING] resistosome.pipeline:   No HMM hit for rpa1, α1 metrics will be NA
+2026-10-14 12:48:30 [WARNING] resistosome.pipeline:   No HMM hit for rpa1, α1 metrics will be NA
+2026-10-14 12:48:42 [WARNING] resistosome.pipeline:   No HMM hit for rpa1, α1 metrics will be NA
+2026-10-14 12:48:54 [WARNING] resistosome.pipeline:   No HMM hit for rpi_amr1e, α1 metrics will be NA
+2026-10-14 12:49:00 [WARNING] resistosome.pipeline:   High adjacency distance CV (0.16) — ring order may be unreliable
+2026-10-14 12:49:05 [WARNING] resistosome.pipeline:   No HMM hit for rpi_amr1e, α1 metrics will be NA
+2026-10-14 12:49:16 [WARNING] resistosome.pipeline:   No HMM hit for rpi_amr1e, α1 metrics will be NA
+2026-10-14 12:49:24 [WARNING] resistosome.pipeline:   High adjacency distance CV (0.18) — ring order may be unreliable
+2026-10-14 12:49:29 [WARNING] resistosome.pipeline:   No HMM hit for rpi_amr3, α1 metrics will be NA
+2026-10-14 12:49:39 [WARNING] resistosome.pipeline:   No HMM hit for rpi_amr3, α1 metrics will be NA
+2026-10-14 12:49:46 [WARNING] resistosome.pipeline:   High adjacency distance CV (0.16) — ring order may be unreliable
+2026-10-14 12:49:51 [WARNING] resistosome.pipeline:   No HMM hit for rpi_amr3, α1 metrics will be NA
+2026-10-14 12:50:01 [WARNING] resistosome.pipeline:   No HMM hit for rpi_nig3_1084a, α1 metrics will be NA
+2026-10-14 12:50:12 [WARNING] resistosome.pipeline:   No HMM hit for rpi_nig3_1084a, α1 metrics will be NA
+2026-10-14 12:50:17 [WARNING] resistosome.pipeline:   High adjacency distance CV (0.22) — ring order may be unreliable
+2026-10-14 12:50:22 [WARNING] resistosome.pipeline:   No HMM hit for rpi_nig3_1084a, α1 metrics will be NA
+2026-10-14 12:50:33 [WARNING] resistosome.pipeline:   No HMM hit for rx4, α1 metrics will be NA
+2026-10-14 12:50:39 [WARNING] resistosome.pipeline:   High adjacency distance CV (0.23) — ring order may be unreliable
+2026-10-14 12:50:44 [WARNING] resistosome.pipeline:   No HMM hit for rx4, α1 metrics will be NA
+2026-10-14 12:50:55 [WARNING] resistosome.pipeline:   No HMM hit for rx4, α1 metrics will be NA
+2026-10-14 12:51:06 [WARNING] resistosome.pipeline:   No HMM hit for rx, α1 metrics will be NA
+2026-10-14 12:51:17 [WARNING] resistosome.pipeline:   No HMM hit for rx, α1 metrics will be NA
+2026-10-14 12:51:24 [WARNING] resistosome.pipeline:   High adjacency distance CV (0.19) — ring order may be unreliable
+2026-10-14 12:51:28 [WARNING] resistosome.pipeline:   No HMM hit for rx, α1 metrics will be NA
